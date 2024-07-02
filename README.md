@@ -5,6 +5,7 @@ This repository contains the code for detecting vehicle tire conditions using a 
 ## Project Overview
 
 The primary objective of this project is to enhance vehicle safety by providing a reliable method for identifying tire defects. Tire-related crashes are a significant concern, and timely detection of defects can prevent accidents and ensure road safety.
+[Click here to try this project in huggaingface space](https://arsalanzabeeb-vehicle-tires-health-checkup.hf.space)
 
 ## Key Features
 
