@@ -53,7 +53,7 @@ To run this project, follow these steps:
 1. Clone the repository:
     ```bash
     git clone https://github.com/Arsalanzabeeb786/vehicle-tire-condition-detection.git
-    cd vehicle-tire-condition-detection
+    
     ```
 2. Install the required dependencies:
     ```bash
