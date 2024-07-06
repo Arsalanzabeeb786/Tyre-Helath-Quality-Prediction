@@ -1,0 +1,1 @@
+{"img": {"_type": "images/separated", "width": 1000, "height": 1000, "format": "png", "count": 1, "filenames": ["media/images/img_0_bada0a420524ab25c3a3.png"], "captions": ["Predictions on a batch"]}, "_timestamp": 1720282581.231653, "_runtime": 17.235687971115112, "_step": 0, "_wandb": {"runtime": 14}}

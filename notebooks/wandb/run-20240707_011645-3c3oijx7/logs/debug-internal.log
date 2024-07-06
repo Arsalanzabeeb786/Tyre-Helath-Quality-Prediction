@@ -1,0 +1,274 @@
+2024-07-07 01:16:45,989 INFO    StreamThr :123297 [internal.py:wandb_internal():85] W&B internal server running at pid: 123297, started at: 2024-07-07 01:16:45.988976
+2024-07-07 01:16:45,991 DEBUG   HandlerThread:123297 [handler.py:handle_request():158] handle_request: status
+2024-07-07 01:16:46,015 INFO    WriterThread:123297 [datastore.py:open_for_write():87] open: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240707_011645-3c3oijx7/run-3c3oijx7.wandb
+2024-07-07 01:16:46,015 DEBUG   SenderThread:123297 [sender.py:send():379] send: header
+2024-07-07 01:16:46,024 DEBUG   SenderThread:123297 [sender.py:send():379] send: run
+2024-07-07 01:16:46,658 INFO    SenderThread:123297 [dir_watcher.py:__init__():211] watching files in: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240707_011645-3c3oijx7/files
+2024-07-07 01:16:46,658 INFO    SenderThread:123297 [sender.py:_start_run_threads():1188] run started: 3c3oijx7 with start time 1720282605.988299
+2024-07-07 01:16:46,672 DEBUG   HandlerThread:123297 [handler.py:handle_request():158] handle_request: check_version
+2024-07-07 01:16:46,672 DEBUG   SenderThread:123297 [sender.py:send_request():406] send_request: check_version
+2024-07-07 01:16:46,785 DEBUG   HandlerThread:123297 [handler.py:handle_request():158] handle_request: run_start
+2024-07-07 01:16:46,786 DEBUG   HandlerThread:123297 [system_info.py:__init__():26] System info init
+2024-07-07 01:16:46,786 DEBUG   HandlerThread:123297 [system_info.py:__init__():41] System info init done
+2024-07-07 01:16:46,786 INFO    HandlerThread:123297 [system_monitor.py:start():194] Starting system monitor
+2024-07-07 01:16:46,787 INFO    SystemMonitor:123297 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-07-07 01:16:46,787 INFO    HandlerThread:123297 [system_monitor.py:probe():214] Collecting system info
+2024-07-07 01:16:46,787 INFO    SystemMonitor:123297 [interfaces.py:start():188] Started cpu monitoring
+2024-07-07 01:16:46,788 INFO    SystemMonitor:123297 [interfaces.py:start():188] Started disk monitoring
+2024-07-07 01:16:46,788 INFO    SystemMonitor:123297 [interfaces.py:start():188] Started gpu monitoring
+2024-07-07 01:16:46,789 INFO    SystemMonitor:123297 [interfaces.py:start():188] Started memory monitoring
+2024-07-07 01:16:46,790 INFO    SystemMonitor:123297 [interfaces.py:start():188] Started network monitoring
+2024-07-07 01:16:46,802 DEBUG   HandlerThread:123297 [system_info.py:probe():152] Probing system
+2024-07-07 01:16:46,802 DEBUG   HandlerThread:123297 [system_info.py:_probe_git():137] Probing git
+2024-07-07 01:16:46,814 DEBUG   HandlerThread:123297 [system_info.py:_probe_git():145] Probing git done
+2024-07-07 01:16:46,814 DEBUG   HandlerThread:123297 [system_info.py:probe():200] Probing system done
+2024-07-07 01:16:46,814 DEBUG   HandlerThread:123297 [system_monitor.py:probe():223] {'os': 'Linux-6.8.0-36-generic-x86_64-with-glibc2.39', 'python': '3.12.3', 'heartbeatAt': '2024-07-06T16:16:46.802151', 'startedAt': '2024-07-06T16:16:45.978733', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'NoteBook_with_wandb.ipynb', 'codePathLocal': 'NoteBook_with_wandb.ipynb', 'root': '/home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction', 'git': {'remote': 'git@github.com:Arsalanzabeeb786/TyreQualityPrediction.git', 'commit': '14ad2341d56322f463ab4e38ec0e6520b51ddade'}, 'email': 'arsalanzabeeb786@gmail.com', 'host': 'arsalan', 'username': 'arsalan', 'executable': '/home/arsalan/miniconda3/envs/tfgpu_2.16/bin/python', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 2.0928750000000003, 'min': 1400.0, 'max': 2100.0}, 'cpu_freq_per_core': [{'current': 2.095, 'min': 1400.0, 'max': 2100.0}, {'current': 2.095, 'min': 1400.0, 'max': 2100.0}, {'current': 2.092, 'min': 1400.0, 'max': 2100.0}, {'current': 2.089, 'min': 1400.0, 'max': 2100.0}, {'current': 2.095, 'min': 1400.0, 'max': 2100.0}, {'current': 2.095, 'min': 1400.0, 'max': 2100.0}, {'current': 2.093, 'min': 1400.0, 'max': 2100.0}, {'current': 2.095, 'min': 1400.0, 'max': 2100.0}], 'disk': {'/': {'total': 467.34664154052734, 'used': 417.2970733642578}}, 'gpu': 'NVIDIA GeForce GTX 1650', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce GTX 1650', 'memory_total': 4294967296}], 'memory': {'total': 13.578842163085938}}
+2024-07-07 01:16:46,814 INFO    HandlerThread:123297 [system_monitor.py:probe():224] Finished collecting system info
+2024-07-07 01:16:46,814 INFO    HandlerThread:123297 [system_monitor.py:probe():227] Publishing system info
+2024-07-07 01:16:46,814 DEBUG   HandlerThread:123297 [system_info.py:_save_conda():209] Saving list of conda packages installed into the current environment
+2024-07-07 01:16:47,660 INFO    Thread-124:123297 [dir_watcher.py:_on_file_created():271] file/dir created: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240707_011645-3c3oijx7/files/conda-environment.yaml
+2024-07-07 01:16:58,413 DEBUG   HandlerThread:123297 [system_info.py:_save_conda():224] Saving conda packages done
+2024-07-07 01:16:58,414 INFO    HandlerThread:123297 [system_monitor.py:probe():229] Finished publishing system info
+2024-07-07 01:16:58,414 DEBUG   HandlerThread:123297 [handler.py:handle_request():158] handle_request: status_report
+2024-07-07 01:16:58,414 DEBUG   HandlerThread:123297 [handler.py:handle_request():158] handle_request: keepalive
+2024-07-07 01:16:58,414 DEBUG   HandlerThread:123297 [handler.py:handle_request():158] handle_request: status_report
+2024-07-07 01:16:58,414 DEBUG   HandlerThread:123297 [handler.py:handle_request():158] handle_request: keepalive
+2024-07-07 01:16:58,415 DEBUG   SenderThread:123297 [sender.py:send():379] send: files
+2024-07-07 01:16:58,415 INFO    SenderThread:123297 [sender.py:_save_file():1454] saving file wandb-metadata.json with policy now
+2024-07-07 01:16:58,662 INFO    Thread-124:123297 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240707_011645-3c3oijx7/files/conda-environment.yaml
+2024-07-07 01:16:58,662 INFO    Thread-124:123297 [dir_watcher.py:_on_file_created():271] file/dir created: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240707_011645-3c3oijx7/files/wandb-metadata.json
+2024-07-07 01:16:58,920 DEBUG   HandlerThread:123297 [handler.py:handle_request():158] handle_request: python_packages
+2024-07-07 01:16:58,920 DEBUG   SenderThread:123297 [sender.py:send_request():406] send_request: python_packages
+2024-07-07 01:16:58,921 DEBUG   HandlerThread:123297 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-07 01:16:58,921 DEBUG   HandlerThread:123297 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 01:16:58,922 DEBUG   SenderThread:123297 [sender.py:send_request():406] send_request: stop_status
+2024-07-07 01:16:58,963 DEBUG   HandlerThread:123297 [handler.py:handle_request():158] handle_request: pause
+2024-07-07 01:16:58,963 INFO    HandlerThread:123297 [handler.py:handle_request_pause():724] stopping system metrics thread
+2024-07-07 01:16:58,963 INFO    HandlerThread:123297 [system_monitor.py:finish():203] Stopping system monitor
+2024-07-07 01:16:58,964 DEBUG   SystemMonitor:123297 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-07-07 01:16:58,964 INFO    HandlerThread:123297 [interfaces.py:finish():200] Joined cpu monitor
+2024-07-07 01:16:58,964 DEBUG   SystemMonitor:123297 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-07-07 01:16:58,965 INFO    HandlerThread:123297 [interfaces.py:finish():200] Joined disk monitor
+2024-07-07 01:16:58,965 DEBUG   SystemMonitor:123297 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-07-07 01:16:59,085 INFO    HandlerThread:123297 [interfaces.py:finish():200] Joined gpu monitor
+2024-07-07 01:16:59,085 INFO    HandlerThread:123297 [interfaces.py:finish():200] Joined memory monitor
+2024-07-07 01:16:59,085 INFO    HandlerThread:123297 [interfaces.py:finish():200] Joined network monitor
+2024-07-07 01:16:59,086 DEBUG   HandlerThread:123297 [handler.py:handle_request():158] handle_request: resume
+2024-07-07 01:16:59,086 INFO    HandlerThread:123297 [handler.py:handle_request_resume():715] starting system metrics thread
+2024-07-07 01:16:59,086 INFO    HandlerThread:123297 [system_monitor.py:start():194] Starting system monitor
+2024-07-07 01:16:59,086 INFO    SystemMonitor:123297 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-07-07 01:16:59,086 DEBUG   HandlerThread:123297 [handler.py:handle_request():158] handle_request: pause
+2024-07-07 01:16:59,087 INFO    HandlerThread:123297 [handler.py:handle_request_pause():724] stopping system metrics thread
+2024-07-07 01:16:59,087 INFO    HandlerThread:123297 [system_monitor.py:finish():203] Stopping system monitor
+2024-07-07 01:16:59,087 INFO    SystemMonitor:123297 [interfaces.py:start():188] Started cpu monitoring
+2024-07-07 01:16:59,087 DEBUG   SystemMonitor:123297 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-07-07 01:16:59,087 DEBUG   SystemMonitor:123297 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-07-07 01:16:59,087 DEBUG   SystemMonitor:123297 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-07-07 01:16:59,088 INFO    HandlerThread:123297 [interfaces.py:finish():200] Joined cpu monitor
+2024-07-07 01:16:59,165 DEBUG   SenderThread:123297 [sender.py:send():379] send: telemetry
+2024-07-07 01:16:59,165 DEBUG   SenderThread:123297 [sender.py:send():379] send: stats
+2024-07-07 01:16:59,166 DEBUG   SenderThread:123297 [sender.py:send():379] send: stats
+2024-07-07 01:16:59,218 INFO    wandb-upload_0:123297 [upload_job.py:push():130] Uploaded file /tmp/tmpyb7xithswandb/16okww0j-wandb-metadata.json
+2024-07-07 01:16:59,663 INFO    Thread-124:123297 [dir_watcher.py:_on_file_created():271] file/dir created: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240707_011645-3c3oijx7/files/requirements.txt
+2024-07-07 01:16:59,921 DEBUG   HandlerThread:123297 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 01:17:00,921 DEBUG   HandlerThread:123297 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 01:17:01,289 DEBUG   HandlerThread:123297 [handler.py:handle_request():158] handle_request: resume
+2024-07-07 01:17:01,289 INFO    HandlerThread:123297 [handler.py:handle_request_resume():715] starting system metrics thread
+2024-07-07 01:17:01,289 INFO    HandlerThread:123297 [system_monitor.py:start():194] Starting system monitor
+2024-07-07 01:17:01,289 INFO    SystemMonitor:123297 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-07-07 01:17:01,289 INFO    SystemMonitor:123297 [interfaces.py:start():188] Started cpu monitoring
+2024-07-07 01:17:01,290 INFO    SystemMonitor:123297 [interfaces.py:start():188] Started disk monitoring
+2024-07-07 01:17:01,290 INFO    SystemMonitor:123297 [interfaces.py:start():188] Started gpu monitoring
+2024-07-07 01:17:01,291 INFO    SystemMonitor:123297 [interfaces.py:start():188] Started memory monitoring
+2024-07-07 01:17:01,292 INFO    SystemMonitor:123297 [interfaces.py:start():188] Started network monitoring
+2024-07-07 01:17:01,432 DEBUG   SenderThread:123297 [sender.py:send():379] send: files
+2024-07-07 01:17:01,432 INFO    SenderThread:123297 [sender.py:_save_file():1454] saving file media/images/img_0_eab62f43e3945605ce9e.png with policy now
+2024-07-07 01:17:01,445 DEBUG   HandlerThread:123297 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-07 01:17:01,446 DEBUG   SenderThread:123297 [sender.py:send():379] send: history
+2024-07-07 01:17:01,446 DEBUG   SenderThread:123297 [sender.py:send_request():406] send_request: summary_record
+2024-07-07 01:17:01,448 INFO    SenderThread:123297 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-07 01:17:01,520 DEBUG   HandlerThread:123297 [handler.py:handle_request():158] handle_request: pause
+2024-07-07 01:17:01,520 INFO    HandlerThread:123297 [handler.py:handle_request_pause():724] stopping system metrics thread
+2024-07-07 01:17:01,520 INFO    HandlerThread:123297 [system_monitor.py:finish():203] Stopping system monitor
+2024-07-07 01:17:01,520 DEBUG   SystemMonitor:123297 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-07-07 01:17:01,520 DEBUG   SystemMonitor:123297 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-07-07 01:17:01,520 DEBUG   SystemMonitor:123297 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-07-07 01:17:01,521 INFO    HandlerThread:123297 [interfaces.py:finish():200] Joined cpu monitor
+2024-07-07 01:17:01,521 INFO    HandlerThread:123297 [interfaces.py:finish():200] Joined disk monitor
+2024-07-07 01:17:01,611 INFO    HandlerThread:123297 [interfaces.py:finish():200] Joined gpu monitor
+2024-07-07 01:17:01,611 INFO    HandlerThread:123297 [interfaces.py:finish():200] Joined memory monitor
+2024-07-07 01:17:01,611 INFO    HandlerThread:123297 [interfaces.py:finish():200] Joined network monitor
+2024-07-07 01:17:01,612 DEBUG   HandlerThread:123297 [handler.py:handle_request():158] handle_request: resume
+2024-07-07 01:17:01,612 INFO    HandlerThread:123297 [handler.py:handle_request_resume():715] starting system metrics thread
+2024-07-07 01:17:01,612 INFO    HandlerThread:123297 [system_monitor.py:start():194] Starting system monitor
+2024-07-07 01:17:01,612 INFO    SystemMonitor:123297 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-07-07 01:17:01,612 INFO    SystemMonitor:123297 [interfaces.py:start():188] Started cpu monitoring
+2024-07-07 01:17:01,613 DEBUG   HandlerThread:123297 [handler.py:handle_request():158] handle_request: pause
+2024-07-07 01:17:01,613 INFO    HandlerThread:123297 [handler.py:handle_request_pause():724] stopping system metrics thread
+2024-07-07 01:17:01,613 INFO    HandlerThread:123297 [system_monitor.py:finish():203] Stopping system monitor
+2024-07-07 01:17:01,613 INFO    SystemMonitor:123297 [interfaces.py:start():188] Started disk monitoring
+2024-07-07 01:17:01,613 DEBUG   SenderThread:123297 [sender.py:send():379] send: stats
+2024-07-07 01:17:01,613 DEBUG   SystemMonitor:123297 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-07-07 01:17:01,614 DEBUG   SystemMonitor:123297 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-07-07 01:17:01,614 DEBUG   SystemMonitor:123297 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-07-07 01:17:01,615 INFO    HandlerThread:123297 [interfaces.py:finish():200] Joined cpu monitor
+2024-07-07 01:17:01,616 INFO    HandlerThread:123297 [interfaces.py:finish():200] Joined disk monitor
+2024-07-07 01:17:01,616 DEBUG   SenderThread:123297 [sender.py:send():379] send: stats
+2024-07-07 01:17:01,663 INFO    Thread-124:123297 [dir_watcher.py:_on_file_created():271] file/dir created: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240707_011645-3c3oijx7/files/wandb-summary.json
+2024-07-07 01:17:01,663 INFO    Thread-124:123297 [dir_watcher.py:_on_file_created():271] file/dir created: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240707_011645-3c3oijx7/files/media/images/img_0_eab62f43e3945605ce9e.png
+2024-07-07 01:17:01,664 INFO    Thread-124:123297 [dir_watcher.py:_on_file_created():271] file/dir created: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240707_011645-3c3oijx7/files/media
+2024-07-07 01:17:01,664 INFO    Thread-124:123297 [dir_watcher.py:_on_file_created():271] file/dir created: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240707_011645-3c3oijx7/files/media/images
+2024-07-07 01:17:01,921 DEBUG   HandlerThread:123297 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 01:17:01,944 INFO    wandb-upload_0:123297 [upload_job.py:push():130] Uploaded file /tmp/tmpyb7xithswandb/a5oee2t2-media/images/img_0_eab62f43e3945605ce9e.png
+2024-07-07 01:17:02,513 INFO    wandb-upload_0:123297 [upload_job.py:push():130] Uploaded file /tmp/tmpyb7xithswandb/bhblg15i-media/images/img_0_eab62f43e3945605ce9e.png
+2024-07-07 01:17:02,617 DEBUG   HandlerThread:123297 [handler.py:handle_request():158] handle_request: status_report
+2024-07-07 01:17:02,921 DEBUG   HandlerThread:123297 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 01:17:03,922 DEBUG   HandlerThread:123297 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 01:17:04,922 DEBUG   HandlerThread:123297 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 01:17:05,922 DEBUG   HandlerThread:123297 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 01:17:06,922 DEBUG   HandlerThread:123297 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 01:17:07,226 DEBUG   HandlerThread:123297 [handler.py:handle_request():158] handle_request: resume
+2024-07-07 01:17:07,226 INFO    HandlerThread:123297 [handler.py:handle_request_resume():715] starting system metrics thread
+2024-07-07 01:17:07,226 INFO    HandlerThread:123297 [system_monitor.py:start():194] Starting system monitor
+2024-07-07 01:17:07,226 INFO    SystemMonitor:123297 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-07-07 01:17:07,227 INFO    SystemMonitor:123297 [interfaces.py:start():188] Started cpu monitoring
+2024-07-07 01:17:07,227 INFO    SystemMonitor:123297 [interfaces.py:start():188] Started disk monitoring
+2024-07-07 01:17:07,228 INFO    SystemMonitor:123297 [interfaces.py:start():188] Started gpu monitoring
+2024-07-07 01:17:07,229 INFO    SystemMonitor:123297 [interfaces.py:start():188] Started memory monitoring
+2024-07-07 01:17:07,230 INFO    SystemMonitor:123297 [interfaces.py:start():188] Started network monitoring
+2024-07-07 01:17:07,267 DEBUG   HandlerThread:123297 [handler.py:handle_request():158] handle_request: server_info
+2024-07-07 01:17:07,268 DEBUG   SenderThread:123297 [sender.py:send():379] send: telemetry
+2024-07-07 01:17:07,268 DEBUG   SenderThread:123297 [sender.py:send_request():406] send_request: server_info
+2024-07-07 01:17:07,485 DEBUG   SenderThread:123297 [sender.py:send():379] send: exit
+2024-07-07 01:17:07,485 INFO    SenderThread:123297 [sender.py:send_exit():586] handling exit code: 0
+2024-07-07 01:17:07,485 INFO    SenderThread:123297 [sender.py:send_exit():588] handling runtime: 12
+2024-07-07 01:17:07,486 INFO    SenderThread:123297 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-07 01:17:07,487 INFO    SenderThread:123297 [sender.py:send_exit():594] send defer
+2024-07-07 01:17:07,487 DEBUG   HandlerThread:123297 [handler.py:handle_request():158] handle_request: defer
+2024-07-07 01:17:07,487 INFO    HandlerThread:123297 [handler.py:handle_request_defer():184] handle defer: 0
+2024-07-07 01:17:07,487 DEBUG   SenderThread:123297 [sender.py:send_request():406] send_request: defer
+2024-07-07 01:17:07,487 INFO    SenderThread:123297 [sender.py:send_request_defer():610] handle sender defer: 0
+2024-07-07 01:17:07,487 INFO    SenderThread:123297 [sender.py:transition_state():614] send defer: 1
+2024-07-07 01:17:07,487 DEBUG   HandlerThread:123297 [handler.py:handle_request():158] handle_request: defer
+2024-07-07 01:17:07,487 INFO    HandlerThread:123297 [handler.py:handle_request_defer():184] handle defer: 1
+2024-07-07 01:17:07,488 DEBUG   SenderThread:123297 [sender.py:send_request():406] send_request: defer
+2024-07-07 01:17:07,488 INFO    SenderThread:123297 [sender.py:send_request_defer():610] handle sender defer: 1
+2024-07-07 01:17:07,488 INFO    SenderThread:123297 [sender.py:transition_state():614] send defer: 2
+2024-07-07 01:17:07,488 DEBUG   HandlerThread:123297 [handler.py:handle_request():158] handle_request: defer
+2024-07-07 01:17:07,488 INFO    HandlerThread:123297 [handler.py:handle_request_defer():184] handle defer: 2
+2024-07-07 01:17:07,488 INFO    HandlerThread:123297 [system_monitor.py:finish():203] Stopping system monitor
+2024-07-07 01:17:07,488 INFO    HandlerThread:123297 [interfaces.py:finish():200] Joined cpu monitor
+2024-07-07 01:17:07,489 DEBUG   SystemMonitor:123297 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-07-07 01:17:07,489 DEBUG   SystemMonitor:123297 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-07-07 01:17:07,489 DEBUG   SystemMonitor:123297 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-07-07 01:17:07,489 INFO    HandlerThread:123297 [interfaces.py:finish():200] Joined disk monitor
+2024-07-07 01:17:07,569 INFO    HandlerThread:123297 [interfaces.py:finish():200] Joined gpu monitor
+2024-07-07 01:17:07,569 INFO    HandlerThread:123297 [interfaces.py:finish():200] Joined memory monitor
+2024-07-07 01:17:07,569 INFO    HandlerThread:123297 [interfaces.py:finish():200] Joined network monitor
+2024-07-07 01:17:07,570 DEBUG   SenderThread:123297 [sender.py:send_request():406] send_request: defer
+2024-07-07 01:17:07,570 INFO    SenderThread:123297 [sender.py:send_request_defer():610] handle sender defer: 2
+2024-07-07 01:17:07,570 INFO    SenderThread:123297 [sender.py:transition_state():614] send defer: 3
+2024-07-07 01:17:07,570 DEBUG   SenderThread:123297 [sender.py:send():379] send: stats
+2024-07-07 01:17:07,570 DEBUG   HandlerThread:123297 [handler.py:handle_request():158] handle_request: defer
+2024-07-07 01:17:07,571 INFO    HandlerThread:123297 [handler.py:handle_request_defer():184] handle defer: 3
+2024-07-07 01:17:07,571 DEBUG   SenderThread:123297 [sender.py:send_request():406] send_request: defer
+2024-07-07 01:17:07,571 INFO    SenderThread:123297 [sender.py:send_request_defer():610] handle sender defer: 3
+2024-07-07 01:17:07,571 INFO    SenderThread:123297 [sender.py:transition_state():614] send defer: 4
+2024-07-07 01:17:07,571 DEBUG   HandlerThread:123297 [handler.py:handle_request():158] handle_request: defer
+2024-07-07 01:17:07,571 INFO    HandlerThread:123297 [handler.py:handle_request_defer():184] handle defer: 4
+2024-07-07 01:17:07,571 DEBUG   SenderThread:123297 [sender.py:send_request():406] send_request: defer
+2024-07-07 01:17:07,571 INFO    SenderThread:123297 [sender.py:send_request_defer():610] handle sender defer: 4
+2024-07-07 01:17:07,571 INFO    SenderThread:123297 [sender.py:transition_state():614] send defer: 5
+2024-07-07 01:17:07,572 DEBUG   HandlerThread:123297 [handler.py:handle_request():158] handle_request: defer
+2024-07-07 01:17:07,572 INFO    HandlerThread:123297 [handler.py:handle_request_defer():184] handle defer: 5
+2024-07-07 01:17:07,572 DEBUG   SenderThread:123297 [sender.py:send():379] send: summary
+2024-07-07 01:17:07,572 INFO    SenderThread:123297 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-07 01:17:07,573 DEBUG   SenderThread:123297 [sender.py:send_request():406] send_request: defer
+2024-07-07 01:17:07,573 INFO    SenderThread:123297 [sender.py:send_request_defer():610] handle sender defer: 5
+2024-07-07 01:17:07,573 INFO    SenderThread:123297 [sender.py:transition_state():614] send defer: 6
+2024-07-07 01:17:07,573 DEBUG   HandlerThread:123297 [handler.py:handle_request():158] handle_request: defer
+2024-07-07 01:17:07,573 INFO    HandlerThread:123297 [handler.py:handle_request_defer():184] handle defer: 6
+2024-07-07 01:17:07,573 DEBUG   SenderThread:123297 [sender.py:send_request():406] send_request: defer
+2024-07-07 01:17:07,573 INFO    SenderThread:123297 [sender.py:send_request_defer():610] handle sender defer: 6
+2024-07-07 01:17:07,576 DEBUG   HandlerThread:123297 [handler.py:handle_request():158] handle_request: status_report
+2024-07-07 01:17:07,666 INFO    Thread-124:123297 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240707_011645-3c3oijx7/files/wandb-summary.json
+2024-07-07 01:17:07,837 INFO    SenderThread:123297 [sender.py:transition_state():614] send defer: 7
+2024-07-07 01:17:07,837 DEBUG   HandlerThread:123297 [handler.py:handle_request():158] handle_request: defer
+2024-07-07 01:17:07,837 INFO    HandlerThread:123297 [handler.py:handle_request_defer():184] handle defer: 7
+2024-07-07 01:17:07,838 DEBUG   SenderThread:123297 [sender.py:send_request():406] send_request: defer
+2024-07-07 01:17:07,838 INFO    SenderThread:123297 [sender.py:send_request_defer():610] handle sender defer: 7
+2024-07-07 01:17:07,838 INFO    SenderThread:123297 [sender.py:transition_state():614] send defer: 8
+2024-07-07 01:17:07,838 DEBUG   HandlerThread:123297 [handler.py:handle_request():158] handle_request: defer
+2024-07-07 01:17:07,838 INFO    HandlerThread:123297 [handler.py:handle_request_defer():184] handle defer: 8
+2024-07-07 01:17:07,838 DEBUG   SenderThread:123297 [sender.py:send_request():406] send_request: defer
+2024-07-07 01:17:07,838 INFO    SenderThread:123297 [sender.py:send_request_defer():610] handle sender defer: 8
+2024-07-07 01:17:07,838 INFO    SenderThread:123297 [job_builder.py:build():440] Attempting to build job artifact
+2024-07-07 01:17:07,839 INFO    SenderThread:123297 [job_builder.py:_get_source_type():569] is repo sourced job
+2024-07-07 01:17:07,839 INFO    SenderThread:123297 [job_builder.py:_get_program_relpath():587] run is notebook based run
+2024-07-07 01:17:07,841 INFO    SenderThread:123297 [job_builder.py:build():545] adding wandb-job metadata file
+2024-07-07 01:17:07,843 INFO    SenderThread:123297 [sender.py:transition_state():614] send defer: 9
+2024-07-07 01:17:07,844 DEBUG   HandlerThread:123297 [handler.py:handle_request():158] handle_request: defer
+2024-07-07 01:17:07,844 INFO    HandlerThread:123297 [handler.py:handle_request_defer():184] handle defer: 9
+2024-07-07 01:17:07,844 DEBUG   SenderThread:123297 [sender.py:send():379] send: artifact
+2024-07-07 01:17:08,485 DEBUG   HandlerThread:123297 [handler.py:handle_request():158] handle_request: poll_exit
+2024-07-07 01:17:08,666 INFO    Thread-124:123297 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240707_011645-3c3oijx7/files/config.yaml
+2024-07-07 01:17:08,987 INFO    SenderThread:123297 [sender.py:send_artifact():1530] sent artifact job-git_github.com_Arsalanzabeeb786_TyreQualityPrediction.git_NoteBook_with_wandb.ipynb - {'id': 'QXJ0aWZhY3Q6OTQ3Mjc3Njkw', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjI0NjI4NTA5OQ==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6OTQ3Mjc3Njkw', 'versionIndex': 3}}}
+2024-07-07 01:17:08,988 DEBUG   SenderThread:123297 [sender.py:send_request():406] send_request: defer
+2024-07-07 01:17:08,988 INFO    SenderThread:123297 [sender.py:send_request_defer():610] handle sender defer: 9
+2024-07-07 01:17:08,988 INFO    SenderThread:123297 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-07-07 01:17:09,667 INFO    SenderThread:123297 [dir_watcher.py:finish():388] scan: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240707_011645-3c3oijx7/files
+2024-07-07 01:17:09,667 INFO    SenderThread:123297 [dir_watcher.py:finish():402] scan save: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240707_011645-3c3oijx7/files/requirements.txt requirements.txt
+2024-07-07 01:17:09,668 INFO    SenderThread:123297 [dir_watcher.py:finish():402] scan save: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240707_011645-3c3oijx7/files/wandb-metadata.json wandb-metadata.json
+2024-07-07 01:17:09,668 INFO    SenderThread:123297 [dir_watcher.py:finish():402] scan save: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240707_011645-3c3oijx7/files/conda-environment.yaml conda-environment.yaml
+2024-07-07 01:17:09,671 INFO    SenderThread:123297 [dir_watcher.py:finish():402] scan save: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240707_011645-3c3oijx7/files/wandb-summary.json wandb-summary.json
+2024-07-07 01:17:09,671 INFO    SenderThread:123297 [dir_watcher.py:finish():402] scan save: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240707_011645-3c3oijx7/files/config.yaml config.yaml
+2024-07-07 01:17:09,679 INFO    SenderThread:123297 [dir_watcher.py:finish():402] scan save: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240707_011645-3c3oijx7/files/media/images/img_0_eab62f43e3945605ce9e.png media/images/img_0_eab62f43e3945605ce9e.png
+2024-07-07 01:17:09,679 INFO    SenderThread:123297 [sender.py:transition_state():614] send defer: 10
+2024-07-07 01:17:09,679 DEBUG   SenderThread:123297 [sender.py:send_request():406] send_request: poll_exit
+2024-07-07 01:17:09,680 DEBUG   HandlerThread:123297 [handler.py:handle_request():158] handle_request: defer
+2024-07-07 01:17:09,680 INFO    HandlerThread:123297 [handler.py:handle_request_defer():184] handle defer: 10
+2024-07-07 01:17:09,680 DEBUG   SenderThread:123297 [sender.py:send_request():406] send_request: defer
+2024-07-07 01:17:09,681 INFO    SenderThread:123297 [sender.py:send_request_defer():610] handle sender defer: 10
+2024-07-07 01:17:09,681 INFO    SenderThread:123297 [file_pusher.py:finish():169] shutting down file pusher
+2024-07-07 01:17:10,180 INFO    wandb-upload_0:123297 [upload_job.py:push():130] Uploaded file /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240707_011645-3c3oijx7/files/requirements.txt
+2024-07-07 01:17:10,352 INFO    wandb-upload_2:123297 [upload_job.py:push():130] Uploaded file /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240707_011645-3c3oijx7/files/wandb-summary.json
+2024-07-07 01:17:10,373 INFO    wandb-upload_3:123297 [upload_job.py:push():130] Uploaded file /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240707_011645-3c3oijx7/files/config.yaml
+2024-07-07 01:17:10,429 INFO    wandb-upload_1:123297 [upload_job.py:push():130] Uploaded file /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240707_011645-3c3oijx7/files/conda-environment.yaml
+2024-07-07 01:17:10,486 DEBUG   HandlerThread:123297 [handler.py:handle_request():158] handle_request: poll_exit
+2024-07-07 01:17:10,486 DEBUG   SenderThread:123297 [sender.py:send_request():406] send_request: poll_exit
+2024-07-07 01:17:10,630 INFO    Thread-123 (_thread_body):123297 [sender.py:transition_state():614] send defer: 11
+2024-07-07 01:17:10,630 DEBUG   HandlerThread:123297 [handler.py:handle_request():158] handle_request: defer
+2024-07-07 01:17:10,630 INFO    HandlerThread:123297 [handler.py:handle_request_defer():184] handle defer: 11
+2024-07-07 01:17:10,631 DEBUG   SenderThread:123297 [sender.py:send_request():406] send_request: defer
+2024-07-07 01:17:10,631 INFO    SenderThread:123297 [sender.py:send_request_defer():610] handle sender defer: 11
+2024-07-07 01:17:10,631 INFO    SenderThread:123297 [file_pusher.py:join():175] waiting for file pusher
+2024-07-07 01:17:10,632 INFO    SenderThread:123297 [sender.py:transition_state():614] send defer: 12
+2024-07-07 01:17:10,632 DEBUG   HandlerThread:123297 [handler.py:handle_request():158] handle_request: defer
+2024-07-07 01:17:10,632 INFO    HandlerThread:123297 [handler.py:handle_request_defer():184] handle defer: 12
+2024-07-07 01:17:10,632 DEBUG   SenderThread:123297 [sender.py:send_request():406] send_request: defer
+2024-07-07 01:17:10,632 INFO    SenderThread:123297 [sender.py:send_request_defer():610] handle sender defer: 12
+2024-07-07 01:17:10,632 INFO    SenderThread:123297 [file_stream.py:finish():601] file stream finish called
+2024-07-07 01:17:10,895 INFO    SenderThread:123297 [file_stream.py:finish():605] file stream finish is done
+2024-07-07 01:17:10,896 INFO    SenderThread:123297 [sender.py:transition_state():614] send defer: 13
+2024-07-07 01:17:10,896 DEBUG   HandlerThread:123297 [handler.py:handle_request():158] handle_request: defer
+2024-07-07 01:17:10,896 INFO    HandlerThread:123297 [handler.py:handle_request_defer():184] handle defer: 13
+2024-07-07 01:17:10,896 DEBUG   SenderThread:123297 [sender.py:send_request():406] send_request: defer
+2024-07-07 01:17:10,896 INFO    SenderThread:123297 [sender.py:send_request_defer():610] handle sender defer: 13
+2024-07-07 01:17:10,896 INFO    SenderThread:123297 [sender.py:transition_state():614] send defer: 14
+2024-07-07 01:17:10,897 DEBUG   HandlerThread:123297 [handler.py:handle_request():158] handle_request: defer
+2024-07-07 01:17:10,897 INFO    HandlerThread:123297 [handler.py:handle_request_defer():184] handle defer: 14
+2024-07-07 01:17:10,897 DEBUG   SenderThread:123297 [sender.py:send():379] send: final
+2024-07-07 01:17:10,897 DEBUG   SenderThread:123297 [sender.py:send():379] send: footer
+2024-07-07 01:17:10,897 DEBUG   SenderThread:123297 [sender.py:send_request():406] send_request: defer
+2024-07-07 01:17:10,897 INFO    SenderThread:123297 [sender.py:send_request_defer():610] handle sender defer: 14
+2024-07-07 01:17:10,898 DEBUG   HandlerThread:123297 [handler.py:handle_request():158] handle_request: poll_exit
+2024-07-07 01:17:10,898 DEBUG   SenderThread:123297 [sender.py:send_request():406] send_request: poll_exit
+2024-07-07 01:17:10,900 DEBUG   HandlerThread:123297 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 01:17:10,901 DEBUG   HandlerThread:123297 [handler.py:handle_request():158] handle_request: get_summary
+2024-07-07 01:17:10,902 DEBUG   HandlerThread:123297 [handler.py:handle_request():158] handle_request: sampled_history
+2024-07-07 01:17:10,903 DEBUG   HandlerThread:123297 [handler.py:handle_request():158] handle_request: shutdown
+2024-07-07 01:17:10,904 INFO    HandlerThread:123297 [handler.py:finish():882] shutting down handler
+2024-07-07 01:17:11,899 INFO    WriterThread:123297 [datastore.py:close():296] close: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240707_011645-3c3oijx7/run-3c3oijx7.wandb
+2024-07-07 01:17:11,899 INFO    SenderThread:123297 [sender.py:finish():1608] shutting down sender
+2024-07-07 01:17:11,899 INFO    SenderThread:123297 [file_pusher.py:finish():169] shutting down file pusher
+2024-07-07 01:17:11,899 INFO    SenderThread:123297 [file_pusher.py:join():175] waiting for file pusher

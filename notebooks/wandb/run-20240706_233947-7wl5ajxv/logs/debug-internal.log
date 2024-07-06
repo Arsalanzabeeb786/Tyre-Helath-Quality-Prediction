@@ -1,0 +1,525 @@
+2024-07-06 23:39:47,747 INFO    StreamThr :92510 [internal.py:wandb_internal():85] W&B internal server running at pid: 92510, started at: 2024-07-06 23:39:47.746753
+2024-07-06 23:39:47,749 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: status
+2024-07-06 23:39:47,778 INFO    WriterThread:92510 [datastore.py:open_for_write():87] open: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240706_233947-7wl5ajxv/run-7wl5ajxv.wandb
+2024-07-06 23:39:47,778 DEBUG   SenderThread:92510 [sender.py:send():379] send: header
+2024-07-06 23:39:47,786 DEBUG   SenderThread:92510 [sender.py:send():379] send: run
+2024-07-06 23:39:48,430 INFO    SenderThread:92510 [dir_watcher.py:__init__():211] watching files in: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240706_233947-7wl5ajxv/files
+2024-07-06 23:39:48,430 INFO    SenderThread:92510 [sender.py:_start_run_threads():1188] run started: 7wl5ajxv with start time 1720276787.745774
+2024-07-06 23:39:48,439 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: check_version
+2024-07-06 23:39:48,439 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: check_version
+2024-07-06 23:39:48,544 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: run_start
+2024-07-06 23:39:48,544 DEBUG   HandlerThread:92510 [system_info.py:__init__():26] System info init
+2024-07-06 23:39:48,544 DEBUG   HandlerThread:92510 [system_info.py:__init__():41] System info init done
+2024-07-06 23:39:48,544 INFO    HandlerThread:92510 [system_monitor.py:start():194] Starting system monitor
+2024-07-06 23:39:48,545 INFO    SystemMonitor:92510 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-07-06 23:39:48,545 INFO    HandlerThread:92510 [system_monitor.py:probe():214] Collecting system info
+2024-07-06 23:39:48,545 INFO    SystemMonitor:92510 [interfaces.py:start():188] Started cpu monitoring
+2024-07-06 23:39:48,546 INFO    SystemMonitor:92510 [interfaces.py:start():188] Started disk monitoring
+2024-07-06 23:39:48,546 INFO    SystemMonitor:92510 [interfaces.py:start():188] Started gpu monitoring
+2024-07-06 23:39:48,547 INFO    SystemMonitor:92510 [interfaces.py:start():188] Started memory monitoring
+2024-07-06 23:39:48,548 INFO    SystemMonitor:92510 [interfaces.py:start():188] Started network monitoring
+2024-07-06 23:39:48,555 DEBUG   HandlerThread:92510 [system_info.py:probe():152] Probing system
+2024-07-06 23:39:48,556 DEBUG   HandlerThread:92510 [system_info.py:_probe_git():137] Probing git
+2024-07-06 23:39:48,564 DEBUG   HandlerThread:92510 [system_info.py:_probe_git():145] Probing git done
+2024-07-06 23:39:48,564 DEBUG   HandlerThread:92510 [system_info.py:probe():200] Probing system done
+2024-07-06 23:39:48,564 DEBUG   HandlerThread:92510 [system_monitor.py:probe():223] {'os': 'Linux-6.8.0-36-generic-x86_64-with-glibc2.39', 'python': '3.12.3', 'heartbeatAt': '2024-07-06T14:39:48.555663', 'startedAt': '2024-07-06T14:39:47.734240', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'NoteBook_with_wandb.ipynb', 'codePathLocal': 'NoteBook_with_wandb.ipynb', 'root': '/home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction', 'git': {'remote': 'git@github.com:Arsalanzabeeb786/TyreQualityPrediction.git', 'commit': '14ad2341d56322f463ab4e38ec0e6520b51ddade'}, 'email': 'arsalanzabeeb786@gmail.com', 'host': 'arsalan', 'username': 'arsalan', 'executable': '/home/arsalan/miniconda3/envs/tfgpu_2.16/bin/python', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 3.0742499999999997, 'min': 1400.0, 'max': 2100.0}, 'cpu_freq_per_core': [{'current': 3.692, 'min': 1400.0, 'max': 2100.0}, {'current': 3.691, 'min': 1400.0, 'max': 2100.0}, {'current': 2.446, 'min': 1400.0, 'max': 2100.0}, {'current': 3.691, 'min': 1400.0, 'max': 2100.0}, {'current': 3.378, 'min': 1400.0, 'max': 2100.0}, {'current': 2.704, 'min': 1400.0, 'max': 2100.0}, {'current': 3.692, 'min': 1400.0, 'max': 2100.0}, {'current': 3.69, 'min': 1400.0, 'max': 2100.0}], 'disk': {'/': {'total': 467.34664154052734, 'used': 416.85743713378906}}, 'gpu': 'NVIDIA GeForce GTX 1650', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce GTX 1650', 'memory_total': 4294967296}], 'memory': {'total': 13.578842163085938}}
+2024-07-06 23:39:48,564 INFO    HandlerThread:92510 [system_monitor.py:probe():224] Finished collecting system info
+2024-07-06 23:39:48,564 INFO    HandlerThread:92510 [system_monitor.py:probe():227] Publishing system info
+2024-07-06 23:39:48,564 DEBUG   HandlerThread:92510 [system_info.py:_save_conda():209] Saving list of conda packages installed into the current environment
+2024-07-06 23:39:49,431 INFO    Thread-26 :92510 [dir_watcher.py:_on_file_created():271] file/dir created: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240706_233947-7wl5ajxv/files/conda-environment.yaml
+2024-07-06 23:39:58,106 DEBUG   HandlerThread:92510 [system_info.py:_save_conda():224] Saving conda packages done
+2024-07-06 23:39:58,107 INFO    HandlerThread:92510 [system_monitor.py:probe():229] Finished publishing system info
+2024-07-06 23:39:58,107 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: status_report
+2024-07-06 23:39:58,108 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: keepalive
+2024-07-06 23:39:58,108 DEBUG   SenderThread:92510 [sender.py:send():379] send: files
+2024-07-06 23:39:58,108 INFO    SenderThread:92510 [sender.py:_save_file():1454] saving file wandb-metadata.json with policy now
+2024-07-06 23:39:58,433 INFO    Thread-26 :92510 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240706_233947-7wl5ajxv/files/conda-environment.yaml
+2024-07-06 23:39:58,433 INFO    Thread-26 :92510 [dir_watcher.py:_on_file_created():271] file/dir created: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240706_233947-7wl5ajxv/files/wandb-metadata.json
+2024-07-06 23:39:58,614 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: python_packages
+2024-07-06 23:39:58,614 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: python_packages
+2024-07-06 23:39:58,616 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: status_report
+2024-07-06 23:39:58,617 DEBUG   SenderThread:92510 [sender.py:send():379] send: telemetry
+2024-07-06 23:39:58,658 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-06 23:39:58,658 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-06 23:39:58,659 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: stop_status
+2024-07-06 23:39:59,032 INFO    wandb-upload_0:92510 [upload_job.py:push():130] Uploaded file /tmp/tmp9eftzqaxwandb/296njf9x-wandb-metadata.json
+2024-07-06 23:39:59,433 INFO    Thread-26 :92510 [dir_watcher.py:_on_file_created():271] file/dir created: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240706_233947-7wl5ajxv/files/requirements.txt
+2024-07-06 23:39:59,433 INFO    Thread-26 :92510 [dir_watcher.py:_on_file_created():271] file/dir created: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240706_233947-7wl5ajxv/files/output.log
+2024-07-06 23:39:59,616 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-06 23:40:00,616 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-06 23:40:01,434 INFO    Thread-26 :92510 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240706_233947-7wl5ajxv/files/output.log
+2024-07-06 23:40:01,616 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-06 23:40:02,618 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-06 23:40:03,123 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: log_artifact
+2024-07-06 23:40:03,123 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: log_artifact
+2024-07-06 23:40:03,163 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: server_info
+2024-07-06 23:40:05,435 INFO    Thread-26 :92510 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240706_233947-7wl5ajxv/files/output.log
+2024-07-06 23:40:05,510 INFO    wandb-upload_10:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpp9u28kxd
+2024-07-06 23:40:05,581 INFO    wandb-upload_53:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpjfher2g3
+2024-07-06 23:40:05,692 INFO    wandb-upload_44:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpmi3w341n
+2024-07-06 23:40:06,259 INFO    wandb-upload_5:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpp1r1u6zc
+2024-07-06 23:40:06,290 INFO    wandb-upload_8:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp9lhkl23k
+2024-07-06 23:40:06,428 INFO    wandb-upload_14:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpwtx6mbkm
+2024-07-06 23:40:06,479 INFO    wandb-upload_38:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp9xz7gilf
+2024-07-06 23:40:06,533 INFO    wandb-upload_48:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp1d0a2yyg
+2024-07-06 23:40:06,536 INFO    wandb-upload_9:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp93zvewrx
+2024-07-06 23:40:06,545 INFO    wandb-upload_18:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmph7eg4xcl
+2024-07-06 23:40:06,587 INFO    wandb-upload_37:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpdlxzk9b9
+2024-07-06 23:40:06,611 INFO    wandb-upload_45:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpeil5o5wf
+2024-07-06 23:40:06,621 INFO    wandb-upload_20:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpd7aihs_3
+2024-07-06 23:40:06,652 INFO    wandb-upload_16:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmph60lwal4
+2024-07-06 23:40:06,672 INFO    wandb-upload_51:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpa_ijpm_1
+2024-07-06 23:40:06,683 INFO    wandb-upload_29:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpp4jla5ze
+2024-07-06 23:40:06,723 INFO    wandb-upload_15:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpdqj7q6yq
+2024-07-06 23:40:06,724 INFO    wandb-upload_24:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmppdzmz6oq
+2024-07-06 23:40:06,735 INFO    wandb-upload_27:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpt91pl2em
+2024-07-06 23:40:06,786 INFO    wandb-upload_25:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp7fwybwzx
+2024-07-06 23:40:06,810 INFO    wandb-upload_57:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp7shgfwis
+2024-07-06 23:40:06,875 INFO    wandb-upload_0:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpkny4bqab
+2024-07-06 23:40:06,891 INFO    wandb-upload_22:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp1m98cygm
+2024-07-06 23:40:06,928 INFO    wandb-upload_49:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpd_yjsbgp
+2024-07-06 23:40:06,931 INFO    wandb-upload_42:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmptz_d_ew3
+2024-07-06 23:40:06,936 INFO    wandb-upload_12:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp8o5lr672
+2024-07-06 23:40:06,940 INFO    wandb-upload_1:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpznvphsbp
+2024-07-06 23:40:06,948 INFO    wandb-upload_60:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp2n3qdvfk
+2024-07-06 23:40:06,983 INFO    wandb-upload_3:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpnoriefak
+2024-07-06 23:40:07,033 INFO    wandb-upload_55:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpfnh3oyx9
+2024-07-06 23:40:07,080 INFO    wandb-upload_52:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp5p5yr9rs
+2024-07-06 23:40:07,084 INFO    wandb-upload_11:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp30eu67r5
+2024-07-06 23:40:07,146 INFO    wandb-upload_19:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpwiimbuxy
+2024-07-06 23:40:07,171 INFO    wandb-upload_2:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpivmqnhgn
+2024-07-06 23:40:07,171 INFO    wandb-upload_61:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpu2365nmd
+2024-07-06 23:40:07,172 INFO    wandb-upload_58:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpfqel9lhz
+2024-07-06 23:40:07,210 INFO    wandb-upload_41:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpix4oq5tm
+2024-07-06 23:40:07,221 INFO    wandb-upload_17:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmph5x8zp53
+2024-07-06 23:40:07,222 INFO    wandb-upload_40:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp1oqj2jqi
+2024-07-06 23:40:07,232 INFO    wandb-upload_7:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp_mmcf3qa
+2024-07-06 23:40:07,264 INFO    wandb-upload_54:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp17hz16b1
+2024-07-06 23:40:07,267 INFO    wandb-upload_26:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp9d4mphsm
+2024-07-06 23:40:07,271 INFO    wandb-upload_47:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpgny9onfv
+2024-07-06 23:40:07,286 INFO    wandb-upload_34:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp76wneh0v
+2024-07-06 23:40:07,329 INFO    wandb-upload_35:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpzlyz3oqp
+2024-07-06 23:40:07,335 INFO    wandb-upload_56:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpc3mswdgl
+2024-07-06 23:40:07,335 INFO    wandb-upload_32:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpjy_1bsjc
+2024-07-06 23:40:07,338 INFO    wandb-upload_36:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp53kox0qr
+2024-07-06 23:40:07,342 INFO    wandb-upload_50:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp0ww6b193
+2024-07-06 23:40:07,342 INFO    wandb-upload_23:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpnvvmf002
+2024-07-06 23:40:07,343 INFO    wandb-upload_39:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp2k7yo9up
+2024-07-06 23:40:07,359 INFO    wandb-upload_62:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpcz0qqhrs
+2024-07-06 23:40:07,360 INFO    wandb-upload_30:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmps35rf7c9
+2024-07-06 23:40:07,386 INFO    wandb-upload_6:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpc5n5w1cv
+2024-07-06 23:40:07,406 INFO    wandb-upload_43:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpa77kz0u9
+2024-07-06 23:40:07,427 INFO    wandb-upload_33:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp1ezvz3od
+2024-07-06 23:40:07,433 INFO    wandb-upload_31:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp56fdh0es
+2024-07-06 23:40:07,434 INFO    wandb-upload_28:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp7tah3gq8
+2024-07-06 23:40:07,434 INFO    wandb-upload_13:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpx_0d77ag
+2024-07-06 23:40:07,448 INFO    wandb-upload_10:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpcclbnwlz
+2024-07-06 23:40:07,465 INFO    wandb-upload_63:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp97mf9exe
+2024-07-06 23:40:07,487 INFO    wandb-upload_21:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpwm_4xlod
+2024-07-06 23:40:07,490 INFO    wandb-upload_59:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp2z93426o
+2024-07-06 23:40:07,492 INFO    wandb-upload_46:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpaojr_b84
+2024-07-06 23:40:07,754 INFO    wandb-upload_5:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmptsg7_xkp
+2024-07-06 23:40:07,842 INFO    wandb-upload_8:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpyvmtw_gm
+2024-07-06 23:40:07,919 INFO    wandb-upload_53:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpm_v8yyn6
+2024-07-06 23:40:07,925 INFO    wandb-upload_4:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpcaxdy3oj
+2024-07-06 23:40:07,943 INFO    wandb-upload_44:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpz4uky1b0
+2024-07-06 23:40:08,127 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: keepalive
+2024-07-06 23:40:08,416 INFO    wandb-upload_29:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpk3s9vh2r
+2024-07-06 23:40:08,440 INFO    wandb-upload_54:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpo648wxzq
+2024-07-06 23:40:08,476 INFO    wandb-upload_38:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp8uzasab4
+2024-07-06 23:40:08,500 INFO    wandb-upload_11:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpj19kntyd
+2024-07-06 23:40:08,593 INFO    wandb-upload_42:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp0d9g3kcp
+2024-07-06 23:40:08,606 INFO    wandb-upload_48:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpyt4cy82t
+2024-07-06 23:40:08,627 INFO    wandb-upload_22:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpixqi4of5
+2024-07-06 23:40:08,656 INFO    wandb-upload_41:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpaxi29r0r
+2024-07-06 23:40:08,703 INFO    wandb-upload_49:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpbj73wmnb
+2024-07-06 23:40:09,118 INFO    wandb-upload_52:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp0llpufhr
+2024-07-06 23:40:09,144 INFO    wandb-upload_0:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp748v4vn_
+2024-07-06 23:40:09,184 INFO    wandb-upload_57:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp4lrh7f9l
+2024-07-06 23:40:09,231 INFO    wandb-upload_15:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpjmeh1he3
+2024-07-06 23:40:09,275 INFO    wandb-upload_26:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpa_ld2pvh
+2024-07-06 23:40:09,312 INFO    wandb-upload_47:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpovnztk0m
+2024-07-06 23:40:09,317 INFO    wandb-upload_27:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpvob2hzj6
+2024-07-06 23:40:09,346 INFO    wandb-upload_18:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp_lqjpfqd
+2024-07-06 23:40:09,373 INFO    wandb-upload_2:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpe6xh21ve
+2024-07-06 23:40:09,415 INFO    wandb-upload_25:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpq59t8b_o
+2024-07-06 23:40:09,431 INFO    wandb-upload_40:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpxoukk0sy
+2024-07-06 23:40:09,500 INFO    wandb-upload_60:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp2jf6rdos
+2024-07-06 23:40:09,505 INFO    wandb-upload_58:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpiehwgibf
+2024-07-06 23:40:09,512 INFO    wandb-upload_3:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpemtlw9mx
+2024-07-06 23:40:09,517 INFO    wandb-upload_37:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp45g78xae
+2024-07-06 23:40:09,520 INFO    wandb-upload_63:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp7x7zsqxf
+2024-07-06 23:40:09,554 INFO    wandb-upload_7:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp7lv9s3bi
+2024-07-06 23:40:09,591 INFO    wandb-upload_12:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpz1uot_u8
+2024-07-06 23:40:09,627 INFO    wandb-upload_1:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmprzpziu3u
+2024-07-06 23:40:09,633 INFO    wandb-upload_20:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpqb2sbgyf
+2024-07-06 23:40:09,673 INFO    wandb-upload_45:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpcuknv8rz
+2024-07-06 23:40:09,681 INFO    wandb-upload_24:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp1ujq1paw
+2024-07-06 23:40:09,744 INFO    wandb-upload_9:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpeul8d1z3
+2024-07-06 23:40:09,795 INFO    wandb-upload_19:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpcy_ei28p
+2024-07-06 23:40:09,842 INFO    wandb-upload_14:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpgm299l46
+2024-07-06 23:40:09,893 INFO    wandb-upload_10:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp80le9wl0
+2024-07-06 23:40:09,956 INFO    wandb-upload_34:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpoic283m2
+2024-07-06 23:40:10,004 INFO    wandb-upload_56:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmps8dxgvvc
+2024-07-06 23:40:10,009 INFO    wandb-upload_31:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp8r7md0_o
+2024-07-06 23:40:10,013 INFO    wandb-upload_35:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp0id9ykwh
+2024-07-06 23:40:10,030 INFO    wandb-upload_16:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpyw2srm7n
+2024-07-06 23:40:10,038 INFO    wandb-upload_61:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp9ym5aly_
+2024-07-06 23:40:10,049 INFO    wandb-upload_17:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpkav7e_zh
+2024-07-06 23:40:10,062 INFO    wandb-upload_39:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpxl9zxzh6
+2024-07-06 23:40:10,072 INFO    wandb-upload_8:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp02_tudji
+2024-07-06 23:40:10,076 INFO    wandb-upload_43:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp6inzsjoi
+2024-07-06 23:40:10,089 INFO    wandb-upload_36:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpd2hl_no8
+2024-07-06 23:40:10,100 INFO    wandb-upload_4:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp8tz9b76t
+2024-07-06 23:40:10,133 INFO    wandb-upload_6:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp5p6_1uof
+2024-07-06 23:40:10,135 INFO    wandb-upload_5:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpqqstckal
+2024-07-06 23:40:10,161 INFO    wandb-upload_51:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp9pqdt196
+2024-07-06 23:40:10,163 INFO    wandb-upload_23:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmplq0xuadg
+2024-07-06 23:40:10,171 INFO    wandb-upload_13:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpgd60pwva
+2024-07-06 23:40:10,173 INFO    wandb-upload_46:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp_9u4e6xj
+2024-07-06 23:40:10,179 INFO    wandb-upload_33:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp_k0cirrs
+2024-07-06 23:40:10,182 INFO    wandb-upload_59:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp38ciu3h8
+2024-07-06 23:40:10,194 INFO    wandb-upload_30:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp9eo6fiy2
+2024-07-06 23:40:10,241 INFO    wandb-upload_28:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmph_bhw5gw
+2024-07-06 23:40:10,283 INFO    wandb-upload_50:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpg7sumc04
+2024-07-06 23:40:10,283 INFO    wandb-upload_62:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpbpgwniwq
+2024-07-06 23:40:10,306 INFO    wandb-upload_21:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmppk27j8ga
+2024-07-06 23:40:10,307 INFO    wandb-upload_44:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpc_yy29u7
+2024-07-06 23:40:10,332 INFO    wandb-upload_54:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp3unrcc4p
+2024-07-06 23:40:10,342 INFO    wandb-upload_53:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp33mj2_0k
+2024-07-06 23:40:10,398 INFO    wandb-upload_11:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmppefe3d9y
+2024-07-06 23:40:10,458 INFO    wandb-upload_32:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpjlqxv8z0
+2024-07-06 23:40:10,470 INFO    wandb-upload_38:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp3ywwlcnv
+2024-07-06 23:40:10,507 INFO    wandb-upload_29:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp0vslk5tl
+2024-07-06 23:40:10,691 INFO    wandb-upload_55:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp23f1p_vo
+2024-07-06 23:40:11,454 INFO    wandb-upload_52:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpwl9zlf85
+2024-07-06 23:40:11,486 INFO    wandb-upload_2:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpy0dl6e2n
+2024-07-06 23:40:11,536 INFO    wandb-upload_47:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpnrak17w5
+2024-07-06 23:40:11,539 INFO    wandb-upload_26:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpftwng5np
+2024-07-06 23:40:11,568 INFO    wandb-upload_49:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpdk48lwbd
+2024-07-06 23:40:11,588 INFO    wandb-upload_18:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpb2y_9wlj
+2024-07-06 23:40:11,588 INFO    wandb-upload_0:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpe_a7qd7d
+2024-07-06 23:40:11,594 INFO    wandb-upload_57:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpdsaxpzcy
+2024-07-06 23:40:11,630 INFO    wandb-upload_48:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp4l_wh4f1
+2024-07-06 23:40:11,696 INFO    wandb-upload_15:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp7uae26cb
+2024-07-06 23:40:11,838 INFO    wandb-upload_22:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp7ky8zx38
+2024-07-06 23:40:11,842 INFO    wandb-upload_42:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp3az0b94j
+2024-07-06 23:40:11,843 INFO    wandb-upload_27:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp79qxypqh
+2024-07-06 23:40:11,930 INFO    wandb-upload_41:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpocbab5zj
+2024-07-06 23:40:12,209 INFO    wandb-upload_12:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp0dojfi8k
+2024-07-06 23:40:12,255 INFO    wandb-upload_60:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpy_ceggyz
+2024-07-06 23:40:12,330 INFO    wandb-upload_37:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpdi54vfor
+2024-07-06 23:40:12,507 INFO    wandb-upload_50:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpqinbpimg
+2024-07-06 23:40:12,537 INFO    wandb-upload_13:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpu8kblnp6
+2024-07-06 23:40:12,587 INFO    wandb-upload_4:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp2qxx6ocg
+2024-07-06 23:40:12,650 INFO    wandb-upload_24:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmph4em0h7j
+2024-07-06 23:40:12,812 INFO    wandb-upload_28:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp21aycshp
+2024-07-06 23:40:13,043 INFO    wandb-upload_14:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpm9_tatdh
+2024-07-06 23:40:13,111 INFO    wandb-upload_63:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp0ksvolfs
+2024-07-06 23:40:13,127 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: keepalive
+2024-07-06 23:40:13,184 INFO    wandb-upload_39:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpmq_mur9y
+2024-07-06 23:40:13,225 INFO    wandb-upload_30:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpuwuevedo
+2024-07-06 23:40:13,238 INFO    wandb-upload_17:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpo0t41m80
+2024-07-06 23:40:13,240 INFO    wandb-upload_58:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmppq6fadrp
+2024-07-06 23:40:13,277 INFO    wandb-upload_45:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmplj4eeipq
+2024-07-06 23:40:13,314 INFO    wandb-upload_5:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmptgzp86i9
+2024-07-06 23:40:13,399 INFO    wandb-upload_9:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpm1ex319_
+2024-07-06 23:40:13,409 INFO    wandb-upload_11:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpnounaifs
+2024-07-06 23:40:13,433 INFO    wandb-upload_8:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpl7qwe3w1
+2024-07-06 23:40:13,460 INFO    wandb-upload_33:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpk4h9wd_o
+2024-07-06 23:40:13,473 INFO    wandb-upload_23:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp5jzdm_i6
+2024-07-06 23:40:13,494 INFO    wandb-upload_35:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpwvg2cewn
+2024-07-06 23:40:13,549 INFO    wandb-upload_59:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpsahqp1wz
+2024-07-06 23:40:13,666 INFO    wandb-upload_6:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpfkgfclp3
+2024-07-06 23:40:13,677 INFO    wandb-upload_34:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp_ubhrkuz
+2024-07-06 23:40:13,691 INFO    wandb-upload_7:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpqljoovlu
+2024-07-06 23:40:13,760 INFO    wandb-upload_3:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpynfycb9e
+2024-07-06 23:40:13,789 INFO    wandb-upload_19:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpo90xs_as
+2024-07-06 23:40:13,822 INFO    wandb-upload_40:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmptatq7021
+2024-07-06 23:40:13,849 INFO    wandb-upload_51:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp2d3mf4m2
+2024-07-06 23:40:13,878 INFO    wandb-upload_29:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpl7ryp83_
+2024-07-06 23:40:13,898 INFO    wandb-upload_43:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp_s476_jf
+2024-07-06 23:40:13,916 INFO    wandb-upload_10:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpn0nirz49
+2024-07-06 23:40:13,967 INFO    wandb-upload_1:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpm709w0o2
+2024-07-06 23:40:13,973 INFO    wandb-upload_46:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpwtq_1b0c
+2024-07-06 23:40:13,984 INFO    wandb-upload_36:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpvr5rcphk
+2024-07-06 23:40:14,127 INFO    wandb-upload_25:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp85y_gj6t
+2024-07-06 23:40:14,173 INFO    wandb-upload_32:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp3h25gt3d
+2024-07-06 23:40:14,187 INFO    wandb-upload_20:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpa5smnbxh
+2024-07-06 23:40:14,195 INFO    wandb-upload_38:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpm6xglmxe
+2024-07-06 23:40:14,208 INFO    wandb-upload_21:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpiblcetto
+2024-07-06 23:40:14,235 INFO    wandb-upload_2:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpfzodqzfz
+2024-07-06 23:40:14,241 INFO    wandb-upload_26:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpck43yj00
+2024-07-06 23:40:14,300 INFO    wandb-upload_0:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp_b9am_jz
+2024-07-06 23:40:14,319 INFO    wandb-upload_56:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpvyv3avpj
+2024-07-06 23:40:14,367 INFO    wandb-upload_16:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpvjy9ezhk
+2024-07-06 23:40:14,407 INFO    wandb-upload_27:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmphcvp7ful
+2024-07-06 23:40:14,407 INFO    wandb-upload_55:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpdte_5g43
+2024-07-06 23:40:14,437 INFO    wandb-upload_48:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp93dubvq6
+2024-07-06 23:40:14,478 INFO    wandb-upload_54:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp3r4nt4e1
+2024-07-06 23:40:14,542 INFO    wandb-upload_60:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpokya2xm8
+2024-07-06 23:40:14,543 INFO    wandb-upload_44:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp9qs1ysld
+2024-07-06 23:40:14,555 INFO    wandb-upload_52:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpqdps08ng
+2024-07-06 23:40:14,627 INFO    wandb-upload_18:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpu8gwvtur
+2024-07-06 23:40:14,627 INFO    wandb-upload_53:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpzag11l_q
+2024-07-06 23:40:14,661 INFO    wandb-upload_12:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp6h5srn5b
+2024-07-06 23:40:14,661 INFO    wandb-upload_42:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpc6uifw5_
+2024-07-06 23:40:14,686 INFO    wandb-upload_22:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpkh5gpg0l
+2024-07-06 23:40:14,703 INFO    wandb-upload_49:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpq5r1hs_q
+2024-07-06 23:40:14,703 INFO    wandb-upload_47:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpi0m_min5
+2024-07-06 23:40:14,735 INFO    wandb-upload_37:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp_2rnn_b2
+2024-07-06 23:40:14,749 INFO    wandb-upload_57:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpc0q7mt5i
+2024-07-06 23:40:14,770 INFO    wandb-upload_41:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpf78qbcrc
+2024-07-06 23:40:14,853 INFO    wandb-upload_62:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpcqpyd5mi
+2024-07-06 23:40:14,878 INFO    wandb-upload_61:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpm9qnpms3
+2024-07-06 23:40:15,074 INFO    wandb-upload_13:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp2_zkc1aw
+2024-07-06 23:40:15,242 INFO    wandb-upload_45:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmperts4j5w
+2024-07-06 23:40:15,339 INFO    wandb-upload_33:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp_b49qtw6
+2024-07-06 23:40:15,366 INFO    wandb-upload_30:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp62nhnapu
+2024-07-06 23:40:15,372 INFO    wandb-upload_11:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpq8i8wnlr
+2024-07-06 23:40:15,385 INFO    wandb-upload_59:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp7asx6vai
+2024-07-06 23:40:15,498 INFO    wandb-upload_23:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp3r2asxup
+2024-07-06 23:40:15,508 INFO    wandb-upload_8:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpf3_0dsje
+2024-07-06 23:40:15,567 INFO    wandb-upload_15:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpnw1zrqvw
+2024-07-06 23:40:15,597 INFO    wandb-upload_17:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp8_bn7g7n
+2024-07-06 23:40:15,598 INFO    wandb-upload_39:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmps6m_v801
+2024-07-06 23:40:15,606 INFO    wandb-upload_5:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpubnpsuu2
+2024-07-06 23:40:15,696 INFO    wandb-upload_14:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp3jwdk355
+2024-07-06 23:40:15,721 INFO    wandb-upload_58:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp40i7lgmo
+2024-07-06 23:40:15,724 INFO    wandb-upload_63:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpdxsi36v8
+2024-07-06 23:40:15,743 INFO    wandb-upload_9:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpe5qeast_
+2024-07-06 23:40:15,746 INFO    wandb-upload_24:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpjkbqi2o9
+2024-07-06 23:40:15,757 INFO    wandb-upload_4:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpx8p1rlqc
+2024-07-06 23:40:15,767 INFO    wandb-upload_35:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpfmpljvzu
+2024-07-06 23:40:15,798 INFO    wandb-upload_28:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp_stoxd_9
+2024-07-06 23:40:15,832 INFO    wandb-upload_50:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpc2bm8gpf
+2024-07-06 23:40:15,890 INFO    wandb-upload_31:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpcb1fpt8r
+2024-07-06 23:40:16,156 INFO    wandb-upload_40:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp5zcuc6_f
+2024-07-06 23:40:16,330 INFO    wandb-upload_34:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpofftigl3
+2024-07-06 23:40:16,541 INFO    wandb-upload_48:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp9a9stxdx
+2024-07-06 23:40:16,577 INFO    wandb-upload_32:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpd83_ow30
+2024-07-06 23:40:16,613 INFO    wandb-upload_26:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpyeqs86g1
+2024-07-06 23:40:16,665 INFO    wandb-upload_19:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpa72q9wrz
+2024-07-06 23:40:16,694 INFO    wandb-upload_20:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp49ryv952
+2024-07-06 23:40:16,800 INFO    wandb-upload_51:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp54gsaezs
+2024-07-06 23:40:16,820 INFO    wandb-upload_1:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp9iz8wwgp
+2024-07-06 23:40:16,822 INFO    wandb-upload_10:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpoyn64id6
+2024-07-06 23:40:16,868 INFO    wandb-upload_16:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp20941ynb
+2024-07-06 23:40:16,983 INFO    wandb-upload_7:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpldfgpt3i
+2024-07-06 23:40:17,035 INFO    wandb-upload_2:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpa90wp_xf
+2024-07-06 23:40:17,071 INFO    wandb-upload_0:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp_ortj2cb
+2024-07-06 23:40:17,104 INFO    wandb-upload_45:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmps9g19nbu
+2024-07-06 23:40:17,178 INFO    wandb-upload_27:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpaptbwl46
+2024-07-06 23:40:17,185 INFO    wandb-upload_21:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpl7bvhh44
+2024-07-06 23:40:17,188 INFO    wandb-upload_54:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpae6woygx
+2024-07-06 23:40:17,225 INFO    wandb-upload_43:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpfkn83gw5
+2024-07-06 23:40:17,258 INFO    wandb-upload_49:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp7xvr844b
+2024-07-06 23:40:17,294 INFO    wandb-upload_29:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpba5up_9b
+2024-07-06 23:40:17,394 INFO    wandb-upload_42:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpy4b4ls77
+2024-07-06 23:40:17,459 INFO    wandb-upload_53:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmphppxa8x0
+2024-07-06 23:40:17,480 INFO    wandb-upload_3:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmptti_7ezg
+2024-07-06 23:40:17,494 INFO    wandb-upload_46:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmphu3vykz2
+2024-07-06 23:40:17,514 INFO    wandb-upload_61:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpjhje0bpd
+2024-07-06 23:40:17,519 INFO    wandb-upload_12:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpqj4ko3_o
+2024-07-06 23:40:17,586 INFO    wandb-upload_41:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpn0vnl84z
+2024-07-06 23:40:17,620 INFO    wandb-upload_6:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp996e0i3e
+2024-07-06 23:40:17,629 INFO    wandb-upload_36:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpab9ggm7o
+2024-07-06 23:40:17,632 INFO    wandb-upload_25:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpu0bmbjr1
+2024-07-06 23:40:17,660 INFO    wandb-upload_38:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpy60cxuoa
+2024-07-06 23:40:17,662 INFO    wandb-upload_13:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpebfo2pze
+2024-07-06 23:40:17,687 INFO    wandb-upload_37:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpui6m5h20
+2024-07-06 23:40:17,688 INFO    wandb-upload_44:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpnjiklh1n
+2024-07-06 23:40:17,731 INFO    wandb-upload_47:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpndcra4ok
+2024-07-06 23:40:17,856 INFO    wandb-upload_22:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpik6d05hp
+2024-07-06 23:40:18,057 INFO    wandb-upload_52:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmps1hef7q9
+2024-07-06 23:40:18,073 INFO    wandb-upload_24:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp2y1mxdg5
+2024-07-06 23:40:18,126 INFO    wandb-upload_60:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpt9fhz1yj
+2024-07-06 23:40:18,128 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: keepalive
+2024-07-06 23:40:18,139 INFO    wandb-upload_23:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp_4169r8v
+2024-07-06 23:40:18,345 INFO    wandb-upload_11:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpo6x6ev8b
+2024-07-06 23:40:18,368 INFO    wandb-upload_39:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpy15lajgd
+2024-07-06 23:40:18,398 INFO    wandb-upload_63:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp09uw1anx
+2024-07-06 23:40:18,484 INFO    wandb-upload_58:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp0n9ll62r
+2024-07-06 23:40:18,484 INFO    wandb-upload_57:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpk1mwiagc
+2024-07-06 23:40:18,510 INFO    wandb-upload_8:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp6g_kfmr2
+2024-07-06 23:40:18,522 INFO    wandb-upload_33:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpa7eq3jf1
+2024-07-06 23:40:18,522 INFO    wandb-upload_35:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp8vp2g0vw
+2024-07-06 23:40:18,580 INFO    wandb-upload_5:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpnvnkkrj_
+2024-07-06 23:40:18,600 INFO    wandb-upload_55:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmptbcjlxnq
+2024-07-06 23:40:18,640 INFO    wandb-upload_9:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp9bu00ng_
+2024-07-06 23:40:18,717 INFO    wandb-upload_59:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp5dxag1vz
+2024-07-06 23:40:18,736 INFO    wandb-upload_14:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpqs5phq5f
+2024-07-06 23:40:18,736 INFO    wandb-upload_17:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmppy5a2p1t
+2024-07-06 23:40:18,766 INFO    wandb-upload_31:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpi8qol0j4
+2024-07-06 23:40:18,769 INFO    wandb-upload_4:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpmbogoqbw
+2024-07-06 23:40:18,811 INFO    wandb-upload_62:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpxcq1b9c_
+2024-07-06 23:40:18,845 INFO    wandb-upload_18:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpxj05f7eo
+2024-07-06 23:40:18,850 INFO    wandb-upload_50:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpgnewzsah
+2024-07-06 23:40:18,889 INFO    wandb-upload_28:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmppaqkr4ui
+2024-07-06 23:40:19,017 INFO    wandb-upload_7:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpow_yxsqy
+2024-07-06 23:40:19,065 INFO    wandb-upload_32:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpik0n90si
+2024-07-06 23:40:19,192 INFO    wandb-upload_20:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpfd7mplp3
+2024-07-06 23:40:19,216 INFO    wandb-upload_48:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpptnlwzad
+2024-07-06 23:40:19,227 INFO    wandb-upload_15:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp7orgwhkc
+2024-07-06 23:40:19,228 INFO    wandb-upload_51:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp_ugp7csu
+2024-07-06 23:40:19,234 INFO    wandb-upload_0:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpsklr84ee
+2024-07-06 23:40:19,234 INFO    wandb-upload_30:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpejnnjp7x
+2024-07-06 23:40:19,254 INFO    wandb-upload_40:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpk7afk47f
+2024-07-06 23:40:19,257 INFO    wandb-upload_56:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpyh9r_mex
+2024-07-06 23:40:19,268 INFO    wandb-upload_34:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpj60epfmo
+2024-07-06 23:40:19,334 INFO    wandb-upload_43:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp0eefrz10
+2024-07-06 23:40:19,417 INFO    wandb-upload_29:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpoxshl696
+2024-07-06 23:40:19,494 INFO    wandb-upload_10:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp1ysdl8c5
+2024-07-06 23:40:19,562 INFO    wandb-upload_1:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmprajvi_xr
+2024-07-06 23:40:19,576 INFO    wandb-upload_21:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpk4ytbgdk
+2024-07-06 23:40:19,593 INFO    wandb-upload_26:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpxu88r0_l
+2024-07-06 23:40:19,607 INFO    wandb-upload_42:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpz14zwyik
+2024-07-06 23:40:19,629 INFO    wandb-upload_2:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpvtk8bf7o
+2024-07-06 23:40:19,665 INFO    wandb-upload_16:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp7gkqnqz0
+2024-07-06 23:40:19,672 INFO    wandb-upload_49:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpasr3h07d
+2024-07-06 23:40:19,674 INFO    wandb-upload_46:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpr8icghhv
+2024-07-06 23:40:19,676 INFO    wandb-upload_3:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp5w8cro72
+2024-07-06 23:40:19,706 INFO    wandb-upload_53:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpu02iclg_
+2024-07-06 23:40:19,706 INFO    wandb-upload_54:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp0u1f_50m
+2024-07-06 23:40:19,879 INFO    wandb-upload_27:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp0w3y4_4p
+2024-07-06 23:40:20,099 INFO    wandb-upload_19:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpeq86edu2
+2024-07-06 23:40:20,432 INFO    wandb-upload_45:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpppahx5vf
+2024-07-06 23:40:21,600 INFO    SenderThread:92510 [sender.py:send_request_log_artifact():1518] logged artifact Validation_raw_data - {'id': 'QXJ0aWZhY3Q6OTQ3MjIwNjg1', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjI0NjI4NTY2OQ==', 'latestArtifact': None}}
+2024-07-06 23:40:21,603 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: status_report
+2024-07-06 23:40:21,848 DEBUG   SenderThread:92510 [sender.py:send():379] send: telemetry
+2024-07-06 23:40:21,848 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: server_info
+2024-07-06 23:40:22,067 DEBUG   SenderThread:92510 [sender.py:send():379] send: exit
+2024-07-06 23:40:22,067 INFO    SenderThread:92510 [sender.py:send_exit():586] handling exit code: 0
+2024-07-06 23:40:22,067 INFO    SenderThread:92510 [sender.py:send_exit():588] handling runtime: 33
+2024-07-06 23:40:22,068 INFO    SenderThread:92510 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-06 23:40:22,068 INFO    SenderThread:92510 [sender.py:send_exit():594] send defer
+2024-07-06 23:40:22,068 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: defer
+2024-07-06 23:40:22,069 INFO    HandlerThread:92510 [handler.py:handle_request_defer():184] handle defer: 0
+2024-07-06 23:40:22,069 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: defer
+2024-07-06 23:40:22,069 INFO    SenderThread:92510 [sender.py:send_request_defer():610] handle sender defer: 0
+2024-07-06 23:40:22,069 INFO    SenderThread:92510 [sender.py:transition_state():614] send defer: 1
+2024-07-06 23:40:22,069 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: defer
+2024-07-06 23:40:22,069 INFO    HandlerThread:92510 [handler.py:handle_request_defer():184] handle defer: 1
+2024-07-06 23:40:22,069 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: defer
+2024-07-06 23:40:22,069 INFO    SenderThread:92510 [sender.py:send_request_defer():610] handle sender defer: 1
+2024-07-06 23:40:22,069 INFO    SenderThread:92510 [sender.py:transition_state():614] send defer: 2
+2024-07-06 23:40:22,069 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: defer
+2024-07-06 23:40:22,070 INFO    HandlerThread:92510 [handler.py:handle_request_defer():184] handle defer: 2
+2024-07-06 23:40:22,070 INFO    HandlerThread:92510 [system_monitor.py:finish():203] Stopping system monitor
+2024-07-06 23:40:22,070 INFO    HandlerThread:92510 [interfaces.py:finish():200] Joined cpu monitor
+2024-07-06 23:40:22,070 INFO    HandlerThread:92510 [interfaces.py:finish():200] Joined disk monitor
+2024-07-06 23:40:22,070 DEBUG   SystemMonitor:92510 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-07-06 23:40:22,070 DEBUG   SystemMonitor:92510 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-07-06 23:40:22,070 DEBUG   SystemMonitor:92510 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-07-06 23:40:22,131 INFO    HandlerThread:92510 [interfaces.py:finish():200] Joined gpu monitor
+2024-07-06 23:40:22,131 INFO    HandlerThread:92510 [interfaces.py:finish():200] Joined memory monitor
+2024-07-06 23:40:22,131 INFO    HandlerThread:92510 [interfaces.py:finish():200] Joined network monitor
+2024-07-06 23:40:22,132 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: defer
+2024-07-06 23:40:22,132 INFO    SenderThread:92510 [sender.py:send_request_defer():610] handle sender defer: 2
+2024-07-06 23:40:22,132 INFO    SenderThread:92510 [sender.py:transition_state():614] send defer: 3
+2024-07-06 23:40:22,132 DEBUG   SenderThread:92510 [sender.py:send():379] send: stats
+2024-07-06 23:40:22,132 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: defer
+2024-07-06 23:40:22,132 INFO    HandlerThread:92510 [handler.py:handle_request_defer():184] handle defer: 3
+2024-07-06 23:40:22,133 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: defer
+2024-07-06 23:40:22,133 INFO    SenderThread:92510 [sender.py:send_request_defer():610] handle sender defer: 3
+2024-07-06 23:40:22,133 INFO    SenderThread:92510 [sender.py:transition_state():614] send defer: 4
+2024-07-06 23:40:22,133 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: defer
+2024-07-06 23:40:22,133 INFO    HandlerThread:92510 [handler.py:handle_request_defer():184] handle defer: 4
+2024-07-06 23:40:22,133 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: defer
+2024-07-06 23:40:22,133 INFO    SenderThread:92510 [sender.py:send_request_defer():610] handle sender defer: 4
+2024-07-06 23:40:22,133 INFO    SenderThread:92510 [sender.py:transition_state():614] send defer: 5
+2024-07-06 23:40:22,133 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: defer
+2024-07-06 23:40:22,133 INFO    HandlerThread:92510 [handler.py:handle_request_defer():184] handle defer: 5
+2024-07-06 23:40:22,134 DEBUG   SenderThread:92510 [sender.py:send():379] send: summary
+2024-07-06 23:40:22,134 INFO    SenderThread:92510 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-06 23:40:22,134 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: defer
+2024-07-06 23:40:22,134 INFO    SenderThread:92510 [sender.py:send_request_defer():610] handle sender defer: 5
+2024-07-06 23:40:22,134 INFO    SenderThread:92510 [sender.py:transition_state():614] send defer: 6
+2024-07-06 23:40:22,134 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: defer
+2024-07-06 23:40:22,134 INFO    HandlerThread:92510 [handler.py:handle_request_defer():184] handle defer: 6
+2024-07-06 23:40:22,134 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: defer
+2024-07-06 23:40:22,135 INFO    SenderThread:92510 [sender.py:send_request_defer():610] handle sender defer: 6
+2024-07-06 23:40:22,138 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: status_report
+2024-07-06 23:40:22,383 INFO    SenderThread:92510 [sender.py:transition_state():614] send defer: 7
+2024-07-06 23:40:22,383 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: defer
+2024-07-06 23:40:22,383 INFO    HandlerThread:92510 [handler.py:handle_request_defer():184] handle defer: 7
+2024-07-06 23:40:22,384 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: defer
+2024-07-06 23:40:22,384 INFO    SenderThread:92510 [sender.py:send_request_defer():610] handle sender defer: 7
+2024-07-06 23:40:22,442 INFO    Thread-26 :92510 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240706_233947-7wl5ajxv/files/config.yaml
+2024-07-06 23:40:22,442 INFO    Thread-26 :92510 [dir_watcher.py:_on_file_created():271] file/dir created: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240706_233947-7wl5ajxv/files/wandb-summary.json
+2024-07-06 23:40:22,939 INFO    SenderThread:92510 [sender.py:transition_state():614] send defer: 8
+2024-07-06 23:40:22,940 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: defer
+2024-07-06 23:40:22,940 INFO    HandlerThread:92510 [handler.py:handle_request_defer():184] handle defer: 8
+2024-07-06 23:40:22,940 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: defer
+2024-07-06 23:40:22,940 INFO    SenderThread:92510 [sender.py:send_request_defer():610] handle sender defer: 8
+2024-07-06 23:40:22,940 INFO    SenderThread:92510 [job_builder.py:build():440] Attempting to build job artifact
+2024-07-06 23:40:22,940 INFO    SenderThread:92510 [job_builder.py:_get_source_type():569] is repo sourced job
+2024-07-06 23:40:22,940 INFO    SenderThread:92510 [job_builder.py:_get_program_relpath():587] run is notebook based run
+2024-07-06 23:40:22,943 INFO    SenderThread:92510 [job_builder.py:build():545] adding wandb-job metadata file
+2024-07-06 23:40:22,948 INFO    SenderThread:92510 [sender.py:transition_state():614] send defer: 9
+2024-07-06 23:40:22,948 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: defer
+2024-07-06 23:40:22,948 INFO    HandlerThread:92510 [handler.py:handle_request_defer():184] handle defer: 9
+2024-07-06 23:40:22,948 DEBUG   SenderThread:92510 [sender.py:send():379] send: artifact
+2024-07-06 23:40:23,067 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: poll_exit
+2024-07-06 23:40:23,442 INFO    Thread-26 :92510 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240706_233947-7wl5ajxv/files/output.log
+2024-07-06 23:40:23,627 INFO    SenderThread:92510 [sender.py:send_artifact():1530] sent artifact job-git_github.com_Arsalanzabeeb786_TyreQualityPrediction.git_NoteBook_with_wandb.ipynb - {'id': 'QXJ0aWZhY3Q6OTQ3MjE4Njcz', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjI0NjI4NTA5OQ==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6OTQ3MjE4Njcz', 'versionIndex': 0}}}
+2024-07-06 23:40:23,628 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: defer
+2024-07-06 23:40:23,628 INFO    SenderThread:92510 [sender.py:send_request_defer():610] handle sender defer: 9
+2024-07-06 23:40:23,628 INFO    SenderThread:92510 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-07-06 23:40:24,443 INFO    SenderThread:92510 [dir_watcher.py:finish():388] scan: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240706_233947-7wl5ajxv/files
+2024-07-06 23:40:24,444 INFO    SenderThread:92510 [dir_watcher.py:finish():402] scan save: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240706_233947-7wl5ajxv/files/requirements.txt requirements.txt
+2024-07-06 23:40:24,444 INFO    SenderThread:92510 [dir_watcher.py:finish():402] scan save: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240706_233947-7wl5ajxv/files/wandb-metadata.json wandb-metadata.json
+2024-07-06 23:40:24,444 INFO    SenderThread:92510 [dir_watcher.py:finish():402] scan save: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240706_233947-7wl5ajxv/files/conda-environment.yaml conda-environment.yaml
+2024-07-06 23:40:24,444 INFO    SenderThread:92510 [dir_watcher.py:finish():402] scan save: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240706_233947-7wl5ajxv/files/wandb-summary.json wandb-summary.json
+2024-07-06 23:40:24,444 INFO    SenderThread:92510 [dir_watcher.py:finish():402] scan save: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240706_233947-7wl5ajxv/files/output.log output.log
+2024-07-06 23:40:24,445 INFO    SenderThread:92510 [dir_watcher.py:finish():402] scan save: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240706_233947-7wl5ajxv/files/config.yaml config.yaml
+2024-07-06 23:40:24,445 INFO    SenderThread:92510 [sender.py:transition_state():614] send defer: 10
+2024-07-06 23:40:24,445 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: poll_exit
+2024-07-06 23:40:24,445 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: defer
+2024-07-06 23:40:24,445 INFO    HandlerThread:92510 [handler.py:handle_request_defer():184] handle defer: 10
+2024-07-06 23:40:24,446 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: defer
+2024-07-06 23:40:24,446 INFO    SenderThread:92510 [sender.py:send_request_defer():610] handle sender defer: 10
+2024-07-06 23:40:24,446 INFO    SenderThread:92510 [file_pusher.py:finish():169] shutting down file pusher
+2024-07-06 23:40:24,968 INFO    wandb-upload_61:92510 [upload_job.py:push():130] Uploaded file /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240706_233947-7wl5ajxv/files/requirements.txt
+2024-07-06 23:40:25,056 INFO    wandb-upload_6:92510 [upload_job.py:push():130] Uploaded file /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240706_233947-7wl5ajxv/files/output.log
+2024-07-06 23:40:25,062 INFO    wandb-upload_41:92510 [upload_job.py:push():130] Uploaded file /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240706_233947-7wl5ajxv/files/wandb-summary.json
+2024-07-06 23:40:25,062 INFO    wandb-upload_36:92510 [upload_job.py:push():130] Uploaded file /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240706_233947-7wl5ajxv/files/config.yaml
+2024-07-06 23:40:25,067 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: poll_exit
+2024-07-06 23:40:25,068 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: poll_exit
+2024-07-06 23:40:25,176 INFO    wandb-upload_12:92510 [upload_job.py:push():130] Uploaded file /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240706_233947-7wl5ajxv/files/conda-environment.yaml
+2024-07-06 23:40:25,377 INFO    Thread-25 (_thread_body):92510 [sender.py:transition_state():614] send defer: 11
+2024-07-06 23:40:25,377 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: defer
+2024-07-06 23:40:25,377 INFO    HandlerThread:92510 [handler.py:handle_request_defer():184] handle defer: 11
+2024-07-06 23:40:25,377 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: defer
+2024-07-06 23:40:25,377 INFO    SenderThread:92510 [sender.py:send_request_defer():610] handle sender defer: 11
+2024-07-06 23:40:25,377 INFO    SenderThread:92510 [file_pusher.py:join():175] waiting for file pusher
+2024-07-06 23:40:25,378 INFO    SenderThread:92510 [sender.py:transition_state():614] send defer: 12
+2024-07-06 23:40:25,378 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: defer
+2024-07-06 23:40:25,379 INFO    HandlerThread:92510 [handler.py:handle_request_defer():184] handle defer: 12
+2024-07-06 23:40:25,379 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: defer
+2024-07-06 23:40:25,379 INFO    SenderThread:92510 [sender.py:send_request_defer():610] handle sender defer: 12
+2024-07-06 23:40:25,379 INFO    SenderThread:92510 [file_stream.py:finish():601] file stream finish called
+2024-07-06 23:40:25,619 INFO    SenderThread:92510 [file_stream.py:finish():605] file stream finish is done
+2024-07-06 23:40:25,619 INFO    SenderThread:92510 [sender.py:transition_state():614] send defer: 13
+2024-07-06 23:40:25,619 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: defer
+2024-07-06 23:40:25,619 INFO    HandlerThread:92510 [handler.py:handle_request_defer():184] handle defer: 13
+2024-07-06 23:40:25,620 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: defer
+2024-07-06 23:40:25,620 INFO    SenderThread:92510 [sender.py:send_request_defer():610] handle sender defer: 13
+2024-07-06 23:40:25,620 INFO    SenderThread:92510 [sender.py:transition_state():614] send defer: 14
+2024-07-06 23:40:25,620 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: defer
+2024-07-06 23:40:25,620 INFO    HandlerThread:92510 [handler.py:handle_request_defer():184] handle defer: 14
+2024-07-06 23:40:25,620 DEBUG   SenderThread:92510 [sender.py:send():379] send: final
+2024-07-06 23:40:25,620 DEBUG   SenderThread:92510 [sender.py:send():379] send: footer
+2024-07-06 23:40:25,620 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: defer
+2024-07-06 23:40:25,621 INFO    SenderThread:92510 [sender.py:send_request_defer():610] handle sender defer: 14
+2024-07-06 23:40:25,621 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: poll_exit
+2024-07-06 23:40:25,622 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: poll_exit
+2024-07-06 23:40:25,623 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-06 23:40:25,624 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: get_summary
+2024-07-06 23:40:25,624 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: sampled_history
+2024-07-06 23:40:25,625 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: shutdown
+2024-07-06 23:40:25,625 INFO    HandlerThread:92510 [handler.py:finish():882] shutting down handler
+2024-07-06 23:40:26,622 INFO    WriterThread:92510 [datastore.py:close():296] close: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240706_233947-7wl5ajxv/run-7wl5ajxv.wandb
+2024-07-06 23:40:26,622 INFO    SenderThread:92510 [sender.py:finish():1608] shutting down sender
+2024-07-06 23:40:26,622 INFO    SenderThread:92510 [file_pusher.py:finish():169] shutting down file pusher
+2024-07-06 23:40:26,622 INFO    SenderThread:92510 [file_pusher.py:join():175] waiting for file pusher

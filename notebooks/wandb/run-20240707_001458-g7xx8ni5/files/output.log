@@ -1,0 +1,21 @@
+
+2024-07-07 00:15:10.131714: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+[34m[1mwandb[39m[22m:   101 of 101 files downloaded.
+Epoch 11/25
+
+
+
+
+
+
+[1m138/138[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m66s[22m 316ms/step - accuracy: 0.8862 - loss: 0.3119 - val_accuracy: 0.9325 - val_loss: 0.9887
+Epoch 12/25
+
+[1m138/138[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m28s[22m 204ms/step - accuracy: 0.9749 - loss: 0.0765 - val_accuracy: 0.8221 - val_loss: 1.3796
+Epoch 13/25
+
+
+
+
+
+[1m138/138[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m24s[22m 178ms/step - accuracy: 0.9850 - loss: 0.0398 - val_accuracy: 0.9448 - val_loss: 0.8340

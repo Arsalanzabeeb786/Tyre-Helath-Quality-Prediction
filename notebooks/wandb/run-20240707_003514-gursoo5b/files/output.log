@@ -1,0 +1,50 @@
+2024-07-07 00:36:23.093074: W tensorflow/core/kernels/data/cache_dataset_ops.cc:858] The calling iterator did not fully read the dataset being cached. In order to avoid unexpected truncation of the dataset, the partially cached contents of the dataset  will be discarded. This can happen if you have an input pipeline similar to `dataset.cache().take(k).repeat()`. You should use `dataset.take(k).cache().repeat()` instead.
+2024-07-07 00:36:23.097745: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+[34m[1mwandb[39m[22m:   101 of 101 files downloaded.
+Epoch 1/10
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1720280201.059388  122722 service.cc:145] XLA service 0xa67ff60 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+I0000 00:00:1720280201.059469  122722 service.cc:153]   StreamExecutor device (0): NVIDIA GeForce GTX 1650, Compute Capability 7.5
+2024-07-07 00:36:41.264783: I tensorflow/compiler/mlir/tensorflow/utils/dump_mlir_util.cc:268] disabling MLIR crash reproducer, set env var `MLIR_CRASH_REPRODUCER_DIRECTORY` to enable.
+2024-07-07 00:36:42.167142: I external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:465] Loaded cuDNN version 8907
+[1m 15/138[22m [32m━━[37m━━━━━━━━━━━━━━━━━━[39m [1m9s[22m 77ms/step - accuracy: 0.6606 - loss: 0.6291
+I0000 00:00:1720280210.852248  122722 device_compiler.h:188] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
+
+
+
+
+
+[1m138/138[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m57s[22m 298ms/step - accuracy: 0.7756 - loss: 0.4502 - val_accuracy: 0.9202 - val_loss: 0.2476
+Epoch 2/10
+[1m138/138[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m22s[22m 159ms/step - accuracy: 0.9004 - loss: 0.2449 - val_accuracy: 0.9141 - val_loss: 0.2090
+Epoch 3/10
+
+
+[1m138/138[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m25s[22m 180ms/step - accuracy: 0.9219 - loss: 0.1976 - val_accuracy: 0.9141 - val_loss: 0.1928
+Epoch 4/10
+
+
+[1m138/138[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m22s[22m 162ms/step - accuracy: 0.9319 - loss: 0.1783 - val_accuracy: 0.9141 - val_loss: 0.1878
+Epoch 5/10
+
+
+[1m138/138[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m24s[22m 173ms/step - accuracy: 0.9362 - loss: 0.1670 - val_accuracy: 0.9141 - val_loss: 0.1776
+Epoch 6/10
+
+
+[1m138/138[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m22s[22m 159ms/step - accuracy: 0.9440 - loss: 0.1535 - val_accuracy: 0.9264 - val_loss: 0.1727
+Epoch 7/10
+
+
+[1m138/138[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m22s[22m 157ms/step - accuracy: 0.9432 - loss: 0.1546 - val_accuracy: 0.9141 - val_loss: 0.1656
+Epoch 8/10
+[1m138/138[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m23s[22m 168ms/step - accuracy: 0.9468 - loss: 0.1430 - val_accuracy: 0.9018 - val_loss: 0.1698
+Epoch 9/10
+
+
+[1m138/138[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m23s[22m 168ms/step - accuracy: 0.9528 - loss: 0.1323 - val_accuracy: 0.9141 - val_loss: 0.1605
+Epoch 10/10
+
+
+
+[1m138/138[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m22s[22m 163ms/step - accuracy: 0.9477 - loss: 0.1319 - val_accuracy: 0.9141 - val_loss: 0.1736

@@ -1,0 +1,64 @@
+2024-07-07 01:04:12,482 INFO    MainThread:122555 [wandb_setup.py:_flush():76] Current SDK version is 0.17.3
+2024-07-07 01:04:12,482 INFO    MainThread:122555 [wandb_setup.py:_flush():76] Configure stats pid to 122555
+2024-07-07 01:04:12,482 INFO    MainThread:122555 [wandb_setup.py:_flush():76] Loading settings from /home/arsalan/.config/wandb/settings
+2024-07-07 01:04:12,482 INFO    MainThread:122555 [wandb_setup.py:_flush():76] Loading settings from /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/settings
+2024-07-07 01:04:12,483 INFO    MainThread:122555 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-07-07 01:04:12,483 INFO    MainThread:122555 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-07-07 01:04:12,483 INFO    MainThread:122555 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-07-07 01:04:12,483 INFO    MainThread:122555 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-07-07 01:04:12,483 INFO    MainThread:122555 [wandb_init.py:_log_setup():520] Logging user logs to /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240707_010412-vkdctkg4/logs/debug.log
+2024-07-07 01:04:12,483 INFO    MainThread:122555 [wandb_init.py:_log_setup():521] Logging internal logs to /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240707_010412-vkdctkg4/logs/debug-internal.log
+2024-07-07 01:04:12,483 INFO    MainThread:122555 [wandb_init.py:_jupyter_setup():466] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7e54f1f4cf80>
+2024-07-07 01:04:12,483 INFO    MainThread:122555 [wandb_init.py:init():560] calling init triggers
+2024-07-07 01:04:12,483 INFO    MainThread:122555 [wandb_init.py:init():567] wandb.init called with sweep_config: {}
+config: {'num_classes': 1, 'batch_size': 32, 'image_size': 224, 'image_channels': 3, 'earlystopping_patience': 3, 'learning_rate': 0.001, 'initial_epochs': 8}
+2024-07-07 01:04:12,484 INFO    MainThread:122555 [wandb_init.py:init():610] starting backend
+2024-07-07 01:04:12,484 INFO    MainThread:122555 [wandb_init.py:init():614] setting up manager
+2024-07-07 01:04:12,486 INFO    MainThread:122555 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-07-07 01:04:12,487 INFO    MainThread:122555 [wandb_init.py:init():622] backend started and connected
+2024-07-07 01:04:12,498 INFO    MainThread:122555 [wandb_run.py:_label_probe_notebook():1334] probe notebook
+2024-07-07 01:04:12,513 INFO    MainThread:122555 [wandb_init.py:init():711] updated telemetry
+2024-07-07 01:04:12,524 INFO    MainThread:122555 [wandb_init.py:init():744] communicating run to backend with 90.0 second timeout
+2024-07-07 01:04:13,226 INFO    MainThread:122555 [wandb_run.py:_on_init():2402] communicating current version
+2024-07-07 01:04:13,331 INFO    MainThread:122555 [wandb_run.py:_on_init():2411] got version response upgrade_message: "wandb version 0.17.4 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-07-07 01:04:13,331 INFO    MainThread:122555 [wandb_init.py:init():795] starting run threads in backend
+2024-07-07 01:04:23,742 INFO    MainThread:122555 [wandb_run.py:_console_start():2380] atexit reg
+2024-07-07 01:04:23,742 INFO    MainThread:122555 [wandb_run.py:_redirect():2235] redirect: wrap_raw
+2024-07-07 01:04:23,742 INFO    MainThread:122555 [wandb_run.py:_redirect():2300] Wrapping output streams.
+2024-07-07 01:04:23,743 INFO    MainThread:122555 [wandb_run.py:_redirect():2325] Redirects installed.
+2024-07-07 01:04:23,743 INFO    MainThread:122555 [wandb_init.py:init():838] run started, returning control to user process
+2024-07-07 01:04:23,747 INFO    MainThread:122555 [jupyter.py:save_ipynb():372] not saving jupyter notebook
+2024-07-07 01:04:23,747 INFO    MainThread:122555 [wandb_init.py:_pause_backend():431] pausing backend
+2024-07-07 01:04:23,752 INFO    MainThread:122555 [wandb_init.py:_resume_backend():436] resuming backend
+2024-07-07 01:04:23,771 INFO    MainThread:122555 [jupyter.py:save_ipynb():372] not saving jupyter notebook
+2024-07-07 01:04:23,771 INFO    MainThread:122555 [wandb_init.py:_pause_backend():431] pausing backend
+2024-07-07 01:04:42,998 INFO    MainThread:122555 [wandb_init.py:_resume_backend():436] resuming backend
+2024-07-07 01:04:43,001 INFO    MainThread:122555 [jupyter.py:save_ipynb():372] not saving jupyter notebook
+2024-07-07 01:04:43,001 INFO    MainThread:122555 [wandb_init.py:_pause_backend():431] pausing backend
+2024-07-07 01:04:43,109 INFO    MainThread:122555 [wandb_init.py:_resume_backend():436] resuming backend
+2024-07-07 01:04:43,136 INFO    MainThread:122555 [jupyter.py:save_ipynb():372] not saving jupyter notebook
+2024-07-07 01:04:43,136 INFO    MainThread:122555 [wandb_init.py:_pause_backend():431] pausing backend
+2024-07-07 01:04:51,905 INFO    MainThread:122555 [wandb_init.py:_resume_backend():436] resuming backend
+2024-07-07 01:09:27,813 INFO    MainThread:122555 [jupyter.py:save_ipynb():372] not saving jupyter notebook
+2024-07-07 01:09:27,813 INFO    MainThread:122555 [wandb_init.py:_pause_backend():431] pausing backend
+2024-07-07 01:09:27,819 INFO    MainThread:122555 [wandb_init.py:_resume_backend():436] resuming backend
+2024-07-07 01:09:27,835 INFO    MainThread:122555 [jupyter.py:save_ipynb():372] not saving jupyter notebook
+2024-07-07 01:09:27,836 INFO    MainThread:122555 [wandb_init.py:_pause_backend():431] pausing backend
+2024-07-07 01:09:38,113 INFO    MainThread:122555 [wandb_init.py:_resume_backend():436] resuming backend
+2024-07-07 01:09:38,294 INFO    MainThread:122555 [jupyter.py:save_ipynb():372] not saving jupyter notebook
+2024-07-07 01:09:38,294 INFO    MainThread:122555 [wandb_init.py:_pause_backend():431] pausing backend
+2024-07-07 01:09:38,299 INFO    MainThread:122555 [wandb_init.py:_resume_backend():436] resuming backend
+2024-07-07 01:09:38,316 INFO    MainThread:122555 [jupyter.py:save_ipynb():372] not saving jupyter notebook
+2024-07-07 01:09:38,317 INFO    MainThread:122555 [wandb_init.py:_pause_backend():431] pausing backend
+2024-07-07 01:12:05,854 INFO    MainThread:122555 [wandb_init.py:_resume_backend():436] resuming backend
+2024-07-07 01:12:05,855 INFO    MainThread:122555 [wandb_run.py:_finish():2109] finishing run teamarsalan/Vehicle-Tyres-Health-Condition-Classification/vkdctkg4
+2024-07-07 01:12:05,856 INFO    MainThread:122555 [jupyter.py:save_history():444] not saving jupyter history
+2024-07-07 01:12:05,856 INFO    MainThread:122555 [jupyter.py:save_ipynb():372] not saving jupyter notebook
+2024-07-07 01:12:05,856 INFO    MainThread:122555 [wandb_init.py:_jupyter_teardown():448] cleaning up jupyter logic
+2024-07-07 01:12:05,856 INFO    MainThread:122555 [wandb_run.py:_atexit_cleanup():2349] got exitcode: 0
+2024-07-07 01:12:05,856 INFO    MainThread:122555 [wandb_run.py:_restore():2332] restore
+2024-07-07 01:12:05,857 INFO    MainThread:122555 [wandb_run.py:_restore():2338] restore done
+2024-07-07 01:12:12,958 INFO    MainThread:122555 [wandb_run.py:_footer_history_summary_info():3991] rendering history
+2024-07-07 01:12:12,959 INFO    MainThread:122555 [wandb_run.py:_footer_history_summary_info():4023] rendering summary
+2024-07-07 01:12:12,968 INFO    MainThread:122555 [wandb_run.py:_footer_sync_info():3950] logging synced files

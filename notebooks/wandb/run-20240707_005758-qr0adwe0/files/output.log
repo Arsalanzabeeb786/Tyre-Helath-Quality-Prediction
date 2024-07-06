@@ -1,0 +1,23 @@
+
+2024-07-07 00:58:32.029398: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+[34m[1mwandb[39m[22m:   101 of 101 files downloaded.
+[34m[1mwandb[39m[22m: \ 1 of 101 files downloaded...
+
+[34m[1mwandb[39m[22m:   101 of 101 files downloaded.
+
+
+
+
+[1m138/138[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m50s[22m 306ms/step - accuracy: 0.9404 - loss: 0.1528 - val_accuracy: 0.9264 - val_loss: 0.1610
+Epoch 2/10
+[1m138/138[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m35s[22m 258ms/step - accuracy: 0.9510 - loss: 0.1396 - val_accuracy: 0.9202 - val_loss: 0.1623
+Epoch 3/10
+
+[1m138/138[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m35s[22m 252ms/step - accuracy: 0.9505 - loss: 0.1319 - val_accuracy: 0.9080 - val_loss: 0.1646
+Epoch 4/10
+[1m138/138[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m38s[22m 277ms/step - accuracy: 0.9502 - loss: 0.1302 - val_accuracy: 0.9202 - val_loss: 0.1579
+Epoch 5/10
+[1m138/138[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m35s[22m 255ms/step - accuracy: 0.9521 - loss: 0.1206 - val_accuracy: 0.9080 - val_loss: 0.1670
+Epoch 6/10
+
+[1m137/138[22m [32m━━━━━━━━━━━━━━━━━━━[37m━[39m [1m0s[22m 52ms/step - accuracy: 0.9574 - loss: 0.1221

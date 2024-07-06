@@ -1,0 +1,1466 @@
+2024-07-07 00:14:58,966 INFO    StreamThr :92510 [internal.py:wandb_internal():85] W&B internal server running at pid: 92510, started at: 2024-07-07 00:14:58.965851
+2024-07-07 00:14:58,967 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: status
+2024-07-07 00:14:58,983 INFO    WriterThread:92510 [datastore.py:open_for_write():87] open: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240707_001458-g7xx8ni5/run-g7xx8ni5.wandb
+2024-07-07 00:14:58,983 DEBUG   SenderThread:92510 [sender.py:send():379] send: header
+2024-07-07 00:14:58,999 DEBUG   SenderThread:92510 [sender.py:send():379] send: run
+2024-07-07 00:14:59,636 INFO    SenderThread:92510 [dir_watcher.py:__init__():211] watching files in: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240707_001458-g7xx8ni5/files
+2024-07-07 00:14:59,636 INFO    SenderThread:92510 [sender.py:_start_run_threads():1188] run started: g7xx8ni5 with start time 1720278898.965445
+2024-07-07 00:14:59,648 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: check_version
+2024-07-07 00:14:59,648 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: check_version
+2024-07-07 00:14:59,754 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: run_start
+2024-07-07 00:14:59,756 DEBUG   HandlerThread:92510 [system_info.py:__init__():26] System info init
+2024-07-07 00:14:59,756 DEBUG   HandlerThread:92510 [system_info.py:__init__():41] System info init done
+2024-07-07 00:14:59,756 INFO    HandlerThread:92510 [system_monitor.py:start():194] Starting system monitor
+2024-07-07 00:14:59,756 INFO    SystemMonitor:92510 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-07-07 00:14:59,756 INFO    HandlerThread:92510 [system_monitor.py:probe():214] Collecting system info
+2024-07-07 00:14:59,757 INFO    SystemMonitor:92510 [interfaces.py:start():188] Started cpu monitoring
+2024-07-07 00:14:59,757 INFO    SystemMonitor:92510 [interfaces.py:start():188] Started disk monitoring
+2024-07-07 00:14:59,758 INFO    SystemMonitor:92510 [interfaces.py:start():188] Started gpu monitoring
+2024-07-07 00:14:59,759 INFO    SystemMonitor:92510 [interfaces.py:start():188] Started memory monitoring
+2024-07-07 00:14:59,760 INFO    SystemMonitor:92510 [interfaces.py:start():188] Started network monitoring
+2024-07-07 00:14:59,770 DEBUG   HandlerThread:92510 [system_info.py:probe():152] Probing system
+2024-07-07 00:14:59,771 DEBUG   HandlerThread:92510 [system_info.py:_probe_git():137] Probing git
+2024-07-07 00:14:59,780 DEBUG   HandlerThread:92510 [system_info.py:_probe_git():145] Probing git done
+2024-07-07 00:14:59,780 DEBUG   HandlerThread:92510 [system_info.py:probe():200] Probing system done
+2024-07-07 00:14:59,780 DEBUG   HandlerThread:92510 [system_monitor.py:probe():223] {'os': 'Linux-6.8.0-36-generic-x86_64-with-glibc2.39', 'python': '3.12.3', 'heartbeatAt': '2024-07-06T15:14:59.771003', 'startedAt': '2024-07-06T15:14:58.961299', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'NoteBook_with_wandb.ipynb', 'codePathLocal': 'NoteBook_with_wandb.ipynb', 'root': '/home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction', 'git': {'remote': 'git@github.com:Arsalanzabeeb786/TyreQualityPrediction.git', 'commit': '14ad2341d56322f463ab4e38ec0e6520b51ddade'}, 'email': 'arsalanzabeeb786@gmail.com', 'host': 'arsalan', 'username': 'arsalan', 'executable': '/home/arsalan/miniconda3/envs/tfgpu_2.16/bin/python', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 3.690875, 'min': 1400.0, 'max': 2100.0}, 'cpu_freq_per_core': [{'current': 3.693, 'min': 1400.0, 'max': 2100.0}, {'current': 3.693, 'min': 1400.0, 'max': 2100.0}, {'current': 3.686, 'min': 1400.0, 'max': 2100.0}, {'current': 3.687, 'min': 1400.0, 'max': 2100.0}, {'current': 3.692, 'min': 1400.0, 'max': 2100.0}, {'current': 3.691, 'min': 1400.0, 'max': 2100.0}, {'current': 3.687, 'min': 1400.0, 'max': 2100.0}, {'current': 3.69, 'min': 1400.0, 'max': 2100.0}], 'disk': {'/': {'total': 467.34664154052734, 'used': 417.02315521240234}}, 'gpu': 'NVIDIA GeForce GTX 1650', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce GTX 1650', 'memory_total': 4294967296}], 'memory': {'total': 13.578842163085938}}
+2024-07-07 00:14:59,780 INFO    HandlerThread:92510 [system_monitor.py:probe():224] Finished collecting system info
+2024-07-07 00:14:59,780 INFO    HandlerThread:92510 [system_monitor.py:probe():227] Publishing system info
+2024-07-07 00:14:59,780 DEBUG   HandlerThread:92510 [system_info.py:_save_conda():209] Saving list of conda packages installed into the current environment
+2024-07-07 00:15:00,637 INFO    Thread-76 :92510 [dir_watcher.py:_on_file_created():271] file/dir created: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240707_001458-g7xx8ni5/files/conda-environment.yaml
+2024-07-07 00:15:09,618 DEBUG   HandlerThread:92510 [system_info.py:_save_conda():224] Saving conda packages done
+2024-07-07 00:15:09,619 INFO    HandlerThread:92510 [system_monitor.py:probe():229] Finished publishing system info
+2024-07-07 00:15:09,619 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: status_report
+2024-07-07 00:15:09,619 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: keepalive
+2024-07-07 00:15:09,620 DEBUG   SenderThread:92510 [sender.py:send():379] send: files
+2024-07-07 00:15:09,620 INFO    SenderThread:92510 [sender.py:_save_file():1454] saving file wandb-metadata.json with policy now
+2024-07-07 00:15:09,638 INFO    Thread-76 :92510 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240707_001458-g7xx8ni5/files/conda-environment.yaml
+2024-07-07 00:15:09,639 INFO    Thread-76 :92510 [dir_watcher.py:_on_file_created():271] file/dir created: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240707_001458-g7xx8ni5/files/wandb-metadata.json
+2024-07-07 00:15:09,975 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: python_packages
+2024-07-07 00:15:09,975 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: python_packages
+2024-07-07 00:15:09,976 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-07 00:15:09,976 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: status_report
+2024-07-07 00:15:09,977 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: stop_status
+2024-07-07 00:15:09,978 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:15:09,981 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: pause
+2024-07-07 00:15:09,981 INFO    HandlerThread:92510 [handler.py:handle_request_pause():724] stopping system metrics thread
+2024-07-07 00:15:09,981 INFO    HandlerThread:92510 [system_monitor.py:finish():203] Stopping system monitor
+2024-07-07 00:15:09,981 DEBUG   SystemMonitor:92510 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-07-07 00:15:09,981 DEBUG   SystemMonitor:92510 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-07-07 00:15:09,981 DEBUG   SystemMonitor:92510 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-07-07 00:15:09,982 INFO    HandlerThread:92510 [interfaces.py:finish():200] Joined cpu monitor
+2024-07-07 00:15:09,982 INFO    HandlerThread:92510 [interfaces.py:finish():200] Joined disk monitor
+2024-07-07 00:15:10,059 INFO    HandlerThread:92510 [interfaces.py:finish():200] Joined gpu monitor
+2024-07-07 00:15:10,059 INFO    HandlerThread:92510 [interfaces.py:finish():200] Joined memory monitor
+2024-07-07 00:15:10,059 INFO    HandlerThread:92510 [interfaces.py:finish():200] Joined network monitor
+2024-07-07 00:15:10,059 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: resume
+2024-07-07 00:15:10,059 INFO    HandlerThread:92510 [handler.py:handle_request_resume():715] starting system metrics thread
+2024-07-07 00:15:10,059 INFO    HandlerThread:92510 [system_monitor.py:start():194] Starting system monitor
+2024-07-07 00:15:10,060 INFO    SystemMonitor:92510 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-07-07 00:15:10,060 INFO    SystemMonitor:92510 [interfaces.py:start():188] Started cpu monitoring
+2024-07-07 00:15:10,060 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: pause
+2024-07-07 00:15:10,060 INFO    HandlerThread:92510 [handler.py:handle_request_pause():724] stopping system metrics thread
+2024-07-07 00:15:10,060 INFO    HandlerThread:92510 [system_monitor.py:finish():203] Stopping system monitor
+2024-07-07 00:15:10,060 INFO    SystemMonitor:92510 [interfaces.py:start():188] Started disk monitoring
+2024-07-07 00:15:10,060 DEBUG   SystemMonitor:92510 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-07-07 00:15:10,061 DEBUG   SystemMonitor:92510 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-07-07 00:15:10,061 DEBUG   SystemMonitor:92510 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-07-07 00:15:10,062 INFO    HandlerThread:92510 [interfaces.py:finish():200] Joined cpu monitor
+2024-07-07 00:15:10,063 INFO    HandlerThread:92510 [interfaces.py:finish():200] Joined disk monitor
+2024-07-07 00:15:10,086 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: resume
+2024-07-07 00:15:10,086 INFO    HandlerThread:92510 [handler.py:handle_request_resume():715] starting system metrics thread
+2024-07-07 00:15:10,086 INFO    HandlerThread:92510 [system_monitor.py:start():194] Starting system monitor
+2024-07-07 00:15:10,087 INFO    SystemMonitor:92510 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-07-07 00:15:10,087 INFO    SystemMonitor:92510 [interfaces.py:start():188] Started cpu monitoring
+2024-07-07 00:15:10,088 INFO    SystemMonitor:92510 [interfaces.py:start():188] Started disk monitoring
+2024-07-07 00:15:10,089 INFO    SystemMonitor:92510 [interfaces.py:start():188] Started gpu monitoring
+2024-07-07 00:15:10,090 INFO    SystemMonitor:92510 [interfaces.py:start():188] Started memory monitoring
+2024-07-07 00:15:10,092 INFO    SystemMonitor:92510 [interfaces.py:start():188] Started network monitoring
+2024-07-07 00:15:10,133 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: pause
+2024-07-07 00:15:10,133 INFO    HandlerThread:92510 [handler.py:handle_request_pause():724] stopping system metrics thread
+2024-07-07 00:15:10,133 INFO    HandlerThread:92510 [system_monitor.py:finish():203] Stopping system monitor
+2024-07-07 00:15:10,133 DEBUG   SystemMonitor:92510 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-07-07 00:15:10,134 DEBUG   SystemMonitor:92510 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-07-07 00:15:10,134 DEBUG   SystemMonitor:92510 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-07-07 00:15:10,134 INFO    HandlerThread:92510 [interfaces.py:finish():200] Joined cpu monitor
+2024-07-07 00:15:10,135 INFO    HandlerThread:92510 [interfaces.py:finish():200] Joined disk monitor
+2024-07-07 00:15:10,212 INFO    HandlerThread:92510 [interfaces.py:finish():200] Joined gpu monitor
+2024-07-07 00:15:10,212 INFO    HandlerThread:92510 [interfaces.py:finish():200] Joined memory monitor
+2024-07-07 00:15:10,212 INFO    HandlerThread:92510 [interfaces.py:finish():200] Joined network monitor
+2024-07-07 00:15:10,212 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: resume
+2024-07-07 00:15:10,212 INFO    HandlerThread:92510 [handler.py:handle_request_resume():715] starting system metrics thread
+2024-07-07 00:15:10,212 INFO    HandlerThread:92510 [system_monitor.py:start():194] Starting system monitor
+2024-07-07 00:15:10,213 INFO    SystemMonitor:92510 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-07-07 00:15:10,213 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: pause
+2024-07-07 00:15:10,213 INFO    HandlerThread:92510 [handler.py:handle_request_pause():724] stopping system metrics thread
+2024-07-07 00:15:10,213 INFO    HandlerThread:92510 [system_monitor.py:finish():203] Stopping system monitor
+2024-07-07 00:15:10,213 WARNING HandlerThread:92510 [interfaces.py:finish():205] Failed to finish cpu monitoring: cannot join thread before it is started
+2024-07-07 00:15:10,215 INFO    SystemMonitor:92510 [interfaces.py:start():188] Started cpu monitoring
+2024-07-07 00:15:10,215 DEBUG   SystemMonitor:92510 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-07-07 00:15:10,215 DEBUG   SystemMonitor:92510 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-07-07 00:15:10,215 DEBUG   SystemMonitor:92510 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-07-07 00:15:10,393 DEBUG   SenderThread:92510 [sender.py:send():379] send: telemetry
+2024-07-07 00:15:10,394 DEBUG   SenderThread:92510 [sender.py:send():379] send: stats
+2024-07-07 00:15:10,394 DEBUG   SenderThread:92510 [sender.py:send():379] send: telemetry
+2024-07-07 00:15:10,395 DEBUG   SenderThread:92510 [sender.py:send():379] send: telemetry
+2024-07-07 00:15:10,395 DEBUG   SenderThread:92510 [sender.py:send():379] send: metric
+2024-07-07 00:15:10,395 DEBUG   SenderThread:92510 [sender.py:send():379] send: metric
+2024-07-07 00:15:10,395 WARNING SenderThread:92510 [sender.py:send_metric():1405] Seen metric with glob (shouldn't happen)
+2024-07-07 00:15:10,395 DEBUG   SenderThread:92510 [sender.py:send():379] send: telemetry
+2024-07-07 00:15:10,397 DEBUG   SenderThread:92510 [sender.py:send():379] send: stats
+2024-07-07 00:15:10,397 DEBUG   SenderThread:92510 [sender.py:send():379] send: stats
+2024-07-07 00:15:10,402 INFO    wandb-upload_0:92510 [upload_job.py:push():130] Uploaded file /tmp/tmp9j0jb47fwandb/zzgfkgda-wandb-metadata.json
+2024-07-07 00:15:10,639 INFO    Thread-76 :92510 [dir_watcher.py:_on_file_created():271] file/dir created: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240707_001458-g7xx8ni5/files/output.log
+2024-07-07 00:15:10,639 INFO    Thread-76 :92510 [dir_watcher.py:_on_file_created():271] file/dir created: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240707_001458-g7xx8ni5/files/requirements.txt
+2024-07-07 00:15:10,976 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:15:11,976 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:15:12,640 INFO    Thread-76 :92510 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240707_001458-g7xx8ni5/files/output.log
+2024-07-07 00:15:12,976 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:15:13,976 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:15:14,976 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:15:15,976 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: status_report
+2024-07-07 00:15:15,976 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:15:16,976 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:15:17,976 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:15:18,977 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:15:19,977 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:15:20,976 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: status_report
+2024-07-07 00:15:20,977 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:15:21,928 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: resume
+2024-07-07 00:15:21,928 INFO    HandlerThread:92510 [handler.py:handle_request_resume():715] starting system metrics thread
+2024-07-07 00:15:21,928 INFO    HandlerThread:92510 [system_monitor.py:start():194] Starting system monitor
+2024-07-07 00:15:21,929 INFO    SystemMonitor:92510 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-07-07 00:15:21,929 INFO    SystemMonitor:92510 [interfaces.py:start():188] Started cpu monitoring
+2024-07-07 00:15:21,930 INFO    SystemMonitor:92510 [interfaces.py:start():188] Started disk monitoring
+2024-07-07 00:15:21,931 INFO    SystemMonitor:92510 [interfaces.py:start():188] Started gpu monitoring
+2024-07-07 00:15:21,932 INFO    SystemMonitor:92510 [interfaces.py:start():188] Started memory monitoring
+2024-07-07 00:15:21,933 INFO    SystemMonitor:92510 [interfaces.py:start():188] Started network monitoring
+2024-07-07 00:15:21,969 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: pause
+2024-07-07 00:15:21,969 INFO    HandlerThread:92510 [handler.py:handle_request_pause():724] stopping system metrics thread
+2024-07-07 00:15:21,969 INFO    HandlerThread:92510 [system_monitor.py:finish():203] Stopping system monitor
+2024-07-07 00:15:21,970 DEBUG   SystemMonitor:92510 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-07-07 00:15:21,970 DEBUG   SystemMonitor:92510 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-07-07 00:15:21,970 DEBUG   SystemMonitor:92510 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-07-07 00:15:21,970 INFO    HandlerThread:92510 [interfaces.py:finish():200] Joined cpu monitor
+2024-07-07 00:15:21,971 INFO    HandlerThread:92510 [interfaces.py:finish():200] Joined disk monitor
+2024-07-07 00:15:22,086 INFO    HandlerThread:92510 [interfaces.py:finish():200] Joined gpu monitor
+2024-07-07 00:15:22,086 INFO    HandlerThread:92510 [interfaces.py:finish():200] Joined memory monitor
+2024-07-07 00:15:22,086 INFO    HandlerThread:92510 [interfaces.py:finish():200] Joined network monitor
+2024-07-07 00:15:22,087 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:15:22,087 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: resume
+2024-07-07 00:15:22,087 INFO    HandlerThread:92510 [handler.py:handle_request_resume():715] starting system metrics thread
+2024-07-07 00:15:22,087 INFO    HandlerThread:92510 [system_monitor.py:start():194] Starting system monitor
+2024-07-07 00:15:22,087 INFO    SystemMonitor:92510 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-07-07 00:15:22,088 DEBUG   SenderThread:92510 [sender.py:send():379] send: stats
+2024-07-07 00:15:22,089 INFO    SystemMonitor:92510 [interfaces.py:start():188] Started cpu monitoring
+2024-07-07 00:15:22,092 INFO    SystemMonitor:92510 [interfaces.py:start():188] Started disk monitoring
+2024-07-07 00:15:22,093 INFO    SystemMonitor:92510 [interfaces.py:start():188] Started gpu monitoring
+2024-07-07 00:15:22,094 INFO    SystemMonitor:92510 [interfaces.py:start():188] Started memory monitoring
+2024-07-07 00:15:22,096 INFO    SystemMonitor:92510 [interfaces.py:start():188] Started network monitoring
+2024-07-07 00:15:22,110 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: pause
+2024-07-07 00:15:22,110 INFO    HandlerThread:92510 [handler.py:handle_request_pause():724] stopping system metrics thread
+2024-07-07 00:15:22,110 INFO    HandlerThread:92510 [system_monitor.py:finish():203] Stopping system monitor
+2024-07-07 00:15:22,110 DEBUG   SystemMonitor:92510 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-07-07 00:15:22,111 DEBUG   SystemMonitor:92510 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-07-07 00:15:22,111 INFO    HandlerThread:92510 [interfaces.py:finish():200] Joined cpu monitor
+2024-07-07 00:15:22,111 DEBUG   SystemMonitor:92510 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-07-07 00:15:22,112 INFO    HandlerThread:92510 [interfaces.py:finish():200] Joined disk monitor
+2024-07-07 00:15:22,231 INFO    HandlerThread:92510 [interfaces.py:finish():200] Joined gpu monitor
+2024-07-07 00:15:22,231 INFO    HandlerThread:92510 [interfaces.py:finish():200] Joined memory monitor
+2024-07-07 00:15:22,232 INFO    HandlerThread:92510 [interfaces.py:finish():200] Joined network monitor
+2024-07-07 00:15:22,232 DEBUG   SenderThread:92510 [sender.py:send():379] send: stats
+2024-07-07 00:15:22,978 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:15:23,978 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:15:24,975 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-07 00:15:24,975 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: stop_status
+2024-07-07 00:15:25,016 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:15:25,978 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:15:26,277 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: status_report
+2024-07-07 00:15:26,978 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:15:27,978 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:15:28,760 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: resume
+2024-07-07 00:15:28,760 INFO    HandlerThread:92510 [handler.py:handle_request_resume():715] starting system metrics thread
+2024-07-07 00:15:28,760 INFO    HandlerThread:92510 [system_monitor.py:start():194] Starting system monitor
+2024-07-07 00:15:28,760 INFO    SystemMonitor:92510 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-07-07 00:15:28,761 INFO    SystemMonitor:92510 [interfaces.py:start():188] Started cpu monitoring
+2024-07-07 00:15:28,761 INFO    SystemMonitor:92510 [interfaces.py:start():188] Started disk monitoring
+2024-07-07 00:15:28,762 INFO    SystemMonitor:92510 [interfaces.py:start():188] Started gpu monitoring
+2024-07-07 00:15:28,763 INFO    SystemMonitor:92510 [interfaces.py:start():188] Started memory monitoring
+2024-07-07 00:15:28,764 INFO    SystemMonitor:92510 [interfaces.py:start():188] Started network monitoring
+2024-07-07 00:15:28,978 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:15:29,978 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:15:30,979 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:15:31,713 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: log_artifact
+2024-07-07 00:15:31,714 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: log_artifact
+2024-07-07 00:15:31,979 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:15:32,979 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:15:33,404 INFO    wandb-upload_63:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp7axjmhba
+2024-07-07 00:15:33,404 INFO    wandb-upload_1:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp__t6q6fi
+2024-07-07 00:15:33,405 INFO    wandb-upload_4:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpzxfbdzg7
+2024-07-07 00:15:33,405 INFO    wandb-upload_6:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpzvipdx3h
+2024-07-07 00:15:33,405 INFO    wandb-upload_8:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpaxbj06cr
+2024-07-07 00:15:33,405 INFO    wandb-upload_9:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpok61sga2
+2024-07-07 00:15:33,405 INFO    wandb-upload_10:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpe72nuabp
+2024-07-07 00:15:33,405 INFO    wandb-upload_11:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp7np5755k
+2024-07-07 00:15:33,405 INFO    wandb-upload_14:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp_w2id0c3
+2024-07-07 00:15:33,405 INFO    wandb-upload_17:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp1tgzbal3
+2024-07-07 00:15:33,406 INFO    wandb-upload_24:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpix665ruv
+2024-07-07 00:15:33,406 INFO    wandb-upload_26:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpk9fqsavh
+2024-07-07 00:15:33,406 INFO    wandb-upload_27:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp56bzfg0q
+2024-07-07 00:15:33,406 INFO    wandb-upload_37:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpk4f3by34
+2024-07-07 00:15:33,407 INFO    wandb-upload_40:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpy5yy1_68
+2024-07-07 00:15:33,407 INFO    wandb-upload_43:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp6v88eno6
+2024-07-07 00:15:33,407 INFO    wandb-upload_46:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmptoi9bj3c
+2024-07-07 00:15:33,407 INFO    wandb-upload_49:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp6atbs4uo
+2024-07-07 00:15:33,407 INFO    wandb-upload_50:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp_az7gzh9
+2024-07-07 00:15:33,407 INFO    wandb-upload_51:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp5utwj6fh
+2024-07-07 00:15:33,407 INFO    wandb-upload_52:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpuyahx7_f
+2024-07-07 00:15:33,407 INFO    wandb-upload_54:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp59w4pn1o
+2024-07-07 00:15:33,407 INFO    wandb-upload_57:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpxwq_6ani
+2024-07-07 00:15:33,414 INFO    wandb-upload_33:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpbfatsduv
+2024-07-07 00:15:33,414 INFO    wandb-upload_34:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmptnz01_0j
+2024-07-07 00:15:33,417 INFO    wandb-upload_30:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp286hs5mu
+2024-07-07 00:15:33,417 INFO    wandb-upload_32:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpgk_rsllw
+2024-07-07 00:15:33,421 INFO    wandb-upload_20:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpqxz9np8f
+2024-07-07 00:15:33,421 INFO    wandb-upload_21:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp25p1dx8_
+2024-07-07 00:15:33,422 INFO    wandb-upload_23:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpa3aesp45
+2024-07-07 00:15:33,425 INFO    wandb-upload_31:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp0vd1g9_9
+2024-07-07 00:15:33,435 INFO    wandb-upload_29:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpumlpwqem
+2024-07-07 00:15:33,436 INFO    wandb-upload_15:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpjq35rvgc
+2024-07-07 00:15:33,436 INFO    wandb-upload_22:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpj_fsf4lx
+2024-07-07 00:15:33,439 INFO    wandb-upload_58:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpm3m98tah
+2024-07-07 00:15:33,444 INFO    wandb-upload_55:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp30xy0mz8
+2024-07-07 00:15:33,447 INFO    wandb-upload_41:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpyv3_17up
+2024-07-07 00:15:33,449 INFO    wandb-upload_19:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpvf4yqkkk
+2024-07-07 00:15:33,979 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:15:34,082 INFO    wandb-upload_5:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpafssnmb0
+2024-07-07 00:15:34,596 INFO    wandb-upload_7:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpjdoolr6o
+2024-07-07 00:15:34,636 INFO    wandb-upload_28:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpt1_9_jlv
+2024-07-07 00:15:34,644 INFO    wandb-upload_56:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmplqwgrslc
+2024-07-07 00:15:34,688 INFO    wandb-upload_60:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp04xo3zve
+2024-07-07 00:15:34,695 INFO    wandb-upload_12:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp93upaiep
+2024-07-07 00:15:34,714 INFO    wandb-upload_38:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpzp4_uv06
+2024-07-07 00:15:34,725 INFO    wandb-upload_44:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp452a5um0
+2024-07-07 00:15:34,753 INFO    wandb-upload_62:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp8fra8vkp
+2024-07-07 00:15:34,786 INFO    wandb-upload_58:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmppv1469re
+2024-07-07 00:15:34,786 INFO    wandb-upload_1:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp0t9lcrm9
+2024-07-07 00:15:34,786 INFO    wandb-upload_4:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp6ql5w1dn
+2024-07-07 00:15:34,786 INFO    wandb-upload_8:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpseyfhblo
+2024-07-07 00:15:34,786 INFO    wandb-upload_6:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpxr50b3jl
+2024-07-07 00:15:34,786 INFO    wandb-upload_9:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpoma_98z9
+2024-07-07 00:15:34,786 INFO    wandb-upload_10:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp4zn1u6vu
+2024-07-07 00:15:34,787 INFO    wandb-upload_14:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp66selb27
+2024-07-07 00:15:34,787 INFO    wandb-upload_11:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpyv3zleuj
+2024-07-07 00:15:34,787 INFO    wandb-upload_37:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpjodeipfy
+2024-07-07 00:15:34,787 INFO    wandb-upload_33:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp7zsz_grq
+2024-07-07 00:15:34,787 INFO    wandb-upload_30:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp8e740ezr
+2024-07-07 00:15:34,789 INFO    wandb-upload_51:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpp0m3r19b
+2024-07-07 00:15:34,790 INFO    wandb-upload_15:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpaqdsp1bz
+2024-07-07 00:15:34,790 INFO    wandb-upload_55:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpsc5icv91
+2024-07-07 00:15:34,792 INFO    wandb-upload_27:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmparp5vki2
+2024-07-07 00:15:34,792 INFO    wandb-upload_49:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpq6zk3a9a
+2024-07-07 00:15:34,798 INFO    wandb-upload_57:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpt42hi80b
+2024-07-07 00:15:34,801 INFO    wandb-upload_21:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmphuiupdm5
+2024-07-07 00:15:34,810 INFO    wandb-upload_34:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpc1gegsg9
+2024-07-07 00:15:34,810 INFO    wandb-upload_31:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpe6vyv485
+2024-07-07 00:15:34,819 INFO    wandb-upload_36:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpi0boj7pc
+2024-07-07 00:15:34,824 INFO    wandb-upload_45:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp32hsqh3b
+2024-07-07 00:15:34,847 INFO    wandb-upload_18:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpv8bp349k
+2024-07-07 00:15:34,859 INFO    wandb-upload_3:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpekyijn6n
+2024-07-07 00:15:34,864 INFO    wandb-upload_59:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp0b6rvg63
+2024-07-07 00:15:34,870 INFO    wandb-upload_0:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpvqa9pwqp
+2024-07-07 00:15:34,882 INFO    wandb-upload_53:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp77ercm03
+2024-07-07 00:15:34,889 INFO    wandb-upload_47:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpa_o7hl03
+2024-07-07 00:15:34,912 INFO    wandb-upload_42:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpujs1b1qz
+2024-07-07 00:15:34,912 INFO    wandb-upload_13:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpju8_2mu5
+2024-07-07 00:15:34,957 INFO    wandb-upload_25:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpluy61qma
+2024-07-07 00:15:34,957 INFO    wandb-upload_16:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpqnsa_cdr
+2024-07-07 00:15:35,016 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:15:35,039 INFO    wandb-upload_39:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp4a9xvd6k
+2024-07-07 00:15:35,069 INFO    wandb-upload_35:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp85gezdsh
+2024-07-07 00:15:35,100 INFO    wandb-upload_48:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpv7noseqp
+2024-07-07 00:15:35,102 INFO    wandb-upload_2:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpig6d6i4g
+2024-07-07 00:15:35,279 INFO    wandb-upload_61:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpia6t6_nc
+2024-07-07 00:15:35,285 INFO    wandb-upload_41:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpbl6989tm
+2024-07-07 00:15:35,315 INFO    wandb-upload_52:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpwt34akqb
+2024-07-07 00:15:35,438 INFO    wandb-upload_46:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpd2ge38ce
+2024-07-07 00:15:35,461 INFO    wandb-upload_29:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp03y8ksas
+2024-07-07 00:15:35,526 INFO    wandb-upload_24:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpf_rnua5u
+2024-07-07 00:15:35,569 INFO    wandb-upload_50:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmppzqzzu37
+2024-07-07 00:15:35,590 INFO    wandb-upload_17:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmptm8fkt0w
+2024-07-07 00:15:35,605 INFO    wandb-upload_23:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpljuioml0
+2024-07-07 00:15:35,644 INFO    wandb-upload_54:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp0q4et9ui
+2024-07-07 00:15:35,720 INFO    wandb-upload_40:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpxqdnhrr1
+2024-07-07 00:15:35,901 INFO    wandb-upload_63:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpn3ce_flh
+2024-07-07 00:15:35,937 INFO    wandb-upload_20:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp8ce_xkni
+2024-07-07 00:15:35,957 INFO    wandb-upload_22:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmphz38bfzw
+2024-07-07 00:15:35,979 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:15:35,991 INFO    wandb-upload_43:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp5knxb7bt
+2024-07-07 00:15:36,058 INFO    wandb-upload_32:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpbdxt2dky
+2024-07-07 00:15:36,074 INFO    wandb-upload_26:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpgytcsunj
+2024-07-07 00:15:36,979 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:15:37,606 INFO    SenderThread:92510 [sender.py:send_request_log_artifact():1518] logged artifact val - {'id': 'QXJ0aWZhY3Q6OTQ3MjM5ODM0', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjI0NjI4ODk5OA==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6OTQ3MjMxNDA2', 'versionIndex': 0}}}
+2024-07-07 00:15:37,608 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: status_report
+2024-07-07 00:15:37,979 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:15:38,599 DEBUG   SenderThread:92510 [sender.py:send():379] send: use_artifact
+2024-07-07 00:15:38,649 INFO    Thread-76 :92510 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240707_001458-g7xx8ni5/files/config.yaml
+2024-07-07 00:15:38,980 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:15:39,977 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-07 00:15:39,977 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: stop_status
+2024-07-07 00:15:39,980 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:15:40,649 INFO    Thread-76 :92510 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240707_001458-g7xx8ni5/files/output.log
+2024-07-07 00:15:40,982 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:15:41,650 INFO    Thread-76 :92510 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240707_001458-g7xx8ni5/files/output.log
+2024-07-07 00:15:41,985 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:15:42,984 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:15:43,284 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: status_report
+2024-07-07 00:15:43,983 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:15:44,985 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:15:45,986 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:15:46,985 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:15:47,987 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:15:48,982 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: status_report
+2024-07-07 00:15:48,986 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:15:50,007 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:15:50,987 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:15:51,987 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:15:52,987 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:15:53,987 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:15:54,977 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-07 00:15:54,977 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: stop_status
+2024-07-07 00:15:55,017 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:15:55,257 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: status_report
+2024-07-07 00:15:55,987 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:15:56,987 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:15:57,988 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:15:58,988 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:15:59,988 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:16:00,979 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: status_report
+2024-07-07 00:16:00,988 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:16:01,988 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:16:02,512 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-07 00:16:02,514 DEBUG   SenderThread:92510 [sender.py:send():379] send: metric
+2024-07-07 00:16:02,514 DEBUG   SenderThread:92510 [sender.py:send():379] send: metric
+2024-07-07 00:16:02,514 DEBUG   SenderThread:92510 [sender.py:send():379] send: history
+2024-07-07 00:16:02,514 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: summary_record
+2024-07-07 00:16:02,515 INFO    SenderThread:92510 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-07 00:16:02,657 INFO    Thread-76 :92510 [dir_watcher.py:_on_file_created():271] file/dir created: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240707_001458-g7xx8ni5/files/wandb-summary.json
+2024-07-07 00:16:02,988 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:16:03,283 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-07 00:16:03,283 DEBUG   SenderThread:92510 [sender.py:send():379] send: history
+2024-07-07 00:16:03,284 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: summary_record
+2024-07-07 00:16:03,284 INFO    SenderThread:92510 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-07 00:16:03,657 INFO    Thread-76 :92510 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240707_001458-g7xx8ni5/files/output.log
+2024-07-07 00:16:03,657 INFO    Thread-76 :92510 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240707_001458-g7xx8ni5/files/wandb-summary.json
+2024-07-07 00:16:03,988 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:16:04,048 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-07 00:16:04,049 DEBUG   SenderThread:92510 [sender.py:send():379] send: history
+2024-07-07 00:16:04,049 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: summary_record
+2024-07-07 00:16:04,050 INFO    SenderThread:92510 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-07 00:16:04,658 INFO    Thread-76 :92510 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240707_001458-g7xx8ni5/files/wandb-summary.json
+2024-07-07 00:16:04,809 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-07 00:16:04,810 DEBUG   SenderThread:92510 [sender.py:send():379] send: history
+2024-07-07 00:16:04,810 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: summary_record
+2024-07-07 00:16:04,811 INFO    SenderThread:92510 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-07 00:16:04,988 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:16:05,571 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-07 00:16:05,572 DEBUG   SenderThread:92510 [sender.py:send():379] send: history
+2024-07-07 00:16:05,572 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: summary_record
+2024-07-07 00:16:05,573 INFO    SenderThread:92510 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-07 00:16:05,658 INFO    Thread-76 :92510 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240707_001458-g7xx8ni5/files/output.log
+2024-07-07 00:16:05,658 INFO    Thread-76 :92510 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240707_001458-g7xx8ni5/files/wandb-summary.json
+2024-07-07 00:16:05,988 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:16:06,037 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: status_report
+2024-07-07 00:16:06,340 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-07 00:16:06,341 DEBUG   SenderThread:92510 [sender.py:send():379] send: history
+2024-07-07 00:16:06,342 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: summary_record
+2024-07-07 00:16:06,342 INFO    SenderThread:92510 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-07 00:16:06,658 INFO    Thread-76 :92510 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240707_001458-g7xx8ni5/files/wandb-summary.json
+2024-07-07 00:16:06,988 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:16:07,101 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-07 00:16:07,101 DEBUG   SenderThread:92510 [sender.py:send():379] send: history
+2024-07-07 00:16:07,102 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: summary_record
+2024-07-07 00:16:07,102 INFO    SenderThread:92510 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-07 00:16:07,659 INFO    Thread-76 :92510 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240707_001458-g7xx8ni5/files/output.log
+2024-07-07 00:16:07,659 INFO    Thread-76 :92510 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240707_001458-g7xx8ni5/files/wandb-summary.json
+2024-07-07 00:16:07,865 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-07 00:16:07,866 DEBUG   SenderThread:92510 [sender.py:send():379] send: history
+2024-07-07 00:16:07,866 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: summary_record
+2024-07-07 00:16:07,866 INFO    SenderThread:92510 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-07 00:16:07,989 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:16:08,634 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-07 00:16:08,635 DEBUG   SenderThread:92510 [sender.py:send():379] send: history
+2024-07-07 00:16:08,635 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: summary_record
+2024-07-07 00:16:08,635 INFO    SenderThread:92510 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-07 00:16:08,659 INFO    Thread-76 :92510 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240707_001458-g7xx8ni5/files/wandb-summary.json
+2024-07-07 00:16:08,989 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:16:09,402 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-07 00:16:09,403 DEBUG   SenderThread:92510 [sender.py:send():379] send: history
+2024-07-07 00:16:09,403 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: summary_record
+2024-07-07 00:16:09,403 INFO    SenderThread:92510 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-07 00:16:09,660 INFO    Thread-76 :92510 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240707_001458-g7xx8ni5/files/output.log
+2024-07-07 00:16:09,660 INFO    Thread-76 :92510 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240707_001458-g7xx8ni5/files/wandb-summary.json
+2024-07-07 00:16:09,977 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-07 00:16:09,977 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: stop_status
+2024-07-07 00:16:09,989 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:16:10,164 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-07 00:16:10,229 DEBUG   SenderThread:92510 [sender.py:send():379] send: history
+2024-07-07 00:16:10,229 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: summary_record
+2024-07-07 00:16:10,229 INFO    SenderThread:92510 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-07 00:16:10,660 INFO    Thread-76 :92510 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240707_001458-g7xx8ni5/files/wandb-summary.json
+2024-07-07 00:16:10,930 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-07 00:16:10,931 DEBUG   SenderThread:92510 [sender.py:send():379] send: history
+2024-07-07 00:16:10,931 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: summary_record
+2024-07-07 00:16:10,932 INFO    SenderThread:92510 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-07 00:16:10,989 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:16:11,087 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: status_report
+2024-07-07 00:16:11,660 INFO    Thread-76 :92510 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240707_001458-g7xx8ni5/files/output.log
+2024-07-07 00:16:11,660 INFO    Thread-76 :92510 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240707_001458-g7xx8ni5/files/wandb-summary.json
+2024-07-07 00:16:11,661 INFO    Thread-76 :92510 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240707_001458-g7xx8ni5/files/config.yaml
+2024-07-07 00:16:11,692 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-07 00:16:11,693 DEBUG   SenderThread:92510 [sender.py:send():379] send: history
+2024-07-07 00:16:11,693 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: summary_record
+2024-07-07 00:16:11,693 INFO    SenderThread:92510 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-07 00:16:11,989 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:16:12,459 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-07 00:16:12,460 DEBUG   SenderThread:92510 [sender.py:send():379] send: history
+2024-07-07 00:16:12,460 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: summary_record
+2024-07-07 00:16:12,461 INFO    SenderThread:92510 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-07 00:16:12,661 INFO    Thread-76 :92510 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240707_001458-g7xx8ni5/files/wandb-summary.json
+2024-07-07 00:16:12,989 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:16:13,661 INFO    Thread-76 :92510 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240707_001458-g7xx8ni5/files/output.log
+2024-07-07 00:16:13,989 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:16:14,989 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:16:15,989 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:16:16,980 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: status_report
+2024-07-07 00:16:16,990 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:16:17,990 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:16:18,990 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:16:19,990 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:16:20,990 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:16:21,990 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:16:22,980 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: status_report
+2024-07-07 00:16:22,990 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:16:24,022 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:16:24,981 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-07 00:16:24,981 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: stop_status
+2024-07-07 00:16:25,021 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:16:25,666 INFO    Thread-76 :92510 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240707_001458-g7xx8ni5/files/output.log
+2024-07-07 00:16:25,991 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:16:26,991 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:16:27,991 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:16:28,615 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: status_report
+2024-07-07 00:16:28,765 DEBUG   SystemMonitor:92510 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-07-07 00:16:28,766 DEBUG   SenderThread:92510 [sender.py:send():379] send: stats
+2024-07-07 00:16:28,991 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:16:29,534 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-07 00:16:29,535 DEBUG   SenderThread:92510 [sender.py:send():379] send: history
+2024-07-07 00:16:29,536 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: summary_record
+2024-07-07 00:16:29,536 INFO    SenderThread:92510 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-07 00:16:29,668 INFO    Thread-76 :92510 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240707_001458-g7xx8ni5/files/wandb-summary.json
+2024-07-07 00:16:29,992 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:16:30,992 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:16:31,992 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:16:32,993 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:16:33,981 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: status_report
+2024-07-07 00:16:33,993 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:16:34,994 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:16:35,994 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:16:36,995 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:16:37,994 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:16:38,982 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: status_report
+2024-07-07 00:16:38,994 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:16:39,977 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-07 00:16:39,978 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: stop_status
+2024-07-07 00:16:40,018 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:16:40,995 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:16:41,995 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:16:42,995 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:16:43,996 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:16:44,260 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: status_report
+2024-07-07 00:16:44,996 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:16:45,837 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: log_artifact
+2024-07-07 00:16:45,838 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: log_artifact
+2024-07-07 00:16:45,928 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-07 00:16:45,996 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:16:46,687 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-07 00:16:46,996 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:16:47,449 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-07 00:16:47,741 INFO    wandb-upload_7:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp505k38ko
+2024-07-07 00:16:47,747 INFO    wandb-upload_48:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpkwk9uxg7
+2024-07-07 00:16:47,758 INFO    wandb-upload_43:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpwe462g12
+2024-07-07 00:16:47,762 INFO    wandb-upload_25:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpe3to_e0a
+2024-07-07 00:16:47,929 INFO    wandb-upload_8:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpch42wksn
+2024-07-07 00:16:47,996 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:16:48,213 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-07 00:16:48,717 INFO    wandb-upload_29:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpr1pom2al
+2024-07-07 00:16:48,971 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-07 00:16:48,996 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:16:49,044 INFO    wandb-upload_17:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpiyocl7yb
+2024-07-07 00:16:49,192 INFO    wandb-upload_10:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpfta4w2y8
+2024-07-07 00:16:49,230 INFO    wandb-upload_9:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp2afc8q7b
+2024-07-07 00:16:49,236 INFO    wandb-upload_6:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpx6fo02m_
+2024-07-07 00:16:49,288 INFO    wandb-upload_2:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp8j70wy0r
+2024-07-07 00:16:49,335 INFO    wandb-upload_31:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpes9k6ec2
+2024-07-07 00:16:49,348 INFO    wandb-upload_58:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp3fc7uyvm
+2024-07-07 00:16:49,389 INFO    wandb-upload_50:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp2poyh5g3
+2024-07-07 00:16:49,442 INFO    wandb-upload_16:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp_d27616b
+2024-07-07 00:16:49,452 INFO    wandb-upload_61:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpmvb9b7gw
+2024-07-07 00:16:49,462 INFO    wandb-upload_38:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpjyz38bcw
+2024-07-07 00:16:49,471 INFO    wandb-upload_34:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpu84hv2hh
+2024-07-07 00:16:49,492 INFO    wandb-upload_56:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpargau_m1
+2024-07-07 00:16:49,495 INFO    wandb-upload_19:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpuoqcaz6y
+2024-07-07 00:16:49,499 INFO    wandb-upload_18:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp17ad_vki
+2024-07-07 00:16:49,508 INFO    wandb-upload_26:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpkhb3kwrs
+2024-07-07 00:16:49,516 INFO    wandb-upload_22:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpyqnsjhj8
+2024-07-07 00:16:49,584 INFO    wandb-upload_30:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpzptagv2o
+2024-07-07 00:16:49,597 INFO    wandb-upload_63:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpbcc_xjay
+2024-07-07 00:16:49,603 INFO    wandb-upload_44:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp2mil9dem
+2024-07-07 00:16:49,632 INFO    wandb-upload_27:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpnd3g8aun
+2024-07-07 00:16:49,675 INFO    wandb-upload_13:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpj2em7xti
+2024-07-07 00:16:49,682 INFO    wandb-upload_4:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp2mnl8msd
+2024-07-07 00:16:49,683 INFO    wandb-upload_39:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpv6e4q71g
+2024-07-07 00:16:49,685 INFO    wandb-upload_53:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpeyv79fm9
+2024-07-07 00:16:49,694 INFO    wandb-upload_40:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpbl90ekkd
+2024-07-07 00:16:49,728 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-07 00:16:49,731 INFO    wandb-upload_15:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmppbci22m6
+2024-07-07 00:16:49,755 INFO    wandb-upload_23:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpjl2dicvx
+2024-07-07 00:16:49,912 INFO    wandb-upload_41:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpu824m5it
+2024-07-07 00:16:49,930 INFO    wandb-upload_21:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpdj1wxlph
+2024-07-07 00:16:49,938 INFO    wandb-upload_49:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp4d3j4w6x
+2024-07-07 00:16:49,974 INFO    wandb-upload_0:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp3lnztv9c
+2024-07-07 00:16:49,988 INFO    wandb-upload_36:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp14pjmoa1
+2024-07-07 00:16:49,996 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:16:50,015 INFO    wandb-upload_20:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpkealwxpq
+2024-07-07 00:16:50,034 INFO    wandb-upload_55:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp9bl1ys9k
+2024-07-07 00:16:50,038 INFO    wandb-upload_52:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmplh0h52nt
+2024-07-07 00:16:50,040 INFO    wandb-upload_1:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpv_vtwlw2
+2024-07-07 00:16:50,042 INFO    wandb-upload_51:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpzyj86wov
+2024-07-07 00:16:50,073 INFO    wandb-upload_3:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpr8dj48z8
+2024-07-07 00:16:50,121 INFO    wandb-upload_46:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpzizpbde5
+2024-07-07 00:16:50,125 INFO    wandb-upload_37:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpdl3x1ahz
+2024-07-07 00:16:50,130 INFO    wandb-upload_62:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpx0resmci
+2024-07-07 00:16:50,140 INFO    wandb-upload_7:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpxryyo1yp
+2024-07-07 00:16:50,262 INFO    wandb-upload_47:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpezfpxrba
+2024-07-07 00:16:50,263 INFO    wandb-upload_60:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpsjo_93dp
+2024-07-07 00:16:50,274 INFO    wandb-upload_11:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpe8aj6vee
+2024-07-07 00:16:50,283 INFO    wandb-upload_35:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmps9okrhnm
+2024-07-07 00:16:50,297 INFO    wandb-upload_57:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpjzngr2bl
+2024-07-07 00:16:50,338 INFO    wandb-upload_12:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpehckidh5
+2024-07-07 00:16:50,390 INFO    wandb-upload_5:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpw1yozb1c
+2024-07-07 00:16:50,455 INFO    wandb-upload_59:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpdw96i5z0
+2024-07-07 00:16:50,459 INFO    wandb-upload_48:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp1f29s479
+2024-07-07 00:16:50,463 INFO    wandb-upload_54:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpe3dtc05i
+2024-07-07 00:16:50,471 INFO    wandb-upload_43:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmphu2mxm2z
+2024-07-07 00:16:50,478 INFO    wandb-upload_14:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpip8k_1ro
+2024-07-07 00:16:50,483 INFO    wandb-upload_32:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp7wwmru1n
+2024-07-07 00:16:50,487 INFO    wandb-upload_24:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpvi7iuquz
+2024-07-07 00:16:50,492 INFO    wandb-upload_42:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp0mtjdqez
+2024-07-07 00:16:50,495 INFO    wandb-upload_25:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpjtj3b0w2
+2024-07-07 00:16:50,498 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-07 00:16:50,504 INFO    wandb-upload_33:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpkqg85337
+2024-07-07 00:16:50,511 INFO    wandb-upload_45:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpcr2ld6p1
+2024-07-07 00:16:50,620 INFO    wandb-upload_8:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpysbsyfqx
+2024-07-07 00:16:50,621 INFO    wandb-upload_28:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp9m8d0myi
+2024-07-07 00:16:50,997 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:16:51,258 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-07 00:16:51,773 INFO    wandb-upload_29:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp0phqpo9g
+2024-07-07 00:16:51,861 INFO    wandb-upload_34:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp38wbqhyo
+2024-07-07 00:16:51,879 INFO    wandb-upload_50:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpuw4t7x0r
+2024-07-07 00:16:51,973 INFO    wandb-upload_10:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp82x1anym
+2024-07-07 00:16:51,997 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:16:52,000 INFO    wandb-upload_17:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp8m278kdi
+2024-07-07 00:16:52,005 INFO    wandb-upload_16:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpyxe31op3
+2024-07-07 00:16:52,016 INFO    wandb-upload_31:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpku1cwl1v
+2024-07-07 00:16:52,027 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-07 00:16:52,063 INFO    wandb-upload_61:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpmf2tbxxn
+2024-07-07 00:16:52,077 INFO    wandb-upload_6:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp71dyjakf
+2024-07-07 00:16:52,134 INFO    wandb-upload_58:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpo13r7y51
+2024-07-07 00:16:52,336 INFO    wandb-upload_38:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmptor6y4wf
+2024-07-07 00:16:52,359 INFO    wandb-upload_2:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpibj8gv14
+2024-07-07 00:16:52,673 INFO    wandb-upload_26:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpkysl5rji
+2024-07-07 00:16:52,786 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-07 00:16:52,814 INFO    wandb-upload_4:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmphn9mfq52
+2024-07-07 00:16:52,853 INFO    wandb-upload_19:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp218n0izz
+2024-07-07 00:16:52,881 INFO    wandb-upload_27:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmptxqp4j9_
+2024-07-07 00:16:52,883 INFO    wandb-upload_21:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpwki5sryj
+2024-07-07 00:16:52,883 INFO    wandb-upload_13:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmps8j00pv3
+2024-07-07 00:16:52,916 INFO    wandb-upload_53:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpl2_ckkjj
+2024-07-07 00:16:52,917 INFO    wandb-upload_63:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpmm7t_qcn
+2024-07-07 00:16:52,957 INFO    wandb-upload_30:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpevqbfa3h
+2024-07-07 00:16:52,980 INFO    wandb-upload_40:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpo6vtpe22
+2024-07-07 00:16:52,994 INFO    wandb-upload_18:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpayv1z72r
+2024-07-07 00:16:52,997 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:16:53,023 INFO    wandb-upload_56:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpd384q5vt
+2024-07-07 00:16:53,061 INFO    wandb-upload_39:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpcsn6nfes
+2024-07-07 00:16:53,089 INFO    wandb-upload_41:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmphh5ot3yw
+2024-07-07 00:16:53,131 INFO    wandb-upload_49:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpzsa0sfxj
+2024-07-07 00:16:53,158 INFO    wandb-upload_9:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpjsaf3oc0
+2024-07-07 00:16:53,428 INFO    wandb-upload_15:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpsmilq6ez
+2024-07-07 00:16:53,465 INFO    wandb-upload_44:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpml2qumi3
+2024-07-07 00:16:53,487 INFO    wandb-upload_23:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpkogs0j7j
+2024-07-07 00:16:53,488 INFO    wandb-upload_22:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmpz5rzsm3p
+2024-07-07 00:16:53,546 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-07 00:16:53,998 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:16:54,303 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-07 00:16:54,367 INFO    SenderThread:92510 [sender.py:send_request_log_artifact():1518] logged artifact run_g7xx8ni5_pred - {'id': 'QXJ0aWZhY3Q6OTQ3MjQwNTI3', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjI0NjI5MTczNA==', 'latestArtifact': None}}
+2024-07-07 00:16:54,367 DEBUG   SenderThread:92510 [sender.py:send():379] send: history
+2024-07-07 00:16:54,368 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: summary_record
+2024-07-07 00:16:54,369 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: status_report
+2024-07-07 00:16:54,369 INFO    SenderThread:92510 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-07 00:16:54,370 DEBUG   SenderThread:92510 [sender.py:send():379] send: history
+2024-07-07 00:16:54,370 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: summary_record
+2024-07-07 00:16:54,370 INFO    SenderThread:92510 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-07 00:16:54,371 DEBUG   SenderThread:92510 [sender.py:send():379] send: history
+2024-07-07 00:16:54,371 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: summary_record
+2024-07-07 00:16:54,371 INFO    SenderThread:92510 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-07 00:16:54,371 DEBUG   SenderThread:92510 [sender.py:send():379] send: history
+2024-07-07 00:16:54,371 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: summary_record
+2024-07-07 00:16:54,372 INFO    SenderThread:92510 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-07 00:16:54,372 DEBUG   SenderThread:92510 [sender.py:send():379] send: history
+2024-07-07 00:16:54,372 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: summary_record
+2024-07-07 00:16:54,372 INFO    SenderThread:92510 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-07 00:16:54,373 DEBUG   SenderThread:92510 [sender.py:send():379] send: history
+2024-07-07 00:16:54,373 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: summary_record
+2024-07-07 00:16:54,373 INFO    SenderThread:92510 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-07 00:16:54,374 DEBUG   SenderThread:92510 [sender.py:send():379] send: history
+2024-07-07 00:16:54,374 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: summary_record
+2024-07-07 00:16:54,374 INFO    SenderThread:92510 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-07 00:16:54,374 DEBUG   SenderThread:92510 [sender.py:send():379] send: history
+2024-07-07 00:16:54,375 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: summary_record
+2024-07-07 00:16:54,375 INFO    SenderThread:92510 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-07 00:16:54,375 DEBUG   SenderThread:92510 [sender.py:send():379] send: history
+2024-07-07 00:16:54,375 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: summary_record
+2024-07-07 00:16:54,375 INFO    SenderThread:92510 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-07 00:16:54,376 DEBUG   SenderThread:92510 [sender.py:send():379] send: history
+2024-07-07 00:16:54,376 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: summary_record
+2024-07-07 00:16:54,376 INFO    SenderThread:92510 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-07 00:16:54,376 DEBUG   SenderThread:92510 [sender.py:send():379] send: history
+2024-07-07 00:16:54,376 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: summary_record
+2024-07-07 00:16:54,376 INFO    SenderThread:92510 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-07 00:16:54,377 DEBUG   SenderThread:92510 [sender.py:send():379] send: history
+2024-07-07 00:16:54,377 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: summary_record
+2024-07-07 00:16:54,377 INFO    SenderThread:92510 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-07 00:16:54,677 INFO    Thread-76 :92510 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240707_001458-g7xx8ni5/files/wandb-summary.json
+2024-07-07 00:16:54,977 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-07 00:16:54,977 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: stop_status
+2024-07-07 00:16:54,998 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:16:55,061 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-07 00:16:55,258 DEBUG   SenderThread:92510 [sender.py:send():379] send: history
+2024-07-07 00:16:55,259 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: summary_record
+2024-07-07 00:16:55,259 INFO    SenderThread:92510 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-07 00:16:55,677 INFO    Thread-76 :92510 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240707_001458-g7xx8ni5/files/output.log
+2024-07-07 00:16:55,678 INFO    Thread-76 :92510 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240707_001458-g7xx8ni5/files/wandb-summary.json
+2024-07-07 00:16:55,827 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-07 00:16:55,828 DEBUG   SenderThread:92510 [sender.py:send():379] send: history
+2024-07-07 00:16:55,828 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: summary_record
+2024-07-07 00:16:55,828 INFO    SenderThread:92510 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-07 00:16:55,998 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:16:56,606 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-07 00:16:56,607 DEBUG   SenderThread:92510 [sender.py:send():379] send: history
+2024-07-07 00:16:56,607 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: summary_record
+2024-07-07 00:16:56,608 INFO    SenderThread:92510 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-07 00:16:56,678 INFO    Thread-76 :92510 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240707_001458-g7xx8ni5/files/wandb-summary.json
+2024-07-07 00:16:56,999 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:16:57,678 INFO    Thread-76 :92510 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240707_001458-g7xx8ni5/files/output.log
+2024-07-07 00:16:57,999 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:16:58,769 DEBUG   SenderThread:92510 [sender.py:send():379] send: stats
+2024-07-07 00:16:58,999 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:16:59,770 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: status_report
+2024-07-07 00:16:59,999 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:17:01,001 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:17:02,001 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:17:03,001 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:17:04,002 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:17:04,983 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: status_report
+2024-07-07 00:17:05,001 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:17:06,002 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:17:07,002 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:17:08,003 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:17:09,003 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:17:09,978 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-07 00:17:09,978 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: stop_status
+2024-07-07 00:17:10,018 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:17:10,236 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: status_report
+2024-07-07 00:17:11,003 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:17:12,003 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:17:13,004 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:17:13,859 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: log_artifact
+2024-07-07 00:17:13,859 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: log_artifact
+2024-07-07 00:17:13,950 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-07 00:17:14,004 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:17:14,724 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-07 00:17:15,004 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:17:15,164 INFO    wandb-upload_36:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpfcxcqfdb
+2024-07-07 00:17:15,164 INFO    wandb-upload_20:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpw0lj5sty
+2024-07-07 00:17:15,165 INFO    wandb-upload_52:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpnyxqwtjg
+2024-07-07 00:17:15,165 INFO    wandb-upload_55:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmphf_e9w53
+2024-07-07 00:17:15,165 INFO    wandb-upload_1:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpv22z29i2
+2024-07-07 00:17:15,165 INFO    wandb-upload_51:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp0hk9a3dc
+2024-07-07 00:17:15,165 INFO    wandb-upload_3:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp28uloilt
+2024-07-07 00:17:15,165 INFO    wandb-upload_46:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpdo6lykhv
+2024-07-07 00:17:15,165 INFO    wandb-upload_37:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp8ym0d2_6
+2024-07-07 00:17:15,165 INFO    wandb-upload_62:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpe9rbxvql
+2024-07-07 00:17:15,165 INFO    wandb-upload_7:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmptx51xxfj
+2024-07-07 00:17:15,165 INFO    wandb-upload_47:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp0cgvh6_f
+2024-07-07 00:17:15,165 INFO    wandb-upload_60:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp391z162r
+2024-07-07 00:17:15,165 INFO    wandb-upload_11:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp48hvp35r
+2024-07-07 00:17:15,165 INFO    wandb-upload_35:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpgad9p0lt
+2024-07-07 00:17:15,165 INFO    wandb-upload_57:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpo4qzhmm4
+2024-07-07 00:17:15,165 INFO    wandb-upload_12:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpbgsc_mio
+2024-07-07 00:17:15,165 INFO    wandb-upload_5:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp4y_ykr_p
+2024-07-07 00:17:15,165 INFO    wandb-upload_59:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpnpnkrtli
+2024-07-07 00:17:15,165 INFO    wandb-upload_48:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpnru05n9w
+2024-07-07 00:17:15,165 INFO    wandb-upload_54:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpkibmb_69
+2024-07-07 00:17:15,166 INFO    wandb-upload_43:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpal2e0eec
+2024-07-07 00:17:15,166 INFO    wandb-upload_14:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpek4lhg81
+2024-07-07 00:17:15,166 INFO    wandb-upload_32:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp_ur_dvns
+2024-07-07 00:17:15,166 INFO    wandb-upload_24:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpu7vufrpk
+2024-07-07 00:17:15,166 INFO    wandb-upload_42:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp7icqfbje
+2024-07-07 00:17:15,166 INFO    wandb-upload_25:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpzts_q80v
+2024-07-07 00:17:15,166 INFO    wandb-upload_33:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpw_27t9vr
+2024-07-07 00:17:15,166 INFO    wandb-upload_45:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpt36of4l3
+2024-07-07 00:17:15,166 INFO    wandb-upload_8:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpabk9otcz
+2024-07-07 00:17:15,166 INFO    wandb-upload_28:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpzwt28_rx
+2024-07-07 00:17:15,166 INFO    wandb-upload_29:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpcgdkf0nf
+2024-07-07 00:17:15,166 INFO    wandb-upload_34:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpi5x8ik7y
+2024-07-07 00:17:15,166 INFO    wandb-upload_50:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp5dycjimi
+2024-07-07 00:17:15,166 INFO    wandb-upload_17:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp9ycg1qx8
+2024-07-07 00:17:15,166 INFO    wandb-upload_10:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp861nzzc2
+2024-07-07 00:17:15,166 INFO    wandb-upload_31:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp14wqjr6c
+2024-07-07 00:17:15,166 INFO    wandb-upload_61:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmphp0yub4o
+2024-07-07 00:17:15,166 INFO    wandb-upload_16:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp9yooqpex
+2024-07-07 00:17:15,166 INFO    wandb-upload_58:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp0ilcvc5g
+2024-07-07 00:17:15,167 INFO    wandb-upload_6:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpf788nr54
+2024-07-07 00:17:15,167 INFO    wandb-upload_38:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpluvwxquo
+2024-07-07 00:17:15,167 INFO    wandb-upload_2:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpllhyiu9d
+2024-07-07 00:17:15,167 INFO    wandb-upload_26:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpdgoxkjro
+2024-07-07 00:17:15,167 INFO    wandb-upload_4:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp1tbld9ao
+2024-07-07 00:17:15,167 INFO    wandb-upload_19:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpp8f7xsai
+2024-07-07 00:17:15,167 INFO    wandb-upload_27:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp6jpjmm9y
+2024-07-07 00:17:15,167 INFO    wandb-upload_21:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp_jbl9p9o
+2024-07-07 00:17:15,167 INFO    wandb-upload_13:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpgiy7qsh1
+2024-07-07 00:17:15,167 INFO    wandb-upload_53:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpu1kgatfq
+2024-07-07 00:17:15,167 INFO    wandb-upload_63:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpum1nwgzp
+2024-07-07 00:17:15,168 INFO    wandb-upload_30:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp4i2vkck2
+2024-07-07 00:17:15,168 INFO    wandb-upload_18:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpjao3zqw5
+2024-07-07 00:17:15,168 INFO    wandb-upload_40:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpr75l4pz2
+2024-07-07 00:17:15,168 INFO    wandb-upload_56:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpu9s32xwj
+2024-07-07 00:17:15,168 INFO    wandb-upload_39:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpy_bj2ame
+2024-07-07 00:17:15,168 INFO    wandb-upload_41:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpkasc2rm1
+2024-07-07 00:17:15,168 INFO    wandb-upload_49:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp83wwaq2i
+2024-07-07 00:17:15,168 INFO    wandb-upload_9:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp3exihfaw
+2024-07-07 00:17:15,168 INFO    wandb-upload_15:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp473sn6m_
+2024-07-07 00:17:15,168 INFO    wandb-upload_44:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp_z0xm0hx
+2024-07-07 00:17:15,168 INFO    wandb-upload_23:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpwjhrthd6
+2024-07-07 00:17:15,168 INFO    wandb-upload_22:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmplo3_4km_
+2024-07-07 00:17:15,502 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-07 00:17:15,592 INFO    wandb-upload_0:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp6e2znm3k
+2024-07-07 00:17:15,832 INFO    wandb-upload_31:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpzoo0adw1
+2024-07-07 00:17:15,832 INFO    wandb-upload_20:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp0zfm3t5a
+2024-07-07 00:17:15,832 INFO    wandb-upload_52:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpmm4_n1x_
+2024-07-07 00:17:15,832 INFO    wandb-upload_55:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpthnl_v8q
+2024-07-07 00:17:15,832 INFO    wandb-upload_51:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp0psn51s3
+2024-07-07 00:17:15,833 INFO    wandb-upload_3:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp9y8wlscq
+2024-07-07 00:17:15,833 INFO    wandb-upload_46:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp11sxqn5b
+2024-07-07 00:17:15,833 INFO    wandb-upload_37:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp_5nnu_x_
+2024-07-07 00:17:15,833 INFO    wandb-upload_1:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpadjoolci
+2024-07-07 00:17:15,833 INFO    wandb-upload_62:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpzkcdgjd3
+2024-07-07 00:17:15,833 INFO    wandb-upload_7:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpz9mt5hay
+2024-07-07 00:17:15,833 INFO    wandb-upload_60:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpygl3y2oq
+2024-07-07 00:17:15,833 INFO    wandb-upload_11:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp5nmkdo2p
+2024-07-07 00:17:15,833 INFO    wandb-upload_47:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp6vx7uj9w
+2024-07-07 00:17:15,833 INFO    wandb-upload_35:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpnvvzf0_x
+2024-07-07 00:17:15,833 INFO    wandb-upload_59:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpwt30_vx1
+2024-07-07 00:17:15,833 INFO    wandb-upload_57:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmprae9otgm
+2024-07-07 00:17:15,833 INFO    wandb-upload_48:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpary2xrke
+2024-07-07 00:17:15,833 INFO    wandb-upload_12:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpmto4twws
+2024-07-07 00:17:15,833 INFO    wandb-upload_43:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp51h13v6l
+2024-07-07 00:17:15,833 INFO    wandb-upload_5:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp6tfrscil
+2024-07-07 00:17:15,833 INFO    wandb-upload_14:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp5d7t5qlc
+2024-07-07 00:17:15,834 INFO    wandb-upload_54:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmph19ksvjt
+2024-07-07 00:17:15,834 INFO    wandb-upload_32:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpbtf9bnaa
+2024-07-07 00:17:15,834 INFO    wandb-upload_24:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpjhmre5sk
+2024-07-07 00:17:15,834 INFO    wandb-upload_42:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmprw7kotd0
+2024-07-07 00:17:15,834 INFO    wandb-upload_25:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpnmex8wkd
+2024-07-07 00:17:15,834 INFO    wandb-upload_33:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp0pr_b64d
+2024-07-07 00:17:15,834 INFO    wandb-upload_45:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpexmm0x16
+2024-07-07 00:17:15,834 INFO    wandb-upload_28:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp8lx6lr2z
+2024-07-07 00:17:15,834 INFO    wandb-upload_29:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpgij1w76j
+2024-07-07 00:17:15,834 INFO    wandb-upload_8:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmprqbe11h_
+2024-07-07 00:17:15,834 INFO    wandb-upload_50:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpv0rk924s
+2024-07-07 00:17:15,834 INFO    wandb-upload_34:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp9yxse7vt
+2024-07-07 00:17:15,834 INFO    wandb-upload_17:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmprwi82bdd
+2024-07-07 00:17:15,834 INFO    wandb-upload_10:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpcl2_u__e
+2024-07-07 00:17:15,834 INFO    wandb-upload_36:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpga2r97mg
+2024-07-07 00:17:16,004 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:17:16,265 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-07 00:17:16,777 INFO    SenderThread:92510 [sender.py:send_request_log_artifact():1518] logged artifact run_g7xx8ni5_pred - {'id': 'QXJ0aWZhY3Q6OTQ3MjQwNzc3', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjI0NjI5MTczNA==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6OTQ3MjQwNTI3', 'versionIndex': 0}}}
+2024-07-07 00:17:16,778 DEBUG   SenderThread:92510 [sender.py:send():379] send: history
+2024-07-07 00:17:16,778 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: summary_record
+2024-07-07 00:17:16,778 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: status_report
+2024-07-07 00:17:16,779 INFO    SenderThread:92510 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-07 00:17:16,779 DEBUG   SenderThread:92510 [sender.py:send():379] send: history
+2024-07-07 00:17:16,779 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: summary_record
+2024-07-07 00:17:16,780 INFO    SenderThread:92510 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-07 00:17:16,780 DEBUG   SenderThread:92510 [sender.py:send():379] send: history
+2024-07-07 00:17:16,781 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: summary_record
+2024-07-07 00:17:16,781 INFO    SenderThread:92510 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-07 00:17:16,782 DEBUG   SenderThread:92510 [sender.py:send():379] send: history
+2024-07-07 00:17:16,782 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: summary_record
+2024-07-07 00:17:16,782 INFO    SenderThread:92510 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-07 00:17:17,004 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:17:17,042 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-07 00:17:17,043 DEBUG   SenderThread:92510 [sender.py:send():379] send: history
+2024-07-07 00:17:17,043 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: summary_record
+2024-07-07 00:17:17,043 INFO    SenderThread:92510 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-07 00:17:17,686 INFO    Thread-76 :92510 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240707_001458-g7xx8ni5/files/output.log
+2024-07-07 00:17:17,686 INFO    Thread-76 :92510 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240707_001458-g7xx8ni5/files/wandb-summary.json
+2024-07-07 00:17:17,816 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-07 00:17:17,817 DEBUG   SenderThread:92510 [sender.py:send():379] send: history
+2024-07-07 00:17:17,818 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: summary_record
+2024-07-07 00:17:17,819 INFO    SenderThread:92510 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-07 00:17:18,004 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:17:18,580 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-07 00:17:18,581 DEBUG   SenderThread:92510 [sender.py:send():379] send: history
+2024-07-07 00:17:18,581 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: summary_record
+2024-07-07 00:17:18,581 INFO    SenderThread:92510 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-07 00:17:18,686 INFO    Thread-76 :92510 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240707_001458-g7xx8ni5/files/wandb-summary.json
+2024-07-07 00:17:19,004 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:17:19,340 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-07 00:17:19,341 DEBUG   SenderThread:92510 [sender.py:send():379] send: history
+2024-07-07 00:17:19,341 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: summary_record
+2024-07-07 00:17:19,343 INFO    SenderThread:92510 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-07 00:17:19,686 INFO    Thread-76 :92510 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240707_001458-g7xx8ni5/files/output.log
+2024-07-07 00:17:19,686 INFO    Thread-76 :92510 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240707_001458-g7xx8ni5/files/wandb-summary.json
+2024-07-07 00:17:20,004 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:17:20,103 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-07 00:17:20,104 DEBUG   SenderThread:92510 [sender.py:send():379] send: history
+2024-07-07 00:17:20,104 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: summary_record
+2024-07-07 00:17:20,105 INFO    SenderThread:92510 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-07 00:17:20,686 INFO    Thread-76 :92510 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240707_001458-g7xx8ni5/files/wandb-summary.json
+2024-07-07 00:17:20,869 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-07 00:17:20,869 DEBUG   SenderThread:92510 [sender.py:send():379] send: history
+2024-07-07 00:17:20,870 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: summary_record
+2024-07-07 00:17:20,870 INFO    SenderThread:92510 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-07 00:17:21,004 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:17:21,637 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-07 00:17:21,638 DEBUG   SenderThread:92510 [sender.py:send():379] send: history
+2024-07-07 00:17:21,638 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: summary_record
+2024-07-07 00:17:21,639 INFO    SenderThread:92510 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-07 00:17:21,687 INFO    Thread-76 :92510 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240707_001458-g7xx8ni5/files/output.log
+2024-07-07 00:17:21,687 INFO    Thread-76 :92510 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240707_001458-g7xx8ni5/files/wandb-summary.json
+2024-07-07 00:17:21,793 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: status_report
+2024-07-07 00:17:22,005 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:17:22,397 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-07 00:17:22,397 DEBUG   SenderThread:92510 [sender.py:send():379] send: history
+2024-07-07 00:17:22,398 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: summary_record
+2024-07-07 00:17:22,398 INFO    SenderThread:92510 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-07 00:17:22,687 INFO    Thread-76 :92510 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240707_001458-g7xx8ni5/files/wandb-summary.json
+2024-07-07 00:17:23,005 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:17:23,159 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-07 00:17:23,160 DEBUG   SenderThread:92510 [sender.py:send():379] send: history
+2024-07-07 00:17:23,160 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: summary_record
+2024-07-07 00:17:23,161 INFO    SenderThread:92510 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-07 00:17:23,688 INFO    Thread-76 :92510 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240707_001458-g7xx8ni5/files/output.log
+2024-07-07 00:17:23,688 INFO    Thread-76 :92510 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240707_001458-g7xx8ni5/files/wandb-summary.json
+2024-07-07 00:17:23,918 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-07 00:17:23,919 DEBUG   SenderThread:92510 [sender.py:send():379] send: history
+2024-07-07 00:17:23,919 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: summary_record
+2024-07-07 00:17:23,919 INFO    SenderThread:92510 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-07 00:17:24,005 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:17:24,685 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-07 00:17:24,686 DEBUG   SenderThread:92510 [sender.py:send():379] send: history
+2024-07-07 00:17:24,686 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: summary_record
+2024-07-07 00:17:24,686 INFO    SenderThread:92510 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-07 00:17:24,688 INFO    Thread-76 :92510 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240707_001458-g7xx8ni5/files/wandb-summary.json
+2024-07-07 00:17:24,978 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-07 00:17:24,978 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: stop_status
+2024-07-07 00:17:25,005 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:17:25,688 INFO    Thread-76 :92510 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240707_001458-g7xx8ni5/files/output.log
+2024-07-07 00:17:26,006 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:17:27,006 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:17:27,232 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: status_report
+2024-07-07 00:17:28,007 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:17:28,768 DEBUG   SenderThread:92510 [sender.py:send():379] send: stats
+2024-07-07 00:17:29,006 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:17:30,006 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:17:31,007 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:17:32,007 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:17:32,984 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: status_report
+2024-07-07 00:17:33,007 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:17:34,008 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:17:35,008 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:17:36,009 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:17:37,009 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:17:38,009 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:17:38,290 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: log_artifact
+2024-07-07 00:17:38,291 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: log_artifact
+2024-07-07 00:17:38,398 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: pause
+2024-07-07 00:17:38,398 INFO    HandlerThread:92510 [handler.py:handle_request_pause():724] stopping system metrics thread
+2024-07-07 00:17:38,398 INFO    HandlerThread:92510 [system_monitor.py:finish():203] Stopping system monitor
+2024-07-07 00:17:38,398 DEBUG   SystemMonitor:92510 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-07-07 00:17:38,399 INFO    HandlerThread:92510 [interfaces.py:finish():200] Joined cpu monitor
+2024-07-07 00:17:38,399 DEBUG   SystemMonitor:92510 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-07-07 00:17:38,399 INFO    HandlerThread:92510 [interfaces.py:finish():200] Joined disk monitor
+2024-07-07 00:17:38,474 INFO    HandlerThread:92510 [interfaces.py:finish():200] Joined gpu monitor
+2024-07-07 00:17:38,475 INFO    HandlerThread:92510 [interfaces.py:finish():200] Joined memory monitor
+2024-07-07 00:17:38,475 INFO    HandlerThread:92510 [interfaces.py:finish():200] Joined network monitor
+2024-07-07 00:17:38,475 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: resume
+2024-07-07 00:17:38,475 INFO    HandlerThread:92510 [handler.py:handle_request_resume():715] starting system metrics thread
+2024-07-07 00:17:38,475 INFO    HandlerThread:92510 [system_monitor.py:start():194] Starting system monitor
+2024-07-07 00:17:38,475 INFO    SystemMonitor:92510 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-07-07 00:17:38,476 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: pause
+2024-07-07 00:17:38,476 INFO    HandlerThread:92510 [handler.py:handle_request_pause():724] stopping system metrics thread
+2024-07-07 00:17:38,476 INFO    HandlerThread:92510 [system_monitor.py:finish():203] Stopping system monitor
+2024-07-07 00:17:38,476 INFO    SystemMonitor:92510 [interfaces.py:start():188] Started cpu monitoring
+2024-07-07 00:17:38,476 DEBUG   SystemMonitor:92510 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-07-07 00:17:38,476 DEBUG   SystemMonitor:92510 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-07-07 00:17:38,476 DEBUG   SystemMonitor:92510 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-07-07 00:17:38,477 INFO    HandlerThread:92510 [interfaces.py:finish():200] Joined cpu monitor
+2024-07-07 00:17:39,009 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:17:39,551 INFO    wandb-upload_36:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpchq4oofz
+2024-07-07 00:17:39,551 INFO    wandb-upload_16:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpdqlhk7qq
+2024-07-07 00:17:39,551 INFO    wandb-upload_38:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp5pt8q3pz
+2024-07-07 00:17:39,551 INFO    wandb-upload_2:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmppwa8kfb4
+2024-07-07 00:17:39,551 INFO    wandb-upload_58:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpmqcsaw8l
+2024-07-07 00:17:39,551 INFO    wandb-upload_26:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp8b9o2ozz
+2024-07-07 00:17:39,551 INFO    wandb-upload_19:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp_7dmwev5
+2024-07-07 00:17:39,551 INFO    wandb-upload_6:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpj9qur8x7
+2024-07-07 00:17:39,551 INFO    wandb-upload_27:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpnydw_ili
+2024-07-07 00:17:39,551 INFO    wandb-upload_21:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpqgxj4awv
+2024-07-07 00:17:39,551 INFO    wandb-upload_4:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpbt09ezmh
+2024-07-07 00:17:39,551 INFO    wandb-upload_13:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmprh8ckzvs
+2024-07-07 00:17:39,551 INFO    wandb-upload_53:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpw3ywx7jg
+2024-07-07 00:17:39,551 INFO    wandb-upload_63:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp5yy_2mo2
+2024-07-07 00:17:39,552 INFO    wandb-upload_30:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpxn_rx7ky
+2024-07-07 00:17:39,552 INFO    wandb-upload_40:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp42i84gvg
+2024-07-07 00:17:39,552 INFO    wandb-upload_18:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp10cc4a4u
+2024-07-07 00:17:39,552 INFO    wandb-upload_56:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpk8q5894l
+2024-07-07 00:17:39,552 INFO    wandb-upload_41:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp98f_qn7h
+2024-07-07 00:17:39,552 INFO    wandb-upload_49:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp1kp7yb4o
+2024-07-07 00:17:39,552 INFO    wandb-upload_9:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpjswspt6w
+2024-07-07 00:17:39,552 INFO    wandb-upload_39:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpgl15iwgg
+2024-07-07 00:17:39,552 INFO    wandb-upload_15:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp_rzp32ta
+2024-07-07 00:17:39,552 INFO    wandb-upload_44:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp3zfpr6k2
+2024-07-07 00:17:39,552 INFO    wandb-upload_23:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpfe7sotup
+2024-07-07 00:17:39,552 INFO    wandb-upload_22:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp9phv0pjf
+2024-07-07 00:17:39,552 INFO    wandb-upload_0:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpt7gikycz
+2024-07-07 00:17:39,552 INFO    wandb-upload_31:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp9jrwxqoa
+2024-07-07 00:17:39,552 INFO    wandb-upload_20:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpl_6eyr8u
+2024-07-07 00:17:39,552 INFO    wandb-upload_52:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpy51jj4v0
+2024-07-07 00:17:39,552 INFO    wandb-upload_55:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpzxh4dd2q
+2024-07-07 00:17:39,553 INFO    wandb-upload_51:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmper0p53wa
+2024-07-07 00:17:39,553 INFO    wandb-upload_3:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpytndix0p
+2024-07-07 00:17:39,553 INFO    wandb-upload_46:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp13poo0qf
+2024-07-07 00:17:39,553 INFO    wandb-upload_37:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp1tndg_gc
+2024-07-07 00:17:39,553 INFO    wandb-upload_1:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpg9v8xpa0
+2024-07-07 00:17:39,553 INFO    wandb-upload_62:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpe7y42z2l
+2024-07-07 00:17:39,553 INFO    wandb-upload_7:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp4pal6o1c
+2024-07-07 00:17:39,553 INFO    wandb-upload_60:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp5s561d59
+2024-07-07 00:17:39,553 INFO    wandb-upload_11:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpd4d48kf2
+2024-07-07 00:17:39,553 INFO    wandb-upload_47:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp1isfrlk4
+2024-07-07 00:17:39,553 INFO    wandb-upload_35:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpuoauabrv
+2024-07-07 00:17:39,553 INFO    wandb-upload_59:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp9oqkn8f1
+2024-07-07 00:17:39,553 INFO    wandb-upload_57:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp3k5jdk3h
+2024-07-07 00:17:39,553 INFO    wandb-upload_48:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp28_wccu9
+2024-07-07 00:17:39,553 INFO    wandb-upload_12:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpf9cu_6i4
+2024-07-07 00:17:39,553 INFO    wandb-upload_43:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp1flua7iw
+2024-07-07 00:17:39,553 INFO    wandb-upload_5:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpkwf9ixz9
+2024-07-07 00:17:39,553 INFO    wandb-upload_14:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmperk812_u
+2024-07-07 00:17:39,553 INFO    wandb-upload_54:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpj1asalq4
+2024-07-07 00:17:39,553 INFO    wandb-upload_32:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp1nsmif_k
+2024-07-07 00:17:39,554 INFO    wandb-upload_24:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpha32a3yw
+2024-07-07 00:17:39,554 INFO    wandb-upload_42:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpy3vvuh01
+2024-07-07 00:17:39,554 INFO    wandb-upload_25:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp5hch1kb0
+2024-07-07 00:17:39,554 INFO    wandb-upload_33:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp0u9da7x_
+2024-07-07 00:17:39,554 INFO    wandb-upload_45:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpa3h7k921
+2024-07-07 00:17:39,554 INFO    wandb-upload_28:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpmepel2gi
+2024-07-07 00:17:39,554 INFO    wandb-upload_29:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpp5vnklnh
+2024-07-07 00:17:39,554 INFO    wandb-upload_8:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpynd591bo
+2024-07-07 00:17:39,554 INFO    wandb-upload_50:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmph1myv651
+2024-07-07 00:17:39,554 INFO    wandb-upload_34:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp3qwnmpkq
+2024-07-07 00:17:39,554 INFO    wandb-upload_17:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpbrirs4q5
+2024-07-07 00:17:39,554 INFO    wandb-upload_10:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp0ntiqqpw
+2024-07-07 00:17:39,978 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-07 00:17:39,989 INFO    wandb-upload_61:92510 [upload_job.py:push():88] Uploaded file /home/arsalan/.local/share/wandb/artifacts/staging/tmp936vgmfc
+2024-07-07 00:17:40,019 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:17:40,170 INFO    wandb-upload_62:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpdh1inh1t
+2024-07-07 00:17:40,170 INFO    wandb-upload_36:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp_o4ie3nb
+2024-07-07 00:17:40,170 INFO    wandb-upload_38:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp6vzhd4f1
+2024-07-07 00:17:40,170 INFO    wandb-upload_58:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp625kia3w
+2024-07-07 00:17:40,170 INFO    wandb-upload_2:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpr8npxf5y
+2024-07-07 00:17:40,170 INFO    wandb-upload_26:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpxfxcytgc
+2024-07-07 00:17:40,170 INFO    wandb-upload_19:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpimwkz2wh
+2024-07-07 00:17:40,170 INFO    wandb-upload_27:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp2spkel3c
+2024-07-07 00:17:40,170 INFO    wandb-upload_21:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp9c31oqtn
+2024-07-07 00:17:40,171 INFO    wandb-upload_4:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpd8yg6ope
+2024-07-07 00:17:40,171 INFO    wandb-upload_13:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp0trn9v_w
+2024-07-07 00:17:40,171 INFO    wandb-upload_53:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmplaiywot7
+2024-07-07 00:17:40,171 INFO    wandb-upload_6:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpft9dfjmi
+2024-07-07 00:17:40,171 INFO    wandb-upload_63:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmph4y6_jb0
+2024-07-07 00:17:40,171 INFO    wandb-upload_30:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmprebeonaz
+2024-07-07 00:17:40,171 INFO    wandb-upload_40:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp83rp83si
+2024-07-07 00:17:40,171 INFO    wandb-upload_18:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpk0c1c4x3
+2024-07-07 00:17:40,171 INFO    wandb-upload_56:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpcjeyv0ip
+2024-07-07 00:17:40,171 INFO    wandb-upload_41:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmptopl8rxm
+2024-07-07 00:17:40,171 INFO    wandb-upload_49:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpobxn8g2l
+2024-07-07 00:17:40,171 INFO    wandb-upload_9:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp2vli0zcw
+2024-07-07 00:17:40,171 INFO    wandb-upload_39:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpind_0vay
+2024-07-07 00:17:40,171 INFO    wandb-upload_15:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp___nw8vp
+2024-07-07 00:17:40,171 INFO    wandb-upload_44:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp863y06sh
+2024-07-07 00:17:40,171 INFO    wandb-upload_23:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp7iq162bk
+2024-07-07 00:17:40,171 INFO    wandb-upload_0:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpv3pw36zi
+2024-07-07 00:17:40,171 INFO    wandb-upload_31:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpby0tran5
+2024-07-07 00:17:40,172 INFO    wandb-upload_22:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp7b6bab6v
+2024-07-07 00:17:40,172 INFO    wandb-upload_20:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpy6wwr5j0
+2024-07-07 00:17:40,172 INFO    wandb-upload_52:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp5rvebsjp
+2024-07-07 00:17:40,172 INFO    wandb-upload_55:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpn8kiwss4
+2024-07-07 00:17:40,172 INFO    wandb-upload_51:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp28c3agep
+2024-07-07 00:17:40,172 INFO    wandb-upload_3:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmp7gthjyhf
+2024-07-07 00:17:40,172 INFO    wandb-upload_46:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpgc1yxtl9
+2024-07-07 00:17:40,172 INFO    wandb-upload_37:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpq5k2k_hk
+2024-07-07 00:17:40,172 INFO    wandb-upload_1:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpksfqvxjw
+2024-07-07 00:17:40,172 INFO    wandb-upload_16:92510 [upload_job.py:push():85] Skipped uploading /home/arsalan/.local/share/wandb/artifacts/staging/tmpr3swneq6
+2024-07-07 00:17:41,009 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:17:41,170 INFO    SenderThread:92510 [sender.py:send_request_log_artifact():1518] logged artifact run_g7xx8ni5_pred - {'id': 'QXJ0aWZhY3Q6OTQ3MjQwOTky', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjI0NjI5MTczNA==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6OTQ3MjQwNzc3', 'versionIndex': 1}}}
+2024-07-07 00:17:41,170 DEBUG   SenderThread:92510 [sender.py:send():379] send: stats
+2024-07-07 00:17:41,170 DEBUG   SenderThread:92510 [sender.py:send():379] send: stats
+2024-07-07 00:17:41,171 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: stop_status
+2024-07-07 00:17:41,173 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: status_report
+2024-07-07 00:17:41,694 INFO    Thread-76 :92510 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240707_001458-g7xx8ni5/files/output.log
+2024-07-07 00:17:42,009 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:17:43,010 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:17:44,010 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:17:45,010 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:17:46,010 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:17:46,985 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: status_report
+2024-07-07 00:17:47,010 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:17:48,010 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:17:49,011 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:17:50,011 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:17:51,011 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:17:51,990 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: status_report
+2024-07-07 00:17:52,017 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:17:53,014 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:17:54,013 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:17:54,978 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-07 00:17:54,979 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: stop_status
+2024-07-07 00:17:55,019 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:17:56,014 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:17:57,014 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:17:57,264 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: status_report
+2024-07-07 00:17:58,014 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:17:59,014 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:18:00,015 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:18:01,015 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:18:02,015 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:18:02,987 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: status_report
+2024-07-07 00:18:03,015 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:18:04,015 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:18:05,016 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:18:06,016 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:18:07,016 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:18:08,016 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:18:08,986 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: status_report
+2024-07-07 00:18:09,016 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:18:09,978 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-07 00:18:09,980 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: stop_status
+2024-07-07 00:18:10,019 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:18:11,016 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:18:12,017 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:18:13,017 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:18:14,017 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:18:14,303 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: status_report
+2024-07-07 00:18:15,017 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:18:16,017 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:18:17,017 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:18:18,017 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:18:19,017 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:18:19,987 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: status_report
+2024-07-07 00:18:20,018 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:18:21,018 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:18:22,018 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:18:23,018 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:18:24,018 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:18:24,978 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-07 00:18:24,979 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: stop_status
+2024-07-07 00:18:25,020 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:18:25,220 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: status_report
+2024-07-07 00:18:26,019 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:18:27,019 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:18:28,019 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:18:29,019 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:18:30,020 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:18:30,986 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: status_report
+2024-07-07 00:18:31,020 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:18:32,020 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:18:33,020 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:18:34,020 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:18:35,021 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:18:35,987 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: status_report
+2024-07-07 00:18:36,020 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:18:37,021 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:18:38,021 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:18:39,021 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:18:39,978 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-07 00:18:39,979 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: stop_status
+2024-07-07 00:18:40,021 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:18:41,021 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:18:41,202 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: status_report
+2024-07-07 00:18:42,021 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:18:43,021 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:18:44,022 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:18:45,022 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:18:46,022 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:18:46,987 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: status_report
+2024-07-07 00:18:47,022 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:18:48,022 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:18:49,022 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:18:50,023 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:18:51,023 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:18:51,987 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: status_report
+2024-07-07 00:18:52,023 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:18:53,023 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:18:54,023 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:18:54,979 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-07 00:18:54,979 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: stop_status
+2024-07-07 00:18:55,023 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:18:56,023 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:18:57,023 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:18:57,521 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: status_report
+2024-07-07 00:18:58,024 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:18:59,023 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:19:00,024 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:19:01,024 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:19:02,024 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:19:02,988 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: status_report
+2024-07-07 00:19:03,024 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:19:04,024 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:19:05,024 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:19:06,024 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:19:07,024 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:19:08,025 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:19:08,989 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: status_report
+2024-07-07 00:19:09,025 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:19:09,979 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-07 00:19:09,979 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: stop_status
+2024-07-07 00:19:10,025 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:19:11,025 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:19:12,025 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:19:13,026 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:19:14,026 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:19:14,250 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: status_report
+2024-07-07 00:19:15,026 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:19:16,026 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:19:17,026 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:19:18,026 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:19:19,027 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:19:19,988 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: status_report
+2024-07-07 00:19:20,027 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:19:21,027 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:19:22,027 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:19:23,027 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:19:24,027 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:19:24,979 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-07 00:19:24,979 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: stop_status
+2024-07-07 00:19:25,027 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:19:25,299 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: status_report
+2024-07-07 00:19:26,028 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:19:27,028 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:19:28,028 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:19:29,028 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:19:30,028 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:19:30,988 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: status_report
+2024-07-07 00:19:31,028 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:19:32,028 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:19:33,028 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:19:34,029 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:19:35,029 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:19:36,029 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:19:36,988 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: status_report
+2024-07-07 00:19:37,029 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:19:38,029 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:19:39,029 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:19:39,979 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-07 00:19:39,979 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: stop_status
+2024-07-07 00:19:40,029 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:19:41,029 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:19:42,030 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:19:42,281 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: status_report
+2024-07-07 00:19:43,030 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:19:44,030 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:19:45,030 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:19:46,030 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:19:47,030 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:19:47,989 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: status_report
+2024-07-07 00:19:48,030 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:19:49,031 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:19:50,031 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:19:51,031 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:19:52,031 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:19:52,991 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: status_report
+2024-07-07 00:19:53,031 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:19:54,031 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:19:54,979 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-07 00:19:54,980 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: stop_status
+2024-07-07 00:19:55,031 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:19:56,032 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:19:57,032 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:19:58,032 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:19:58,284 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: status_report
+2024-07-07 00:19:59,032 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:20:00,032 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:20:01,032 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:20:02,032 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:20:03,032 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:20:03,990 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: status_report
+2024-07-07 00:20:04,033 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:20:05,033 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:20:06,033 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:20:07,033 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:20:08,033 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:20:09,033 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:20:09,980 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-07 00:20:09,980 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: stop_status
+2024-07-07 00:20:10,033 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:20:10,297 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: status_report
+2024-07-07 00:20:11,033 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:20:12,033 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:20:13,034 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:20:14,034 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:20:15,034 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:20:15,989 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: status_report
+2024-07-07 00:20:16,034 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:20:17,034 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:20:18,034 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:20:19,035 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:20:20,035 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:20:20,990 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: status_report
+2024-07-07 00:20:21,035 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:20:22,035 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:20:23,036 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:20:24,035 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:20:24,980 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-07 00:20:24,980 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: stop_status
+2024-07-07 00:20:25,035 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:20:26,035 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:20:26,304 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: status_report
+2024-07-07 00:20:27,035 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:20:28,036 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:20:29,036 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:20:30,036 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:20:31,036 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:20:31,990 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: status_report
+2024-07-07 00:20:32,036 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:20:33,036 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:20:34,036 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:20:35,037 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:20:36,037 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:20:37,037 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:20:37,990 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: status_report
+2024-07-07 00:20:38,037 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:20:39,037 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:20:39,980 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-07 00:20:39,980 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: stop_status
+2024-07-07 00:20:40,037 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:20:41,037 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:20:42,038 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:20:43,038 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:20:43,279 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: status_report
+2024-07-07 00:20:44,038 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:20:44,603 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: resume
+2024-07-07 00:20:44,603 INFO    HandlerThread:92510 [handler.py:handle_request_resume():715] starting system metrics thread
+2024-07-07 00:20:44,603 INFO    HandlerThread:92510 [system_monitor.py:start():194] Starting system monitor
+2024-07-07 00:20:44,603 INFO    SystemMonitor:92510 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-07-07 00:20:44,604 INFO    SystemMonitor:92510 [interfaces.py:start():188] Started cpu monitoring
+2024-07-07 00:20:44,605 INFO    SystemMonitor:92510 [interfaces.py:start():188] Started disk monitoring
+2024-07-07 00:20:44,606 INFO    SystemMonitor:92510 [interfaces.py:start():188] Started gpu monitoring
+2024-07-07 00:20:44,607 INFO    SystemMonitor:92510 [interfaces.py:start():188] Started memory monitoring
+2024-07-07 00:20:44,608 INFO    SystemMonitor:92510 [interfaces.py:start():188] Started network monitoring
+2024-07-07 00:20:44,643 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: pause
+2024-07-07 00:20:44,643 INFO    HandlerThread:92510 [handler.py:handle_request_pause():724] stopping system metrics thread
+2024-07-07 00:20:44,643 INFO    HandlerThread:92510 [system_monitor.py:finish():203] Stopping system monitor
+2024-07-07 00:20:44,644 DEBUG   SystemMonitor:92510 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-07-07 00:20:44,644 INFO    HandlerThread:92510 [interfaces.py:finish():200] Joined cpu monitor
+2024-07-07 00:20:44,644 DEBUG   SystemMonitor:92510 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-07-07 00:20:44,644 INFO    HandlerThread:92510 [interfaces.py:finish():200] Joined disk monitor
+2024-07-07 00:20:44,645 DEBUG   SystemMonitor:92510 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-07-07 00:20:44,772 INFO    HandlerThread:92510 [interfaces.py:finish():200] Joined gpu monitor
+2024-07-07 00:20:44,772 INFO    HandlerThread:92510 [interfaces.py:finish():200] Joined memory monitor
+2024-07-07 00:20:44,772 INFO    HandlerThread:92510 [interfaces.py:finish():200] Joined network monitor
+2024-07-07 00:20:44,772 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: resume
+2024-07-07 00:20:44,772 INFO    HandlerThread:92510 [handler.py:handle_request_resume():715] starting system metrics thread
+2024-07-07 00:20:44,772 INFO    HandlerThread:92510 [system_monitor.py:start():194] Starting system monitor
+2024-07-07 00:20:44,772 INFO    SystemMonitor:92510 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-07-07 00:20:44,773 INFO    SystemMonitor:92510 [interfaces.py:start():188] Started cpu monitoring
+2024-07-07 00:20:44,773 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: pause
+2024-07-07 00:20:44,774 INFO    SystemMonitor:92510 [interfaces.py:start():188] Started disk monitoring
+2024-07-07 00:20:44,774 INFO    HandlerThread:92510 [handler.py:handle_request_pause():724] stopping system metrics thread
+2024-07-07 00:20:44,775 DEBUG   SenderThread:92510 [sender.py:send():379] send: stats
+2024-07-07 00:20:44,776 INFO    HandlerThread:92510 [system_monitor.py:finish():203] Stopping system monitor
+2024-07-07 00:20:44,776 INFO    SystemMonitor:92510 [interfaces.py:start():188] Started gpu monitoring
+2024-07-07 00:20:44,779 DEBUG   SystemMonitor:92510 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-07-07 00:20:44,779 DEBUG   SystemMonitor:92510 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-07-07 00:20:44,779 DEBUG   SystemMonitor:92510 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-07-07 00:20:44,780 INFO    HandlerThread:92510 [interfaces.py:finish():200] Joined cpu monitor
+2024-07-07 00:20:44,782 INFO    HandlerThread:92510 [interfaces.py:finish():200] Joined disk monitor
+2024-07-07 00:20:44,910 INFO    HandlerThread:92510 [interfaces.py:finish():200] Joined gpu monitor
+2024-07-07 00:20:44,911 DEBUG   SenderThread:92510 [sender.py:send():379] send: stats
+2024-07-07 00:20:45,038 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:20:46,038 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:20:47,038 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:20:48,038 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:20:48,991 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: status_report
+2024-07-07 00:20:49,038 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:20:50,039 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:20:50,566 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: resume
+2024-07-07 00:20:50,566 INFO    HandlerThread:92510 [handler.py:handle_request_resume():715] starting system metrics thread
+2024-07-07 00:20:50,566 INFO    HandlerThread:92510 [system_monitor.py:start():194] Starting system monitor
+2024-07-07 00:20:50,567 INFO    SystemMonitor:92510 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-07-07 00:20:50,567 INFO    SystemMonitor:92510 [interfaces.py:start():188] Started cpu monitoring
+2024-07-07 00:20:50,568 INFO    SystemMonitor:92510 [interfaces.py:start():188] Started disk monitoring
+2024-07-07 00:20:50,568 INFO    SystemMonitor:92510 [interfaces.py:start():188] Started gpu monitoring
+2024-07-07 00:20:50,570 INFO    SystemMonitor:92510 [interfaces.py:start():188] Started memory monitoring
+2024-07-07 00:20:50,570 INFO    SystemMonitor:92510 [interfaces.py:start():188] Started network monitoring
+2024-07-07 00:20:50,607 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: server_info
+2024-07-07 00:20:50,608 DEBUG   SenderThread:92510 [sender.py:send():379] send: telemetry
+2024-07-07 00:20:50,609 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: server_info
+2024-07-07 00:20:50,833 DEBUG   SenderThread:92510 [sender.py:send():379] send: exit
+2024-07-07 00:20:50,833 INFO    SenderThread:92510 [sender.py:send_exit():586] handling exit code: 0
+2024-07-07 00:20:50,833 INFO    SenderThread:92510 [sender.py:send_exit():588] handling runtime: 141
+2024-07-07 00:20:50,833 INFO    SenderThread:92510 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-07 00:20:50,834 INFO    SenderThread:92510 [sender.py:send_exit():594] send defer
+2024-07-07 00:20:50,834 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: defer
+2024-07-07 00:20:50,834 INFO    HandlerThread:92510 [handler.py:handle_request_defer():184] handle defer: 0
+2024-07-07 00:20:50,834 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: defer
+2024-07-07 00:20:50,834 INFO    SenderThread:92510 [sender.py:send_request_defer():610] handle sender defer: 0
+2024-07-07 00:20:50,834 INFO    SenderThread:92510 [sender.py:transition_state():614] send defer: 1
+2024-07-07 00:20:50,834 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: defer
+2024-07-07 00:20:50,834 INFO    HandlerThread:92510 [handler.py:handle_request_defer():184] handle defer: 1
+2024-07-07 00:20:50,835 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: defer
+2024-07-07 00:20:50,835 INFO    SenderThread:92510 [sender.py:send_request_defer():610] handle sender defer: 1
+2024-07-07 00:20:50,835 INFO    SenderThread:92510 [sender.py:transition_state():614] send defer: 2
+2024-07-07 00:20:50,835 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: defer
+2024-07-07 00:20:50,835 INFO    HandlerThread:92510 [handler.py:handle_request_defer():184] handle defer: 2
+2024-07-07 00:20:50,835 INFO    HandlerThread:92510 [system_monitor.py:finish():203] Stopping system monitor
+2024-07-07 00:20:50,835 INFO    HandlerThread:92510 [interfaces.py:finish():200] Joined cpu monitor
+2024-07-07 00:20:50,835 DEBUG   SystemMonitor:92510 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-07-07 00:20:50,835 DEBUG   SystemMonitor:92510 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-07-07 00:20:50,835 DEBUG   SystemMonitor:92510 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-07-07 00:20:50,836 INFO    HandlerThread:92510 [interfaces.py:finish():200] Joined disk monitor
+2024-07-07 00:20:50,910 INFO    HandlerThread:92510 [interfaces.py:finish():200] Joined gpu monitor
+2024-07-07 00:20:50,910 INFO    HandlerThread:92510 [interfaces.py:finish():200] Joined memory monitor
+2024-07-07 00:20:50,910 INFO    HandlerThread:92510 [interfaces.py:finish():200] Joined network monitor
+2024-07-07 00:20:50,911 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: defer
+2024-07-07 00:20:50,911 INFO    SenderThread:92510 [sender.py:send_request_defer():610] handle sender defer: 2
+2024-07-07 00:20:50,911 INFO    SenderThread:92510 [sender.py:transition_state():614] send defer: 3
+2024-07-07 00:20:50,911 DEBUG   SenderThread:92510 [sender.py:send():379] send: stats
+2024-07-07 00:20:50,911 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: defer
+2024-07-07 00:20:50,912 INFO    HandlerThread:92510 [handler.py:handle_request_defer():184] handle defer: 3
+2024-07-07 00:20:50,912 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: defer
+2024-07-07 00:20:50,912 INFO    SenderThread:92510 [sender.py:send_request_defer():610] handle sender defer: 3
+2024-07-07 00:20:50,912 INFO    SenderThread:92510 [sender.py:transition_state():614] send defer: 4
+2024-07-07 00:20:50,912 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: defer
+2024-07-07 00:20:50,912 INFO    HandlerThread:92510 [handler.py:handle_request_defer():184] handle defer: 4
+2024-07-07 00:20:50,912 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: defer
+2024-07-07 00:20:50,912 INFO    SenderThread:92510 [sender.py:send_request_defer():610] handle sender defer: 4
+2024-07-07 00:20:50,912 INFO    SenderThread:92510 [sender.py:transition_state():614] send defer: 5
+2024-07-07 00:20:50,912 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: defer
+2024-07-07 00:20:50,912 INFO    HandlerThread:92510 [handler.py:handle_request_defer():184] handle defer: 5
+2024-07-07 00:20:50,913 DEBUG   SenderThread:92510 [sender.py:send():379] send: summary
+2024-07-07 00:20:50,913 INFO    SenderThread:92510 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-07 00:20:50,913 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: defer
+2024-07-07 00:20:50,913 INFO    SenderThread:92510 [sender.py:send_request_defer():610] handle sender defer: 5
+2024-07-07 00:20:50,913 INFO    SenderThread:92510 [sender.py:transition_state():614] send defer: 6
+2024-07-07 00:20:50,914 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: defer
+2024-07-07 00:20:50,914 INFO    HandlerThread:92510 [handler.py:handle_request_defer():184] handle defer: 6
+2024-07-07 00:20:50,914 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: defer
+2024-07-07 00:20:50,914 INFO    SenderThread:92510 [sender.py:send_request_defer():610] handle sender defer: 6
+2024-07-07 00:20:50,917 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: status_report
+2024-07-07 00:20:51,145 INFO    SenderThread:92510 [sender.py:transition_state():614] send defer: 7
+2024-07-07 00:20:51,145 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: defer
+2024-07-07 00:20:51,145 INFO    HandlerThread:92510 [handler.py:handle_request_defer():184] handle defer: 7
+2024-07-07 00:20:51,145 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: defer
+2024-07-07 00:20:51,145 INFO    SenderThread:92510 [sender.py:send_request_defer():610] handle sender defer: 7
+2024-07-07 00:20:51,767 INFO    Thread-76 :92510 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240707_001458-g7xx8ni5/files/wandb-summary.json
+2024-07-07 00:20:51,768 INFO    Thread-76 :92510 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240707_001458-g7xx8ni5/files/config.yaml
+2024-07-07 00:20:51,833 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: poll_exit
+2024-07-07 00:20:53,608 INFO    SenderThread:92510 [sender.py:transition_state():614] send defer: 8
+2024-07-07 00:20:53,608 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: poll_exit
+2024-07-07 00:20:53,609 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: defer
+2024-07-07 00:20:53,609 INFO    HandlerThread:92510 [handler.py:handle_request_defer():184] handle defer: 8
+2024-07-07 00:20:53,609 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: defer
+2024-07-07 00:20:53,609 INFO    SenderThread:92510 [sender.py:send_request_defer():610] handle sender defer: 8
+2024-07-07 00:20:53,609 INFO    SenderThread:92510 [job_builder.py:build():440] Attempting to build job artifact
+2024-07-07 00:20:53,610 INFO    SenderThread:92510 [job_builder.py:_get_source_type():569] is repo sourced job
+2024-07-07 00:20:53,610 INFO    SenderThread:92510 [job_builder.py:_get_program_relpath():587] run is notebook based run
+2024-07-07 00:20:53,611 INFO    SenderThread:92510 [job_builder.py:build():545] adding wandb-job metadata file
+2024-07-07 00:20:53,614 INFO    SenderThread:92510 [sender.py:transition_state():614] send defer: 9
+2024-07-07 00:20:53,614 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: defer
+2024-07-07 00:20:53,614 INFO    HandlerThread:92510 [handler.py:handle_request_defer():184] handle defer: 9
+2024-07-07 00:20:53,616 DEBUG   SenderThread:92510 [sender.py:send():379] send: artifact
+2024-07-07 00:20:53,768 INFO    Thread-76 :92510 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240707_001458-g7xx8ni5/files/output.log
+2024-07-07 00:20:53,834 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: poll_exit
+2024-07-07 00:20:54,117 INFO    SenderThread:92510 [sender.py:send_artifact():1530] sent artifact job-git_github.com_Arsalanzabeeb786_TyreQualityPrediction.git_NoteBook_with_wandb.ipynb - {'id': 'QXJ0aWZhY3Q6OTQ3MjM0MDI0', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjI0NjI4NTA5OQ==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6OTQ3MjM0MDI0', 'versionIndex': 1}}}
+2024-07-07 00:20:54,117 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: defer
+2024-07-07 00:20:54,117 INFO    SenderThread:92510 [sender.py:send_request_defer():610] handle sender defer: 9
+2024-07-07 00:20:54,117 INFO    SenderThread:92510 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-07-07 00:20:54,769 INFO    SenderThread:92510 [dir_watcher.py:finish():388] scan: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240707_001458-g7xx8ni5/files
+2024-07-07 00:20:54,769 INFO    SenderThread:92510 [dir_watcher.py:finish():402] scan save: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240707_001458-g7xx8ni5/files/requirements.txt requirements.txt
+2024-07-07 00:20:54,770 INFO    SenderThread:92510 [dir_watcher.py:finish():402] scan save: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240707_001458-g7xx8ni5/files/wandb-metadata.json wandb-metadata.json
+2024-07-07 00:20:54,770 INFO    SenderThread:92510 [dir_watcher.py:finish():402] scan save: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240707_001458-g7xx8ni5/files/conda-environment.yaml conda-environment.yaml
+2024-07-07 00:20:54,770 INFO    SenderThread:92510 [dir_watcher.py:finish():402] scan save: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240707_001458-g7xx8ni5/files/wandb-summary.json wandb-summary.json
+2024-07-07 00:20:54,770 INFO    SenderThread:92510 [dir_watcher.py:finish():402] scan save: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240707_001458-g7xx8ni5/files/output.log output.log
+2024-07-07 00:20:54,770 INFO    SenderThread:92510 [dir_watcher.py:finish():402] scan save: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240707_001458-g7xx8ni5/files/config.yaml config.yaml
+2024-07-07 00:20:54,770 INFO    SenderThread:92510 [sender.py:transition_state():614] send defer: 10
+2024-07-07 00:20:54,770 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: poll_exit
+2024-07-07 00:20:54,771 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: defer
+2024-07-07 00:20:54,771 INFO    HandlerThread:92510 [handler.py:handle_request_defer():184] handle defer: 10
+2024-07-07 00:20:54,774 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: defer
+2024-07-07 00:20:54,775 INFO    SenderThread:92510 [sender.py:send_request_defer():610] handle sender defer: 10
+2024-07-07 00:20:54,775 INFO    SenderThread:92510 [file_pusher.py:finish():169] shutting down file pusher
+2024-07-07 00:20:54,837 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: poll_exit
+2024-07-07 00:20:54,838 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: poll_exit
+2024-07-07 00:20:55,269 INFO    wandb-upload_7:92510 [upload_job.py:push():130] Uploaded file /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240707_001458-g7xx8ni5/files/requirements.txt
+2024-07-07 00:20:55,406 INFO    wandb-upload_60:92510 [upload_job.py:push():130] Uploaded file /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240707_001458-g7xx8ni5/files/conda-environment.yaml
+2024-07-07 00:20:55,462 INFO    wandb-upload_47:92510 [upload_job.py:push():130] Uploaded file /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240707_001458-g7xx8ni5/files/output.log
+2024-07-07 00:20:55,516 INFO    wandb-upload_35:92510 [upload_job.py:push():130] Uploaded file /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240707_001458-g7xx8ni5/files/config.yaml
+2024-07-07 00:20:55,522 INFO    wandb-upload_11:92510 [upload_job.py:push():130] Uploaded file /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240707_001458-g7xx8ni5/files/wandb-summary.json
+2024-07-07 00:20:55,722 INFO    Thread-75 (_thread_body):92510 [sender.py:transition_state():614] send defer: 11
+2024-07-07 00:20:55,723 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: defer
+2024-07-07 00:20:55,723 INFO    HandlerThread:92510 [handler.py:handle_request_defer():184] handle defer: 11
+2024-07-07 00:20:55,723 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: defer
+2024-07-07 00:20:55,723 INFO    SenderThread:92510 [sender.py:send_request_defer():610] handle sender defer: 11
+2024-07-07 00:20:55,723 INFO    SenderThread:92510 [file_pusher.py:join():175] waiting for file pusher
+2024-07-07 00:20:55,724 INFO    SenderThread:92510 [sender.py:transition_state():614] send defer: 12
+2024-07-07 00:20:55,724 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: defer
+2024-07-07 00:20:55,725 INFO    HandlerThread:92510 [handler.py:handle_request_defer():184] handle defer: 12
+2024-07-07 00:20:55,725 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: defer
+2024-07-07 00:20:55,725 INFO    SenderThread:92510 [sender.py:send_request_defer():610] handle sender defer: 12
+2024-07-07 00:20:55,725 INFO    SenderThread:92510 [file_stream.py:finish():601] file stream finish called
+2024-07-07 00:20:55,839 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: poll_exit
+2024-07-07 00:20:56,410 INFO    SenderThread:92510 [file_stream.py:finish():605] file stream finish is done
+2024-07-07 00:20:56,411 INFO    SenderThread:92510 [sender.py:transition_state():614] send defer: 13
+2024-07-07 00:20:56,411 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: poll_exit
+2024-07-07 00:20:56,411 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: defer
+2024-07-07 00:20:56,411 INFO    HandlerThread:92510 [handler.py:handle_request_defer():184] handle defer: 13
+2024-07-07 00:20:56,412 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: defer
+2024-07-07 00:20:56,412 INFO    SenderThread:92510 [sender.py:send_request_defer():610] handle sender defer: 13
+2024-07-07 00:20:56,412 INFO    SenderThread:92510 [sender.py:transition_state():614] send defer: 14
+2024-07-07 00:20:56,412 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: defer
+2024-07-07 00:20:56,412 INFO    HandlerThread:92510 [handler.py:handle_request_defer():184] handle defer: 14
+2024-07-07 00:20:56,413 DEBUG   SenderThread:92510 [sender.py:send():379] send: final
+2024-07-07 00:20:56,413 DEBUG   SenderThread:92510 [sender.py:send():379] send: footer
+2024-07-07 00:20:56,413 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: defer
+2024-07-07 00:20:56,413 INFO    SenderThread:92510 [sender.py:send_request_defer():610] handle sender defer: 14
+2024-07-07 00:20:56,414 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: poll_exit
+2024-07-07 00:20:56,414 DEBUG   SenderThread:92510 [sender.py:send_request():406] send_request: poll_exit
+2024-07-07 00:20:56,418 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-07 00:20:56,419 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: get_summary
+2024-07-07 00:20:56,419 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: sampled_history
+2024-07-07 00:20:56,421 DEBUG   HandlerThread:92510 [handler.py:handle_request():158] handle_request: shutdown
+2024-07-07 00:20:56,421 INFO    HandlerThread:92510 [handler.py:finish():882] shutting down handler
+2024-07-07 00:20:57,414 INFO    WriterThread:92510 [datastore.py:close():296] close: /home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/notebooks/wandb/run-20240707_001458-g7xx8ni5/run-g7xx8ni5.wandb
+2024-07-07 00:20:57,414 INFO    SenderThread:92510 [sender.py:finish():1608] shutting down sender
+2024-07-07 00:20:57,414 INFO    SenderThread:92510 [file_pusher.py:finish():169] shutting down file pusher
+2024-07-07 00:20:57,414 INFO    SenderThread:92510 [file_pusher.py:join():175] waiting for file pusher
