@@ -7,6 +7,8 @@ This repository contains the code for detecting vehicle tire conditions using a 
 The primary objective of this project is to enhance vehicle safety by providing a reliable method for identifying tire defects. Tire-related crashes are a significant concern, and timely detection of defects can prevent accidents and ensure road safety.
 [Click here to try this project in huggingface space](https://arsalanzabeeb-vehicle-tires-health-checkup.hf.space)
 
+
+
 ## Key Features
 
 - **Binary Classification**: Classifies tire images into "perfect" and "defective".
@@ -62,7 +64,7 @@ To run this project, follow these steps:
 
 
 
-
+[Report of weight and biases can be seen here](https://wandb.ai/teamarsalan/Vehicle-Tyres-Health-Condition-Classification/reports/Vehicle-Tire-Condition-Detection-using-MobileNet_v2--Vmlldzo4NTc1NTk2?accessToken=qwmq85lbg62a2a20qhato5s7awc945m3turtghco1edmaca6smr100s0oy4ezjpt)
 
 ## Contributing
 
