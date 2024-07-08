@@ -4,7 +4,7 @@ This repository contains the code for detecting vehicle tire conditions using a 
 
 ## Project Overview
 
-The primary objective of this project is to enhance vehicle safety by providing a reliable method for identifying tire defects. Tire-related crashes are a significant concern, and timely detection of defects can prevent accidents and ensure road safety.
+The primary objective of this project is to learn and utilize weights and Biases's different logs and artifacts in keras and tensorflow . Also to enhance vehicle safety by providing a reliable method for identifying tire defects. Tire-related crashes are a significant concern, and timely detection of defects can prevent accidents and ensure road safety.
 [Click here to try this project in huggingface space](https://arsalanzabeeb-vehicle-tires-health-checkup.hf.space)
 
 
@@ -18,7 +18,12 @@ The primary objective of this project is to enhance vehicle safety by providing 
 
 ## Dataset
 
-The dataset consists of images of vehicle tires categorized into "perfect" and "defective". The data is split into training, validation, and test sets. The dataset was obtained from [Roboflow](https://roboflow.com/).
+The dataset consists of images of vehicle tires categorized into "perfect" and "defective". The data is split into training, validation, and test sets. 
+The dataset was obtained from [Roboflow](https://universe.roboflow.com/dhruti/tyre-quality-zoog0)
+
+Provided by a Roboflow user
+License: CC BY 4.0
+
 
 ## Model Architecture
 
