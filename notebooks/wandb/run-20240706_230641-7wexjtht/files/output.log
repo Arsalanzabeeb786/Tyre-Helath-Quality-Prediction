@@ -1,3 +1,0 @@
-Class names in train dataset: ['defective', 'perfect']
-Class names in test dataset: ['defective', 'perfect']
-Class names in validation dataset: ['defective', 'perfect']

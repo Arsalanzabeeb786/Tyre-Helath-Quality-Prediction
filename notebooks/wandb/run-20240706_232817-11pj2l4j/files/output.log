@@ -1,4 +1,0 @@
-
-
-[34m[1mwandb[39m[22m: Adding directory to artifact (/home/arsalan/DATA/github_files/keras_cv/TyreQualityPrediction/dataset/train)... Done. 2.7s
-2024-07-06 23:29:44.345294: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence

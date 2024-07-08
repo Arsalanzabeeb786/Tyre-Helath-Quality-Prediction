@@ -1,1 +1,0 @@
-{"batch/accuracy": 0.9942747950553894, "batch/loss": 0.021570436656475067, "batch/batch_step": 1250, "_timestamp": 1720279640.5603316, "_runtime": 281.70873856544495, "_step": 134, "epoch/accuracy": 0.9941056370735168, "epoch/loss": 0.02111916057765484, "epoch/val_accuracy": 0.907975435256958, "epoch/val_loss": 0.602400004863739, "epoch/epoch": 18, "_wandb": {"runtime": 287}}
